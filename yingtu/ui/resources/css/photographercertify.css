@@ -1,0 +1,258 @@
+.photographer_certification_con{
+    width: 941px;
+    height: 647px;
+    background: #FAFAFA;
+    border: 1px solid #D7D7D7;
+    margin-top: 12px;
+}
+.current_certification_step{
+    width: 941px;
+    height: 30px;
+    margin-top: 22px;
+}
+.current_certification_step>li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.current_certification_step>li>span:first-child{
+    display: block;
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: #6177A0;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 3px;
+    border-radius:200px ;
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+}
+.current_certification_step>li>span:last-child{
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    margin: 0 5px;
+}
+.current_certification_step>li>a{
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+}
+.photographer_certification_con>p{
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    width: 712px;
+    height: 55px;
+    line-height: 55px;
+    margin-top: 6px;
+    margin-left: 149px;
+}
+.basic_contact_information{
+    margin-left: 149px;
+    width: 714px;
+    height: 492px;
+}
+.basic_contact_information>li{
+    width: 714px;
+    height: 48px;
+}
+.basic_contact_information>li>div:first-child{
+    width: 96px;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+}
+.basic_contact_information>li>div:last-child{
+    width: 618px;
+    height: 48px;
+    float: left;
+}
+.basic_contact_information>li>div:first-child>span{
+    margin-right: 5px;
+    float: left;
+    color: #f00;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+}
+.basic_contact_information>li>div:first-child>p{
+    float: left;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+}
+.basic_contact_information>li>div:last-child>input,.basic_contact_information>li>div:last-child>select{
+    width: 163px;
+    height: 35px;
+    float: left;
+    border: 1px solid #CBCBCB;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.head_portrait{
+    width: 125px;
+    height: 122px;
+    float: left;
+    background: url("../image/headportrait.png") no-repeat;
+    background-size: 100%;
+}
+.upload_picture{
+    width: 219px;
+    height: 122px;
+    float: left;
+}
+.upload_head_portrait{
+    position: relative;
+    background: #F2F2F2;
+    width: 128px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #8E93B8;
+    text-align: center;
+    cursor: pointer;
+    margin: 42px 0 0 13px;
+    color: #647EA9;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#uploadRealFace{
+    width: 132px;
+    height: 47px;
+    filter:alpha(opacity:0);
+    opacity: 0;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 2000;
+    cursor: pointer;
+}
+.upload_head_portrait_tip{
+    width: 343px;
+    height: 44px;
+    clear: left;
+    color: #999;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+/*uploadicard*/
+.id_card_info_con{
+    width: 941px;
+    height: 357px;
+    background: #FAFAFA;
+    border: 1px solid #D7D7D7;
+    margin-top: 12px;
+}
+.id_card_tip{
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+    width: 536px;
+    height: 76px;
+    line-height: 76px;
+    margin-left: 109px;
+}
+.id_card_image{
+    width: 536px;
+    height: 169px;
+    margin-left: 109px;
+}
+.id_card_image>li{
+    width: 170px;
+    height: 169px;
+    float: left;
+    margin-right: 12px;
+}
+.id_card_image>li:last-child{
+    margin-right: 0;
+}
+.id_card_image>li>div{
+    width: 168px;
+    height: 128px;
+    border: 1px solid #D7D7D7;
+}
+.id_card_image>li>p{
+    width: 168px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.id_card_note{
+    width: 536px;
+    height: 52px;
+    margin-left: 109px;
+    line-height: 52px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    color: #f00;
+}
+#Real-nameAuthentication{
+    color: #333;
+}
+/*bindzhifubao*/
+.binding_alipay_con{
+    width: 939px;
+    height: 214px;
+    background: #FAFAFA;
+    border: 1px solid #D7D7D7;
+    margin-top: 12px;
+}
+.binding_alipay_con>ul{
+    width: 295px;
+    height: 80px;
+    margin: 48px 0 0 41px;
+}
+.binding_alipay_con>ul>li{
+    width: 295px;
+    height: 40px;
+    line-height: 40px;
+}
+.binding_alipay_con>ul>li>p{
+    width: 121px;
+    height: 40px;
+    float: left;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.binding_alipay_con>ul>li>input{
+    width: 165px;
+    height: 33px;
+    margin-top: 4px;
+    padding-left: 5px;
+    float: left;
+    border: 1px solid #DCDCDC;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}

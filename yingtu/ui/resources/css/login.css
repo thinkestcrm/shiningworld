@@ -1,0 +1,208 @@
+.login_warpper{
+    width:1920px;
+    height: 678px;
+}
+.ACTS_photographer{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+    float: left;
+    margin-right: 29px;
+    margin-top:14px ;
+}
+.login_content{
+    width:1920px;
+    height:1440px;
+    overflow: hidden;
+    background: url("../image/loginback.jpg") no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.login_box{
+    width: 1205px;
+    height: 638px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.login_info_table{
+    width: 370px;
+    height: 431px;
+    margin:120px 0 0 758px ;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+.login_info_tableback{
+    width: 370px;
+    height: 431px;
+    background: #fff;
+    opacity: 0.5;
+    position: absolute;
+    top: 120px;
+    left: 758px;
+    z-index: 0;
+}
+.login_log{
+    width:230px ;
+    height: 70px;
+    margin: 19px 0 0 70px;
+    overflow: hidden;
+}
+.login_logimg{
+    width: 148px;
+    height: 70px;
+    background: url("../image/indexlogo.png") no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-top: 3px;
+    margin-left: -5px;
+}
+.login_log>p{
+    float: left;
+    font-weight: 400;
+    font-size: 28px;
+    color: #54688D;
+    font-family: "Microsoft YaHei";
+    line-height: 66px;
+    width: 90px;
+    margin-left: -5px;
+}
+.login_info_box{
+    width: 326px;
+    height: 256px;
+    margin: 0 auto;
+}
+.login_info_box>li{
+    width: 326px;
+}
+.login_info_box label{
+    color: #1E1E1E;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+    margin-right: 22px;
+    margin-left: 5px;
+}
+#normalmobilePhoneNo,#normalLoginPassword{
+    width: 319px;
+    height: 45px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #999;
+    border: 1px solid #A9A9A9;
+    padding-left: 5px;
+    outline: none;
+}
+#dynamicPass{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #999;
+    border: 1px solid #A9A9A9;
+    width: 155px;
+    height: 47px;
+    margin-right: 20px;
+    padding-left: 5px;
+    float: left;
+    outline: none;
+}
+#getPassword{
+    float: left;
+    width: 144px;
+    height: 50px;
+    background: #54688D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+
+}
+#loginBar{
+    width: 326px;
+    height: 42px;
+    background: #54688D;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sharelist{
+    width: 317px;
+    height: 50px;
+    background: #FEFEFE;
+    margin-left:9px ;
+    margin-top:8px ;
+}
+.sharelist>li{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.sharelist>li>a{
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    color: #333;
+}
+
+/*userRegistration*/
+.user_register{
+    margin-top: 16px;
+}
+#registerPassword,#repeatPassword{
+    width: 319px;
+    height: 45px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #999;
+    border: 1px solid #A9A9A9;
+    padding-left: 5px;
+    outline: none;
+}
+#userRegistrationBut,#photographerRegisteredBut{
+    height: 42px;
+    background: #54688D;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    border-radius: 3px;
+    cursor: pointer;
+}
+#userRegistrationBut{
+    width: 153px;
+    margin-right: 18px;
+}
+#photographerRegisteredBut{
+    width: 148px;
+    margin: 0;
+}
+
+#regDynamicPass{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #999;
+    border: 1px solid #A9A9A9;
+    width: 155px;
+    height: 47px;
+    margin-right: 20px;
+    padding-left: 5px;
+    float: left;
+    outline: none;
+}
+#regGetPassword{
+    float: left;
+    width: 144px;
+    height: 50px;
+    background: #54688D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+
+}

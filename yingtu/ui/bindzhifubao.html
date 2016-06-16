@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>绑定支付宝</title>
+    <link href="resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="resources/css/photographer.css"/>
+    <link rel="stylesheet" href="resources/css/photographercertify.css"/>
+    <script type="text/javascript" src="resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/mainpage.js"></script>
+</head>
+<body>
+<div class="photographer_homepage_wrapper">
+    <div class="head" id="navigationBar">
+        <div class="head_box">
+            <div class="yt_logo">
+                <div class="logo_img"></div>
+                <p class="logo_title">影徒网</p>
+            </div>
+            <div class="top_search_box">
+                <ul>
+                    <li><a href="#">活动</a></li>
+                    <li><a href="#">分类</a><span class="down_arrow"></span></li>
+                </ul>
+                <div class="yt_search_box">
+                    <input type="text" id="ytSearchText"/>
+                    <input type="button" id="ytSearchBar"/>
+                    <span class="magnifying_glass"></span>
+                    <div class="search_box_back"></div>
+                </div>
+            </div>
+            <ul class="user_center_box">
+                <li><a href="#">用户中心</a></li>
+                <li><a href="#">摄影师主页</a></li>
+                <li><input type="button" value="注册" id="ytRegButton"/></li>
+                <li><input type="button" value="登录" id="ytLoginButton"/></li>
+            </ul>
+        </div>
+    </div>
+    <div class="photographer_homepage">
+        <div class="photographer_homepage_con_box">
+            <ul class="photographer_homepage_label">
+                <li><a href="#" id="personalHomepage">个人主页</a></li>
+            </ul>
+            <div class="photographer_homepage_border"></div>
+        </div>
+    </div>
+    <div class="photographer_homepage_main">
+        <div class="photographer_homepage_main_left">
+            <div class="photographer_management_box">
+                <div class="photographer_management_release">
+                    <input type="button" value="发布" id="photographerReleaseBut"/>
+                </div>
+                <ul class="photographer_management_services">
+                    <li style="height: 50px;line-height: 50px">服务管理</li>
+                    <li><a href="#">已发布的服务</a></li>
+                    <li><a href="#">已下架的服务</a></li>
+                    <li><a href="#">草稿箱</a></li>
+                </ul>
+                <ul class="personal_homepage_management_list">
+                    <li style="height: 40px;line-height: 40px">个人主页管理</li>
+                    <li><a href="">个人基本信息</a></li>
+                    <li><a href="">作品空间</a></li>
+                    <li><a href="">积分商城</a></li>
+                </ul>
+                <div class="photographer_certification">
+                    <input type="button" value="摄影师认证" id="photographerCertificationBut"/>
+                    <input type="button" value="申请影徒评级" id="ApplyForRatingBut"/>
+                </div>
+            </div>
+        </div>
+        <div class="photographer_homepage_main_right">
+            <ul class="photographer_homepage_path">
+                <li><a href="#">个人主页</a><span>></span></li>
+                <li><a href="#">摄影师认证</a></li>
+            </ul>
+            <ul class="current_certification_step">
+                <li><span>1</span><a href="">填写个人信息</a><span>></span></li>
+                <li><span>2</span><a href="">上传身份证明</a><span>></span></li>
+                <li><span>3</span><a href="" style="border: 1px solid #797979;">绑定支付宝或银行卡</a></li>
+            </ul>
+            <div class="binding_alipay_con">
+                <ul>
+                    <li><p>支付宝账号</p><input type="text"/></li>
+                    <li><p>确认支付宝账号</p><input type="text"/></li>
+                </ul>
+            </div>
+            <ul class="set_photographer_content_barlist" style="margin: 34px 0 0 312px">
+                <li><input type="button" value="上一步" /></li>
+                <li><input type="button" value="提交审核" /></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="company_profile_box">
+        <div class="company_profile_con">
+            <div class="company_profile_list">
+                <div class="profile_list_box">
+                    <p>关于我们</p>
+                    <ul>
+                        <li><a href="#">官方微博</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="profile_list_box">
+                    <p>服务协议</p>
+                    <ul>
+                        <li><a href="#">版权说明</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="ty_bottom_wordlog">
+                    <p>影徒网</p>
+                    <span>www.itoopic.com</span>
+                </div>
+                <div class="profile_list_box" id="profileListBoxright">
+                    <p>客服中心</p>
+                    <ul>
+                        <li><a href="#">企业QQ</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="profile_list_box" id="profileListBoxright1" style="margin-right: 0">
+                    <p>联系我们</p>
+                    <ul>
+                        <li><a href="#">官方电话</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>Copyright © 1999-2016 Kingsoft Corporation.All rights reserved.成都科技有限公司 版权所有增值电信业务经营许可证 川B2-20130104　蜀ICP备14009198号-2</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

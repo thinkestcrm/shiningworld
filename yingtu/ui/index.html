@@ -1,0 +1,199 @@
+﻿
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>首页</title>
+        <meta charset="UTF-8">
+        <link href="resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="resources/js/libs/jquery.min.js"></script>
+        <script type="text/javascript" src="resources/js/mainpage.js"></script>
+    </head>
+    <body>
+
+        <div class="warpper">
+            <!--{include file="header.blk"}-->
+            <div class="head" id="navigationBar">
+                <div class="head_box">
+                    <div class="yt_logo">
+                        <div class="logo_img"></div>
+                        <p class="logo_title">影徒网</p>
+                    </div>
+                    <div class="top_search_box">
+                        <ul>
+                            <li><a href="#">活动</a></li>
+                            <li><a href="#">分类</a><span class="down_arrow"></span></li>
+                        </ul>
+                        <div class="yt_search_box">
+                            <input type="text" id="ytSearchText"/>
+                            <input type="button" id="ytSearchBar"/>
+                            <span class="magnifying_glass"></span>
+                            <div class="search_box_back"></div>
+                        </div>
+                    </div>
+                    <ul class="user_center_box">
+                        <li><a href="#">用户中心</a></li>
+                        <li><a href="#">摄影师主页</a></li>
+                        <li><input type="button" value="注册" id="ytRegButton"/></li>
+                        <li><input type="button" value="登录" id="ytLoginButton"/></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_con">
+                <div class="yt_join_us_box">
+                    <p class="join_us_remarks">摄影师应该有一条自己的成长之路</p>
+                    <p class="join_us_remarksb">无论你现在是摄影爱好者，全职摄影师，自由摄影师，在影徒你都会对自己的价值有最直观的认识。</p>
+                    <input type="button" value="加入我们" id="joinUsBut"/>
+                </div>
+                <div class="main_class_showbox">
+                    <div class="main_all_categories">
+                        <div class="all_categories_bar">
+                            <span></span>
+                            <a href="#" id="all_categories_a">所有分类</a>
+                            <div class="all_categories_unfold">
+                                <div style="height: 248px">
+                                    <ul class="photography_services_list">
+                                        <li class="photography_services"><a href="#">摄影服务</a></li>
+                                        <li  class="portrait_unfold_list">
+                                            <p><a href="#">人像 |</a></p>
+                                            <ul>
+                                                <li><a href="#">个人写真</a><a href="#">儿童摄影</a></li>
+                                                <li><a href="#">婚纱摄影</a><a href="#">婚礼跟拍</a></li>
+                                                <li><a href="#">旅游跟拍</a><a href="#">活动跟拍</a></li>
+                                                <li><a href="#">毕业照</a><a href="#">情侣照</a></li>
+                                                <li><a href="#">闺蜜照</a><a href="#">亲子照</a></li>
+                                                <li><a href="#" id="fleshCocktail">全家福</a>
+                                                    <a href="#" id="pregnancyPhoto">孕照</a><a href="#" id="portraitUnfoldMore">更多</a></li>
+                                            </ul>
+                                        </li>
+                                        <li style="height: 65px" class="food_unfold_list">
+                                            <p><a href="#">美食 |</a></p>
+                                            <ul>
+                                                <li><a href="#">粤港海鲜</a><a href="#">麻辣川湘</a></li>
+                                                <li><a href="#">饮品点心</a><a href="#">日韩料理</a></li>
+                                                <li><a href="#">餐厅场景</a><a href="#">更多</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="all_categories_line"></p>
+                                <div style="height: 229px">
+                                    <ul class="supporting_services_list">
+                                        <li class="supporting_services"><a href="#">配套服务</a></li>
+                                        <li  class="supporting_services_unfold_list">
+                                            <p><a href="#">场景 |</a></p>
+                                            <ul>
+                                                <li><a href="#" style="font-weight: 700;">免费外景</a><a href="#">宽窄巷子</a></li>
+                                                <li><a href="#">成都外景</a><a href="#">室内实景</a></li>
+                                                <li><a href="#">香薰山谷</a><a href="#">更多</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="clothing_unfold_list">
+                                            <p><a href="#">服装 |</a></p>
+                                            <ul>
+                                                <li><a href="#" style="width: 45px">毕业季</a>
+                                                    <a href="#" style="width: 30px">古装</a><a href="#" style="width: 30px">童装</a></li>
+                                                <li><a href="#">军装民国</a><a href="#">舞蹈服</a></li>
+                                                <li><a href="#">外国宫廷</a><a href="#" style="width: 66px;margin-right: 0">cosplay服</a></li>
+                                                <li><a href="#" style="width: 86px">婚纱礼服旗袍</a><a href="#" style="width: 30px;margin-right: 0">更多</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories_portraits_box">
+                            <a href="#" id="catePortraits"></a>
+                        </div>
+                        <div class="yt_take_food_box">
+                            <a href="#" id="takeFood"></a>
+                        </div>
+                    </div>
+                    <div class="main_contain_img_show"></div>
+                    <div class="user_center_list_box">
+                        <div class="user_center_bar">
+                            <span></span>
+                            <a href="#">用户中心</a>
+                        </div>
+                        <div class="latest_demand_box">
+                            <ul>
+                                <li style="height:37px;line-height: 37px;border-bottom: 1px solid #ccc;">
+                                    <a href="#" id="latestDemandTxt">最新需求</a>
+                                    <span class="demand_border"></span>
+                                </li>
+                                <li style="margin-top: 6px"><a href="#">. 需要去云南外出跟拍摄师3名需要去</a></li>
+                                <li><a href="#">. 需要去云南外出跟拍摄师3名需要去</a></li>
+                                <li><a href="#">. 需要去云南外出跟拍摄师3名需要去</a></li>
+                            </ul>
+                        </div>
+                        <div class="rectangle_box"></div>
+                        <div class="alipay_secured_transactions">
+                            <p>支付宝安全交易</p>
+                            <ul>
+                                <li>淘宝一样的安全体验</li>
+                                <li>拒绝一切摄影师要求的的线下付现行</li>
+                                <li>为，为您的摄影服务保驾护航</li>
+                                <li>平台要价，就是摄影师的工资，不赚</li>
+                                <li>取中介费，实现摄影最低成本化</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="detailed_introduction_back">
+                <div class="detailed_introduction_box">
+                    <div class="detailed1"></div>
+                    <div class="detailed2"></div>
+
+                </div>
+            </div>
+            <div class="company_profile_box">
+                <div class="company_profile_con">
+                    <div class="company_profile_list">
+                        <div class="profile_list_box">
+                            <p>关于我们</p>
+                            <ul>
+                                <li><a href="#">官方微博</a></li>
+                                <li><a href="#">微信公众号</a></li>
+                                <li><a href="#">淘宝店铺</a></li>
+                            </ul>
+                        </div>
+                        <div class="profile_list_box">
+                            <p>服务协议</p>
+                            <ul>
+                                <li><a href="#">版权说明</a></li>
+                                <li><a href="#">微信公众号</a></li>
+                                <li><a href="#">淘宝店铺</a></li>
+                            </ul>
+                        </div>
+                        <div class="ty_bottom_wordlog">
+                            <p>影徒网</p>
+                            <span>www.itoopic.com</span>
+                        </div>
+                        <div class="profile_list_box" id="profileListBoxright">
+                            <p>客服中心</p>
+                            <ul>
+                                <li><a href="#">企业QQ</a></li>
+                                <li><a href="#">微信公众号</a></li>
+                                <li><a href="#">淘宝店铺</a></li>
+                            </ul>
+                        </div>
+                        <div class="profile_list_box" id="profileListBoxright1" style="margin-right: 0">
+                            <p>联系我们</p>
+                            <ul>
+                                <li><a href="#">官方电话</a></li>
+                                <li><a href="#">微信公众号</a></li>
+                                <li><a href="#">淘宝店铺</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Copyright © 1999-2016 Kingsoft Corporation.All rights reserved.成都科技有限公司 版权所有增值电信业务经营许可证 川B2-20130104　蜀ICP备14009198号-2</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </body>
+</html>

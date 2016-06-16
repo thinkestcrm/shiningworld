@@ -1,0 +1,168 @@
+.activitypage_wrapper{
+    width:1920px;
+    background:#FAFAFA;
+    height: auto;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+
+}
+.activitypage_top{
+    width: 1920px;
+    height: 859px;
+    background: url("../image/activityProjectimg.jpg") no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.activitypage_main{
+    width: 1003px;
+    height: auto;
+    margin: 0 auto;
+}
+.activitypage_content_box{
+    width: 1003px;
+    height: 510px;
+    background: #fff;
+    margin-top: 24px;
+    box-shadow: #E9E9E9 2px 2px 2px;
+}
+.activitypage_contribute_list{
+    width: 1003px;
+    height: 46px;
+    margin: 43px auto;
+    background: #f7ecb5;
+}
+.activitypage_contribute_list>li{
+    width: 121px;
+    height: 46px;
+    float: left;
+    line-height: 46px;
+    margin-left: 10px;
+    background: #fff;
+}
+.activitypage_contribute_list>li>a{
+    width: 121px;
+    height: 46px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+}
+.activitypage_contribute_con{
+    width: 1003px;
+    height: 400px;
+    padding-bottom: 50px;
+}
+.activitypage_content_left{
+    float: left;
+    width: 714px;
+    height: 100%;
+    border-right: 1px solid #CCCCCC;
+}
+.activitypage_content_right{
+    float: left;
+    width: 288px;
+    height: 100%;
+}
+.activitypage_projectcon_cover{
+    width: 344px;
+    height: 248px;
+    margin:400px auto 0;
+}
+.activitypage_projectcon_cover>p{
+    width: 337px;
+    height: 62px;
+    line-height: 62px;
+    font-family: "Microsoft YaHei";
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+.activitypage_projectcon_cover>div{
+    width: 302px;
+    height: 139px;
+    margin:46px auto 0;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.has_been_submitted{
+    margin-top: 50px;
+    width: 302px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.from_the_end{
+    width: 302px;
+    height: 37px;
+    margin-top: 31px;
+    line-height: 37px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+#fromTheEndDayNo{
+    color: #ECE3AA;
+}
+.yellow_square{
+    width: 20px;
+    height: 37px;
+    background: #ECE3AA;
+    position: absolute;
+    left: 56px;
+}
+.recommend_box{
+    width: 602px;
+    height: auto;
+    margin: 18px auto 9px;
+    background: #f7ecb5;
+}
+.recommend_header{
+    width: 582px;
+    height: 27px;
+    border-left:10px solid #54688D ;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+    padding-left: 10px;
+}
+.recommend_content{
+    width: 602px;
+    height: auto;
+    height: 279px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.recommend_content>p{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    width: 380px;
+    line-height:43px ;
+}
+.recommend_all{
+    width: 602px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 36px;
+}
+
+.recommend_all>a{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+
+}

@@ -1,0 +1,64 @@
+.clothingLease_con{
+    margin: 0 auto;
+    width: 1127px;
+    height: 1155px;
+    padding: 8px 39px;
+    background: #fff;
+}
+.clothinglease_header{
+    width: 1127px;
+    height: 107px;
+    clear: both;
+}
+.clothinglease_header>li{
+    width: 1127px;
+    height: 35px;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.clothinglease_header>li>span,.clothinglease_header>li>p{
+    float: left;
+}
+.address_point_info{
+    width: 1127px;
+    height: 70px;
+    margin-top: 7px;
+    clear: both;
+}
+.address_point_info>li{
+    height: 35px;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.address_point_info>li>span,.address_point_info>li>p{
+    float: left;
+}
+.working_time{
+    width: 1127px;
+    height: 70px;
+    margin-top: 7px;
+    clear: both;
+}
+.working_time>li{
+    height: 35px;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.working_time>li>span,.working_time>li>p{
+    float: left;
+}
+.clothingLease_show{
+    width: 1124px;
+    height: 676px;
+    background: #f7ecb5;
+    margin-top: 18px;
+}

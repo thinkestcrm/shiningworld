@@ -1,0 +1,299 @@
+body{
+    padding: 0;
+    margin:0 ;
+}
+.photographer_homepage_wrapper{
+    width:1920px;
+    height: 1380px;
+    background:url("../image/photographerhomepageback.jpg");
+    background-size: 100%;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+}
+
+.photographer_homepage{
+    width: 1920px;
+    height: 134px;
+    overflow: hidden;
+    margin: 70px auto 0;
+}
+.photographer_homepage_con_box{
+    width: 1205px;
+    height: 134px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.photographer_homepage_label{
+    width: 140px;
+    height: 38px;
+    margin-top: 94px;
+    overflow: hidden;
+}
+.photographer_homepage_border{
+    width: 1205px;
+    height: 2px;
+    background: #54688D;
+}
+.photographer_homepage_label>li{
+    width: 140px;
+    height: 38px;
+    float: left;
+    margin-right: 3px;
+    line-height: 38px;
+}
+.photographer_homepage_label>li>a{
+    display: inline-block;
+    width: 140px;
+    height: 38px;
+    background: #54688D;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+}
+.photographer_homepage_main{
+    width: 1205px;
+    height:876px ;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.photographer_homepage_main_left{
+    float: left;
+    width: 233px;
+    height:687px ;
+    margin-right: 27px;
+    margin-top: 22px;
+    border: 1px solid #D7D7D7;
+    box-shadow: #9CA4A8 -2px 2px 3px;
+    background: #FAFAFA;
+}
+.photographer_homepage_main_right{
+    float: left;
+    width: 943px;
+    height:717px ;
+    margin-top: 22px;
+}
+.photographer_management_box{
+    width: 203px;
+    height:650px ;
+    margin:18px auto 0;
+}
+.photographer_management_release{
+    width: 203px;
+    height:147px ;
+
+}
+.photographer_management_services{
+    width: 191px;
+    height:198px ;
+    border-top: 1px dashed #D7D7D7;
+    border-bottom: 1px dashed #D7D7D7;
+    padding-left: 12px;
+}
+.personal_homepage_management_list{
+    width: 191px;
+    height:153px ;
+    padding-left: 12px;
+    padding-top: 16px;
+}
+#photographerReleaseBut{
+    width: 171px;
+    height:50px ;
+    margin:47px 0 0 13px;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+}
+.photographer_management_services>li,.personal_homepage_management_list>li{
+    width: 191px;
+    height:32px ;
+    line-height: 32px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+}
+.photographer_management_services>li>a,.personal_homepage_management_list>li>a{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.photographer_certification{
+    width: 203px;
+    height:134px ;
+}
+#ApplyForRatingBut,#photographerCertificationBut{
+    width: 171px;
+    height:50px ;
+    margin:15px 0 0 13px;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+    outline: none;
+}
+.photographer_homepage_path{
+    width: 943px;
+    height:18px ;
+}
+.photographer_homepage_path>li{
+    height:18px ;
+    float: left;
+    line-height: 18px;
+}
+.photographer_homepage_path>li>a{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.photographer_homepage_path>li>span{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    padding: 0 2px;
+}
+.photographer_homepage_path_steps{
+    width: 121px;
+    height:16px ;
+    border: 1px solid #7C8AA2;
+    text-align: center;
+    background: #F3F6FA;
+    font-size: 12px;
+    margin: 0 5px;
+}
+#theCurrentSteps{
+    background: #54688D;
+    color: #fff;
+}
+
+
+
+/*table*/
+.set_photographer_content_table{
+    width: 941px;
+    height:576px ;
+    margin-top: 22px;
+    border: 1px solid #D7D7D7;
+    background: #fff;
+}
+.set_photographer_content_table>li{
+    width: 941px;
+    height:61px ;
+    border-bottom: 1px solid #D7D7D7;
+}
+.set_photographer_content_table>li:last-child{
+   border: none;
+}
+.set_photographer_content_table>li>div{
+    float: left;
+}
+.set_photographer_content_table>li>div:first-child{
+    width: 114px;
+    height:100%;
+    background: #FAFAFA;
+    border-right:1px solid #D7D7D7 ;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.set_photographer_content_table>li>div:last-child{
+    width: 718px;
+    height:100%;
+    margin-left: 108px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.set_photographer_content_barlist{
+    width: 500px;
+    height:71px;
+    margin-top: 35px;
+    margin-left: 220px;
+    float: left;
+    overflow: hidden;
+}
+.set_photographer_content_barlist>li{
+    width: 162px;
+    height:71px;
+    float: left;
+    overflow: hidden;
+}
+.set_photographer_content_barlist>li>input{
+    width: 147px;
+    height:50px ;
+    margin:15px 0 0 13px;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+    outline: none;
+}
+#saveToDraft{
+    background:#8D9DBC;
+    border: 1px solid #54688D;
+    margin-right: 5px;
+}
+
+/*release*/
+#releaseCategory{
+    width: 200px;
+    height:22px ;
+    outline: none;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+}
+
+
+
+/*Ì×²ÍÄÚÈÝ*/
+#validityStart,#validityEnd{
+    width: 144px;
+    height: 25px;
+    border: 1px solid #787878;
+    outline: none;
+}
+.validity_start_text{
+    margin: 0 35px;
+}
+.validity_start_note{
+    color: #999;
+    margin-left: 30px;
+}
+.set_photographer_other_p{
+    float: left;
+}
+#provideAllRawYes,#provideAllRawNo{
+    margin-left: 38px;
+    margin-right: 2px;
+}
+#priceQuestion{
+    text-decoration: underline;
+    color: #333;
+}

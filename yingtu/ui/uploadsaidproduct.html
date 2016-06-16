@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>评级作品上传</title>
+    <link href="resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="resources/css/photographer.css"/>
+    <link rel="stylesheet" href="resources/css/portraitset.css"/>
+    <script type="text/javascript" src="resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/mainpage.js"></script>
+</head>
+<body>
+<div class="photographer_homepage_wrapper">
+    <div class="head" id="navigationBar">
+        <div class="head_box">
+            <div class="yt_logo">
+                <div class="logo_img"></div>
+                <p class="logo_title">影徒网</p>
+            </div>
+            <div class="top_search_box">
+                <ul>
+                    <li><a href="#">活动</a></li>
+                    <li><a href="#">分类</a><span class="down_arrow"></span></li>
+                </ul>
+                <div class="yt_search_box">
+                    <input type="text" id="ytSearchText"/>
+                    <input type="button" id="ytSearchBar"/>
+                    <span class="magnifying_glass"></span>
+                    <div class="search_box_back"></div>
+                </div>
+            </div>
+            <ul class="user_center_box">
+                <li><a href="#">用户中心</a></li>
+                <li><a href="#">摄影师主页</a></li>
+                <li><input type="button" value="注册" id="ytRegButton"/></li>
+                <li><input type="button" value="登录" id="ytLoginButton"/></li>
+            </ul>
+        </div>
+    </div>
+    <div class="photographer_homepage">
+        <div class="photographer_homepage_con_box">
+            <ul class="photographer_homepage_label">
+                <li><a href="#" id="personalHomepage">个人主页</a></li>
+            </ul>
+            <div class="photographer_homepage_border"></div>
+        </div>
+    </div>
+    <div class="photographer_homepage_main">
+        <div class="photographer_homepage_main_left">
+            <div class="photographer_management_box">
+                <div class="photographer_management_release">
+                    <input type="button" value="发布" id="photographerReleaseBut"/>
+                </div>
+                <ul class="photographer_management_services">
+                    <li style="height: 50px;line-height: 50px">服务管理</li>
+                    <li><a href="#">已发布的服务</a></li>
+                    <li><a href="#">已下架的服务</a></li>
+                    <li><a href="#">草稿箱</a></li>
+                </ul>
+                <ul class="personal_homepage_management_list">
+                    <li style="height: 40px;line-height: 40px">个人主页管理</li>
+                    <li><a href="">个人基本信息</a></li>
+                    <li><a href="">作品空间</a></li>
+                    <li><a href="">积分商城</a></li>
+                </ul>
+                <div class="photographer_certification">
+                    <input type="button" value="摄影师认证" id="photographerCertificationBut"/>
+                    <input type="button" value="申请影徒评级" id="ApplyForRatingBut"/>
+                </div>
+            </div>
+        </div>
+        <div class="photographer_homepage_main_right">
+            <ul class="photographer_homepage_path">
+                <li><a href="#">个人主页</a><span>></span></li>
+                <li><a href="#">申请影徒评级</a><span>></span></li>
+                <li><a href="#">初次评级</a></li>
+            </ul>
+            <ul class="set_photographer_content_table" style="height: 725px;">
+                <li style="height: 56px;line-height: 56px">
+                    <div>作品名称</div>
+                    <div id="productionName">港式冰激凌</div>
+                </li>
+                <li style="height: 304px;">
+                    <div style="line-height: 304px;">上传作品</div>
+                    <div>
+                        <div class="choose_local_image">
+                            <p>选择本地图片：</p>
+                            <a href='#' class="upload_file">文件上传<input type="file" value="" id="uploadPortfolios" /></a>
+                        </div>
+                        <ul class="upload_pictures_instructions">
+                            <li>1.最长边不能小于600px，最大支持10MB的JPEG格式照片不建议加画框和水印签名</li>
+                            <li>2.上传作品不少于6张，不多于9张。</li>
+                            <li>3.网站设有<a href="#" id="toReport">举报</a>系统，请保证所有作品均为您本人 <span class="warningTip">实拍实修</span>，<span class="warningTip">切勿盗图</span>！盗图一</li>
+                            <li>经发现，立即封号。</li>
+                        </ul>
+                        <ul class="upload_pictures_list">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li style="height: 363px;">
+                    <div style="line-height: 363px">目标等级</div>
+                    <div>
+                        <div class="target_level_box">
+                            <p>请选择以下一项：</p>
+                            <ul class="target_level_radiolist">
+                                <li>
+                                    <div><input type="radio"/><span>小影</span></div>
+                                    <div>
+                                        <p>作品优秀，达到商业摄影师入门门槛，能够满足一般客户的需求。</p>
+                                        <p>最高时薪199元，最高日薪1194元</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div><input type="radio"/><span>中影</span></div>
+                                    <div>
+                                        <p>作品优秀，技术专业，能够满足大多数客户的需求。</p>
+                                        <p>最高时薪299元，最高日薪1764元。</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div><input type="radio"/><span>大影</span></div>
+                                    <div>
+                                        <p>作品优秀，技术专业，能够满足大多数客户的需求。</p>
+                                        <p>最高时薪399，最高日薪2394元。</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="whether_receive_relief">
+                                <li>是否接收调剂？</li>
+                                <li><input type="radio" value="0"/>是</li>
+                                <li><input type="radio" value="1"/>否</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="set_photographer_content_barlist" style="margin: 10px 0 0 312px">
+                <li><input type="button" value="提交审核" /></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="company_profile_box">
+        <div class="company_profile_con">
+            <div class="company_profile_list">
+                <div class="profile_list_box">
+                    <p>关于我们</p>
+                    <ul>
+                        <li><a href="#">官方微博</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="profile_list_box">
+                    <p>服务协议</p>
+                    <ul>
+                        <li><a href="#">版权说明</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="ty_bottom_wordlog">
+                    <p>影徒网</p>
+                    <span>www.itoopic.com</span>
+                </div>
+                <div class="profile_list_box" id="profileListBoxright">
+                    <p>客服中心</p>
+                    <ul>
+                        <li><a href="#">企业QQ</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="profile_list_box" id="profileListBoxright1" style="margin-right: 0">
+                    <p>联系我们</p>
+                    <ul>
+                        <li><a href="#">官方电话</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>Copyright © 1999-2016 Kingsoft Corporation.All rights reserved.成都科技有限公司 版权所有增值电信业务经营许可证 川B2-20130104　蜀ICP备14009198号-2</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

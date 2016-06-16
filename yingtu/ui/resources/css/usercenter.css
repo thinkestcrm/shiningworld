@@ -1,0 +1,242 @@
+body{
+    line-height: 0;
+    padding: 0;
+    margin:0 ;
+}
+#publishedPhotosDemand{
+    width: 171px;
+    height:50px ;
+    margin:20px 0 0 13px;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+}
+.user_center_con{
+    width: 941px;
+    height:178px ;
+    border: 1px solid #D7D7D7;
+    background: #fff;
+    overflow: hidden;
+}
+.I_like_box{
+    margin-top: 38px;
+}
+.I_like_nav{
+    width: 952px;
+    height:42px ;
+    border-bottom: 2px solid #37466B;
+}
+.I_like_show_list{
+    width: 952px;
+    height:auto ;
+    overflow: hidden;
+}
+.I_like_nav>a{
+    width: 235px;
+    height:42px ;
+    background: #5D6E8B;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 42px;
+}
+
+.yingtu_img_show{
+    width: 233px;
+    height: auto;
+    display: block;
+}
+.yingtu_img_info{
+    width: 233px;
+    height:116px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.yingtu_img_info>li{
+    width: 203px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.information_description{
+    height: 50px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.clinch_information{
+    height: 32px;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.source_info{
+    height: 35px;
+    background: #FAFAFA;
+    border-top: 1px solid #F2F2F2;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.price_info{
+    float: right;
+}
+#priceValue{
+    font-size: 16px;
+    color: #f00;
+    font-weight: 200;
+}
+.heart_info{
+    float: left;
+    width: 13px;
+    height: 11px;
+    margin-right: 4px;
+    margin-top: 16px;
+    background: url("../image/heart.png") no-repeat;
+    background-size: 100%;
+}
+.like_degree{
+    float: right;
+}
+#likeDegreeNo{
+    font-weight: 200;
+}
+#sourceName{
+    float: left;
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.user_head_portrait_box{
+    width: 211px;
+    height: 178px;
+    margin-left: 13px;
+    float: left;
+}
+.user_center_info{
+    width: 621px;
+    height: 178px;
+    float: left;
+}
+.user_head_portrait{
+    width: 147px;
+    height: 146px;
+    border: 1px solid #888;
+    border-radius: 200px;
+    margin: 16px auto 0;
+    background: url("../image/Portraittaken.jpg") no-repeat;
+    background-size: 100%;
+}
+.user_center_info>ul{
+    width: 600px;
+    height: 14px;
+    margin-top: 39px;
+    margin-left: 26px;
+}
+.user_center_info>ul>li{
+    height: 14px;
+    line-height: 14px;
+    float: left;
+    width: 202px;
+    border-right: 1px solid #337EC0;
+    text-align: center;
+}
+.user_center_info>ul>li:first-child{
+    width: 137px;
+    text-align: left;
+}
+.user_center_info>ul>li:last-child{
+    width: 137px;
+    text-align: right;
+    border-right:none
+}
+.user_center_info>p{
+    width: 596px;
+    height: 73px;
+    line-height: 73px;
+    padding-left: 25px;
+    border-bottom: 1px solid #5D6D8A;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    color: #1E1E1E;
+}
+.user_center_info>ul>li>a{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+#forThePaymentAmount,#toShootAmount,#toEvaluateAmount{
+    margin-left: 5px;
+    color: #f00;
+}
+/*userpublishrequirement*/
+.release_requirements{
+    width: 940px;
+    height: 249px;
+    border: 1px solid #ccc;
+    clear: both;
+    margin-top: 18px;
+    background: #fff;
+}
+.release_requirements>ul{
+    width: 885px;
+    height: 229px;
+    margin: 19px 0 0 43px;
+}
+.release_requirements>ul>li{
+    width: 885px;
+    height: 30px;
+    margin-bottom: 17px;
+}
+.release_requirements>ul>li:last-child{
+    margin-bottom: 0;
+}
+.release_requirements>ul>li>p{
+    height: 30px;
+    width: 67px;
+    float: left;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+}
+.release_requirements>ul>li>input{
+    height: 21px;
+    width: 200px;
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+
+}
+#demand{
+    width: 805px;
+    height: 73px;
+}
+#theContact{
+    width: 111px;
+    margin-right: 39px;
+}
+#telephone{
+    width: 191px;
+}

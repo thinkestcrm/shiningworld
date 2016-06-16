@@ -1,0 +1,186 @@
+
+body{
+    line-height: 0;
+    padding: 0;
+    margin:0 ;
+}
+.activity_wrapper{
+    width:1920px;
+    background:#FAFAFA;
+    height: auto;
+    background:url("../image/activityback.jpg") no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+}
+.activity_con{
+    width: 1920px;
+    height: 872px;
+    margin: 70px auto 0;
+    overflow: hidden;
+}
+.activity_con_box{
+    width: 1205px;
+    height: 872px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.activity_label{
+    width: 1205px;
+    height: 38px;
+    margin-top: 832px;
+    overflow: hidden;
+}
+.activity_border{
+    width: 1065px;
+    height: 2px;
+    background: #54688D;
+
+}
+
+.activity_label>li{
+    width: 140px;
+    height: 38px;
+    float: left;
+    margin-right: 3px;
+    line-height: 38px;
+}
+.activity_label>li>a{
+    display: inline-block;
+    width: 140px;
+    height: 38px;
+    background: #fff;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    line-height: 38px;
+    text-align: center;
+}
+.activity_label>li>a:hover{
+    color: #fff;
+    background: #54688D;
+}
+#activityUnderway{
+    color: #fff;
+    background: #54688D;
+}
+.activity_main{
+    width: 1920px;
+    height: 800px;
+    background: #FAFAFA;
+    overflow: hidden;
+}
+.Launched_online_activities{
+    float: right;
+}
+.activity_showbox{
+    width: 1250px;
+    height: 786px;
+    margin: 14px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+.activity_showbox_list{
+    width: 1250px;
+    height: 384px;
+    border-bottom:1px solid #ccc ;
+}
+.activity_showbox_list>li{
+    float: left;
+    width: 624px;
+    height: 384px;
+    position: relative;
+}
+#activityProject{
+    width: 540px;
+    height: 358px;
+    background: url("../image/activityProjectimg.jpg") no-repeat;
+    background-size: 100%;
+}
+#activityProjectcon{
+    width: 540px;
+    height: 358px;
+    background: url("../image/activityProjectimg.jpg") no-repeat;
+    background-size: 100%;
+    float: left;
+    cursor: pointer;
+}
+.activity_showbox_log{
+    width: 175px;
+    height: 167px;
+    background: #FAFAFA url("../image/yingtuimglog.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 298px;
+    left: 536px;
+    border-radius: 200px;
+
+}
+.activity_projectcon_detailed>p{
+    width: 197px;
+    height: 36px;
+    line-height: 36px;
+    margin:165px auto 0;
+    font-family: "Microsoft YaHei";
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+.activity_projectcon_detailed>div{
+    width: 162px;
+    height: 67px;
+    margin:73px auto 0;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.has_been_submitted{
+    margin-top: 15px;
+    width: 162px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.from_the_end{
+    width: 162px;
+    height: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+#fromTheEndDayNo{
+    color: #ECE3AA;
+}
+.yellow_square{
+    width: 11px;
+    height: 20px;
+    background: #ECE3AA;
+    position: absolute;
+    left: 22px;
+}
+.activity_projectcon_light{
+    width: 540px;
+    height: 358px;
+    background: url("../image/activityProjectimglight.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    float: right;
+    z-index: 1;
+    /*display: none;*/
+}
+.activity_projectcon_detailed{
+    position: relative;
+    z-index: 100;
+    /*display: none;*/
+}

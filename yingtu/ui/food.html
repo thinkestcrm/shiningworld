@@ -1,0 +1,405 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>美食拍</title>
+    <link href="resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="resources/css/food.css"/>
+    <link rel="stylesheet" href="resources/css/waterfall.css"/>
+    <script src="resources/js/libs/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="resources/js/libs/blocksit.min.js"></script>
+    <script type="text/javascript" src="resources/js/waterfall.js"></script>
+    <script type="text/javascript" src="resources/js/mainpage.js"></script>
+    <script type="text/javascript" src="resources/js/food.js"></script>
+</head>
+<body>
+    <div class="food_wrapper">
+        <div class="head" id="navigationBar">
+            <div class="head_box">
+                <div class="yt_logo">
+                    <div class="logo_img"></div>
+                    <p class="logo_title">影徒网</p>
+                </div>
+                <div class="top_search_box">
+                    <ul>
+                        <li><a href="#">活动</a></li>
+                        <li><a href="#">分类</a><span class="down_arrow"></span></li>
+                    </ul>
+                    <div class="yt_search_box">
+                        <input type="text" id="ytSearchText"/>
+                        <input type="button" id="ytSearchBar"/>
+                        <span class="magnifying_glass"></span>
+                        <div class="search_box_back"></div>
+                    </div>
+                </div>
+                <ul class="user_center_box">
+                    <li><a href="#">用户中心</a></li>
+                    <li><a href="#">摄影师主页</a></li>
+                    <li><input type="button" value="注册" id="ytRegButton"/></li>
+                    <li><input type="button" value="登录" id="ytLoginButton"/></li>
+                </ul>
+            </div>
+        </div>
+        <div class="food_con" >
+            <div class="food_con_box">
+                <ul class="foodmade_label">
+                    <li><a href="#" id="foodmadeNavigationr">美食拍</a></li>
+                </ul>
+                <div class="foodmade_border"></div>
+            </div>
+        </div>
+        <div class="food_main">
+            <div class="allCategorieslist">
+                <ul class="allCategoriesAddr">
+                    <li><a href="#" class="allsateg_a">所有分类></a></li>
+                    <li><a href="#" class="allsateg_a">个人写真></a></li>
+                    <li><a href="#" class="allsateg_selected">按天收费<span>X</span></a></li>
+                    <li><a href="#" class="allsateg_selected">500-800<span>X</span></a></li>
+                </ul>
+            </div>
+            <div class="classification_subsidiary">
+                <ul>
+                    <li>
+                        <ul class="detailedClasslist food_photography_niche">
+                            <li>摄影细分 :</li>
+                            <li><a href="#" class="unlimited_style" id="photoNicheUnlimited">不限</a></li>
+                            <li><a href="#" id="foodMadeGuangdongHKSeafood">粤港海鲜</a></li>
+                            <li><a href="#" id="foodMadeSpicySichuanHunan">麻辣川湘</a></li>
+                            <li><a href="#" id="foodMadeDrinkSnack">饮品点心</a></li>
+                            <li><a href="#" id="foodMadeJapaneseSouthKoreanCuisine">日韩料理</a></li>
+                            <li><a href="#" id="foodMadeRestaurantScene">餐厅场景</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="detailedClasslist food_photographyMethod">
+                            <li>拍摄方式 :</li>
+                            <li><a href="#" class="unlimited_style" id="photographyMethodUnlimited">不限</a></li>
+                            <li><a href="#" id="foodMadeMailShot">邮寄拍摄</a></li>
+                            <li><a href="#" id="foodMadeDoorToShoot">上门拍摄</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="detailedClasslist food_wayTOCharge">
+                            <li>收费方式 :</li>
+                            <li><a href="#" class="unlimited_style" id="wayTOChargeUnlimited">不限</a></li>
+                            <li><a href="#" id="foodMadePayPerDay">按天收费</a></li>
+                            <li><a href="#" id="foodMadeAccordingToCharge">按件收费</a></li>
+                            <li><a href="#" id="foodMadeChargeByHour">按小时收费</a></li>
+                        </ul>
+                    </li>
+                    <li style="border: none">
+                        <ul class="detailedClasslist food_priceRange">
+                            <li>价格区间 :</li>
+                            <li><a href="#" class="unlimited_style" id="priceRangeUnlimited">不限</a></li>
+                            <li><a href="#" id="foodMadepriceRange500To800">500-800</a></li>
+                            <li><a href="#" id="foodMadepriceRange800To1200">800-1200</a></li>
+                            <li><a href="#" id="foodMadepriceRange1200To1800">1200-1800</a></li>
+                            <li><a href="#" id="foodMadeMoreThan1800">1800以上</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <ul class="sorting_way">
+                <li><a href="#">人气</a></li>
+                <li><a href="#">销量</a></li>
+                <li><a href="#">好评</a></li>
+                <li><a href="#">价格</a></li>
+            </ul>
+            <div class="img_con_box">
+                <div id="container">
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/meiship1.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u16.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u146.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u150.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u148.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u113.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/images/u113.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u113.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u113.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/meiship1.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u16.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u146.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u150.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u148.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="imgholder">
+                            <div class="cpContent" id="cpContent">
+                                <a href="#" target="iframe">
+                                    <div class="cpWps">
+                                        <img src="resources/image/u113.png" class="yingtu_img_show">
+                                        <ul class="yingtu_img_info">
+                                            <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                            <li class="clinch_information">本月成交：<span>4</span>笔 <span class="price_info">￥<b id="priceValue">2999.00</b></span></li>
+                                            <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="company_profile_box">
+            <div class="company_profile_con">
+                <div class="company_profile_list">
+                    <div class="profile_list_box">
+                        <p>关于我们</p>
+                        <ul>
+                            <li><a href="#">官方微博</a></li>
+                            <li><a href="#">微信公众号</a></li>
+                            <li><a href="#">淘宝店铺</a></li>
+                        </ul>
+                    </div>
+                    <div class="profile_list_box">
+                        <p>服务协议</p>
+                        <ul>
+                            <li><a href="#">版权说明</a></li>
+                            <li><a href="#">微信公众号</a></li>
+                            <li><a href="#">淘宝店铺</a></li>
+                        </ul>
+                    </div>
+                    <div class="ty_bottom_wordlog">
+                        <p>影徒网</p>
+                        <span>www.itoopic.com</span>
+                    </div>
+                    <div class="profile_list_box" id="profileListBoxright">
+                        <p>客服中心</p>
+                        <ul>
+                            <li><a href="#">企业QQ</a></li>
+                            <li><a href="#">微信公众号</a></li>
+                            <li><a href="#">淘宝店铺</a></li>
+                        </ul>
+                    </div>
+                    <div class="profile_list_box" id="profileListBoxright1" style="margin-right: 0">
+                        <p>联系我们</p>
+                        <ul>
+                            <li><a href="#">官方电话</a></li>
+                            <li><a href="#">微信公众号</a></li>
+                            <li><a href="#">淘宝店铺</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Copyright © 1999-2016 Kingsoft Corporation.All rights reserved.成都科技有限公司 版权所有增值电信业务经营许可证 川B2-20130104　蜀ICP备14009198号-2</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

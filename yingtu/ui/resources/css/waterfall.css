@@ -1,0 +1,117 @@
+#container{
+    position:relative;
+    width:1205px;
+    padding-bottom: 10px;
+}
+.grid{
+    width:233px;
+    background:#fff;
+    font-size:12px;
+    float:left;
+    -webkit-transition: top 1s ease, left 1s ease;
+    -moz-transition: top 1s ease, left 1s ease;
+    -o-transition: top 1s ease, left 1s ease;
+    -ms-transition: top 1s ease, left 1s ease;
+    margin: 13px 6px 0 0;
+    padding:0 ;
+    overflow: hidden;
+    border:  1px solid #E8E8E8;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.grid strong {
+    border-bottom:1px solid #ccc;
+    margin:10px 0;
+    display:block;
+    padding:0 0 5px;
+    font-size:17px;
+}
+.grid .meta{
+    text-align:right;
+    color:#777;
+    font-style:italic;
+}
+
+
+@media screen and (max-width : 1240px) {
+    body{
+        overflow:auto;
+    }
+}
+@media screen and (max-width : 900px) {
+    #backlinks{
+        float:none;
+        clear:both;
+    }
+    #backlinks a{
+        display:inline-block;
+        padding-right:20px;
+    }
+    #wrapper{
+        margin-top:90px;
+    }
+}
+.btn01 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn01 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.btn01 .ovrly {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn01 .buttons {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btn01 .buttons .fa {
+    margin: 0 1px;
+    background: rgb(256, 256, 256);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+.btn01:hover .buttons {
+    top: 50%;
+}
+.btn01:hover .ovrly {
+    top: 0;
+}

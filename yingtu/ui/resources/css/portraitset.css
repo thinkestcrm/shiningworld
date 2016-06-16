@@ -1,0 +1,271 @@
+.photo_niche_list{
+    width: 800px;
+    height:110px;
+    margin-top: 9px;
+}
+.photo_niche_list>li{
+    height: 27px;
+    line-height: 27px;
+}
+.photo_niche_specific{
+    width: 800px;
+    height: 27px;
+}
+.photo_niche_specific>li{
+    height: 27px;
+    line-height: 27px;
+    float: left;
+}
+.photo_niche_specific>li>a{
+    padding: 0 10px;
+    height: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    text-align: center;
+}
+.por_unlimited_style{
+    background:#54688D;
+    border-radius: 7px;
+}
+#productionName,#productionBriefIntroduction{
+    color: #999;
+}
+.choose_local_image{
+    margin-top: 34px;
+    width: 168px;
+    height: 112px;
+    float: left;
+}
+.upload_pictures_instructions{
+    margin-top: 34px;
+    width: 518px;
+    height: 85px;
+    float: left;
+    background: #FAFAFA;
+}
+.upload_pictures_instructions>li{
+    width: 518px;
+    height: 21px;
+    line-height: 21px;
+}
+#toReport{
+    color: #f00;
+}
+.warningTip{
+    color: #f00;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+}
+.upload_pictures_list{
+    margin-top: 27px;
+    width: 651px;
+    height: 100px;
+    display: inline-block;
+}
+.upload_pictures_list>li{
+    width: 98px;
+    height: 98px;
+    border: 1px solid #D7D7D7;
+    float: left;
+    margin-right: 10px;
+}
+.upload_pictures_list>li:last-child{
+    margin-right: 0;
+}
+#copyright{
+    outline: none;
+}
+#uploadPortfolios{
+    width: 82px;
+    height: 20px;
+    filter:alpha(opacity:0);
+    opacity: 0;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 2000;
+    cursor: pointer;
+}
+.upload_file{
+    position: relative;
+    background: #F2F2F2;
+    width: 80px;
+    height: 18px;
+    border: 1px solid #D7D7D7;
+    text-align: center;
+    cursor: pointer;
+    margin: 25px 0 0 61px;
+    color: #333;
+}
+
+
+
+
+/* publishfoodinfo*/
+
+.classification_of_works{
+    width: 493px;
+    height: 44px;
+    margin-top: 43px;
+}
+.classification_of_works>li{
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 10px;
+}
+.classification_of_works>li>a{
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.unlimited_style{
+    background:#54688D;
+    border-radius: 7px;
+}
+
+/*uploadsaidproduct*/
+.target_level_box{
+    width: 718px;
+    height: 280px;
+    margin-top: 60px;
+}
+.target_level_radiolist{
+    margin-top: 24px;
+    width: 718px;
+    height: 136px;
+}
+.target_level_radiolist>li{
+    height: 44px;
+}
+.target_level_radiolist>li>div{
+    float: left;
+    height: 44px;
+}
+.target_level_radiolist>li>div:first-child{
+    width: 92px;
+}
+.target_level_radiolist>li>div:last-child{
+    width: 560px;
+
+}
+.target_level_radiolist>li>div>input{
+    margin-right: 15px;
+}
+.target_level_radiolist>li>div>span{
+    font-weight: 700;
+}
+.target_level_radiolist>li>div:last-child>p:last-child{
+    color: #999;
+}
+.whether_receive_relief{
+    width:550px ;
+    height: 40px;
+    margin-top: 40px;
+}
+.whether_receive_relief>li{
+    line-height: 40px;
+    margin-right: 85px;
+    height: 40px;
+    float: left;
+}
+.whether_receive_relief>li>input{
+    margin-right: 3px;
+}
+
+/*publishactivity*/
+.choice_activity{
+    width: 715px;
+    height:18px ;
+    margin-top: 55px;
+}
+.choice_activity>li{
+    height:18px ;
+    float: left;
+    line-height: 18px;
+}
+.choice_activity>li>a{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+#choiceActivity{
+    background: #54688D;
+    color: #fff;
+}
+/*givephotographergrade*/
+.apply_photographer_rating_con{
+    width: 958px;
+    height:632px ;
+    margin-top: 22px;
+    border: 1px solid #D7D7D7;
+    background: #fff;
+}
+.apply_photographer_rating_con>li{
+    width: 958px;
+    height:104px ;
+    border-bottom: 1px solid #D7D7D7;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.apply_photographer_rating_con>li:last-child{
+    border: none;
+}
+.apply_photographer_rating_con>li:first-child>p:first-child{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 958px;
+    height:40px ;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.apply_photographer_rating_con>li:first-child>p:last-child{
+    text-align: center;
+    width: 958px;
+    height:28px ;
+    line-height: 28px;
+}
+.apply_photographer_rating_con>li>span{
+    display: block;
+    float: left;
+    width: 58px;
+    height:58px;
+    margin: 30px 48px 0 147px;
+}
+.photographer_level_name{
+    float: left;
+    width: 63px;
+    margin:50px 52px 0 0;
+    font-weight: 700;
+}
+.apply_photographer_rating_con>li>div{
+    float: left;
+    width: 590px;
+    height: 40px;
+    margin-top: 35px;
+}
+.apply_photographer_rating_con>li>div>p{
+    width: 590px;
+    line-height: 20px;
+    height: 20px;
+}
+.apply_photographer_rating_con>li>div>p:last-child{
+    color: #999;
+}

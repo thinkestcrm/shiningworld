@@ -1,0 +1,120 @@
+body{
+    line-height: 0;
+    padding: 0;
+    margin:0 ;
+}
+.published_services_list{
+    width: 952px;
+    height:auto ;
+    overflow: hidden;
+}
+.yingtu_img_show{
+    width: 233px;
+    height: auto;
+    display: block;
+}
+.yingtu_img_info{
+    width: 233px;
+    height:116px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.yingtu_img_info>li{
+    width: 203px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.information_description{
+    height: 50px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.clinch_information{
+    height: 32px;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.source_info{
+    height: 35px;
+    background: #FAFAFA;
+    border-top: 1px solid #F2F2F2;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.price_info{
+    float: right;
+}
+#priceValue{
+    font-size: 16px;
+    color: #f00;
+    font-weight: 200;
+}
+.heart_info{
+    float: left;
+    width: 13px;
+    height: 11px;
+    margin-right: 4px;
+    margin-top: 16px;
+    background: url("../image/heart.png") no-repeat;
+    background-size: 100%;
+}
+.like_degree{
+    float: right;
+}
+#likeDegreeNo{
+    font-weight: 200;
+}
+#sourceName{
+    float: left;
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#shelves,#editor{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+#shelves{
+    margin-right: 130px;
+}
+.like_degree_no{
+    margin-left: 30px;
+}
+/*offshelfservice*/
+#editorialPublished,#removeShelves{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+#removeShelves{
+    margin-right: 110px;
+}
+/*draft*/
+#removeDraft,#editorialDraft{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+#removeDraft{
+    margin-right: 130px;
+}

@@ -1,0 +1,134 @@
+
+body{
+    padding: 0;
+    margin:0 ;
+}
+.portrait_wrapper{
+    width:1920px;
+    background:url("../image/portraitback.jpg") no-repeat;
+    background-size: 100%;
+    height: auto;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+}
+
+.portrait_taken_navigation{
+    width: 1920px;
+    overflow: hidden;
+    margin: 70px auto 0;
+}
+.portrait_main{
+    width: 1920px;
+    background: #FAFAFA;
+    overflow: hidden;
+}
+.portrait_con_box{
+    width: 1205px;
+    height: 362px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.portrait_label{
+    width: 572px;
+    height: 38px;
+    margin-top: 322px;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+.portrait_border{
+    width: 1205px;
+    height: 2px;
+    background: #54688D;
+}
+.portrait_label>li{
+    width: 140px;
+    height: 38px;
+    float: left;
+    margin-right: 3px;
+    line-height: 38px;
+}
+.portrait_label>li>a{
+    display: inline-block;
+    width: 140px;
+    height: 38px;
+    background: #fff;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    line-height: 38px;
+    text-align: center;
+}
+
+.portraitdetailedClass{
+    width: 1158px;
+    height: 119px;
+}
+.portraitdetailedClass>li{
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 10px;
+}
+.portraitdetailedClass>li>a{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.photo_niche_list{
+    width: 800px;
+    height:110px;
+    margin-top: 9px;
+}
+.photo_niche_list>li{
+    height: 27px;
+    line-height: 27px;
+}
+.photo_niche_specific{
+    width: 800px;
+    height: 27px;
+}
+.photo_niche_specific>li{
+    height: 27px;
+    line-height: 27px;
+    float: left;
+}
+.photo_niche_specific>li>a{
+    padding: 0 10px;
+    height: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    text-align: center;
+}
+
+.grid{
+    width:233px;
+    background:#fff;
+    font-size:12px;
+    float:left;
+    margin: 13px 6px 0 0;
+    padding:0 ;
+    overflow: hidden;
+    border:  1px solid #E8E8E8;
+    border-bottom: 1px solid #B4B4B4;
+}
+#portraitPhotoNicheUnlimited,#portraitPhotographerLevelUnlimited,#portraitPriceRangeUnlimited{
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 10px;
+    height: 20px;
+}
+.por_unlimited_style{
+    background:#54688D;
+    border-radius: 7px;
+}

@@ -1,0 +1,39 @@
+.photo_number_table{
+    width: 551px;
+    height:245px ;
+    background: #FAFAFA;
+    border: 1px solid #D7D7D7;
+}
+.photo_number_table_text{
+    width: 550px;
+    height: 39px;
+    line-height: 39px;
+    color: #999;
+    margin-top: 17px;
+}
+.photo_number_table>li{
+    width: 551px;
+    height:52px ;
+    border-top: 1px solid #D7D7D7;
+    line-height: 52px;
+    text-align: center;
+}
+.photo_number_table>li:first-child{
+    width: 551px;
+    height:30px ;
+    border: none;
+    line-height: 30px;
+}
+.photo_number_table>li>ul{
+    width: 551px;
+    height:100% ;
+}
+.photo_number_table>li>ul>li{
+    height:100% ;
+    border-left: 1px solid #D7D7D7;
+    float: left;
+    font-size: 13px;
+}
+.photo_number_table>li>ul>li:first-child{
+    border: none;
+}

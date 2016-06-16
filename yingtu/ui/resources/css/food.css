@@ -1,0 +1,348 @@
+body{
+    line-height: 0;
+    padding: 0;
+    margin:0 ;
+}
+.food_wrapper{
+    width:1920px;
+    background:#FAFAFA;
+    height: auto;
+    background:url("../image/foodmadeback.jpg") no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+}
+.food_con{
+    width: 1920px;
+    height: 872px;
+    margin: 70px auto 0;
+    overflow: hidden;
+}
+.food_con_box{
+    width: 1205px;
+    height: 872px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foodmade_label{
+    width: 140px;
+    height: 58px;
+    margin-top: 812px;
+}
+.foodmade_border{
+    width: 1065px;
+    height: 2px;
+    background: #54688D;
+
+}
+.foodlog_img{
+    width: 85px;
+    height: 78px;
+    background: url("../image/yingtuimglog.png") no-repeat;
+    background-size:100% ;
+    margin: 16px 0 0 17px;
+    float: left;
+}
+
+.foodlog_yintu>p{
+    font-weight: 400;
+    color: #60B2AC;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    margin: 72px 0 0 13px;
+}
+.foodmade_log_box>p{
+    float: left;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    margin: 50px 0 0 -18px;
+}
+.food_search_border{
+    width: 646px;
+    height: 30px;
+    float: left;
+    margin-top: 35px;
+    border: 2px solid #60B2AC;
+    overflow: hidden;
+}
+#foodSearchText{
+    width: 554px;
+    height: 30px;
+    float: left;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: #666666;
+}
+#foodSearchBar{
+    width: 80px;
+    height: 30px;
+    float: left;
+    background: #60B2AC;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+}
+.hotLabels{
+    width: 500px;
+    height: 20px;
+    margin-left: 13px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+.hotLabels>li{
+    float: left;
+    margin: 0 5px;
+    color: #999999;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+.hotLabels>li>a{
+    color: #999999;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+}
+#foodmadeNavigationr{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background: #54688D;
+    margin-top: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+.food_main{
+    width: 1920px;
+    overflow: hidden;
+    background: #FAFAFA;
+}
+.allCategorieslist{
+    width: 1205px;
+    height: 41px;
+    margin: 0 auto;
+}
+.allCategoriesAddr{
+    margin-left: 40px;
+    width: 400px;
+    height: 41px;
+}
+.allCategoriesAddr>li{
+    height: 41px;
+    line-height: 40px;
+    float: left;
+    margin-right: 4px;
+}
+.allCategoriesAddr>li>a{
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    position: relative;
+}
+.allCategoriesAddr>li>a:hover{
+    color: #54688D;
+}
+.allsateg_a{
+    font-size: 14px;
+    color: #333;
+}
+.allsateg_selected{
+    width: 119px;
+    height: 14px;
+    border: 1px solid #54688D;
+    font-size: 12px;
+    color: #54688D;
+    line-height: 14px;
+    text-align: center;
+}
+.allsateg_selected>span{
+    color: #54688D;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+
+}
+.classification_subsidiary{
+    width: 1203px;
+    height: 177px;
+    background: #fff;
+    margin: 0 auto;
+    border: 1px solid #D7D7D7;
+}
+.classification_subsidiary>ul{
+    width: 1158px;
+    height: 177px;
+    margin-left: 31px;
+}
+.classification_subsidiary>ul>li{
+    width: 1158px;
+    height: 44px;
+    border-bottom: 1px dashed #D7D7D7;
+
+}
+.detailedClasslist{
+    width: 1158px;
+    height: 44px;
+}
+.detailedClasslist>li{
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 10px;
+}
+.detailedClasslist>li>a{
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.unlimited_style{
+    background:#54688D;
+    border-radius: 7px;
+}
+#photoNicheUnlimited,#photographyMethodUnlimited,#wayTOChargeUnlimited,#priceRangeUnlimited{
+    display: inline-block;
+    line-height: 20px;
+}
+.sorting_way{
+    width: 1203px;
+    height: 43px;
+    border: 1px solid #D7D7D7;
+    margin: 18px auto 0;
+    overflow: hidden;
+}
+.sorting_way>li{
+    float: left;
+    width: 89px;
+    height: 43px;
+    border-right:1px solid #D7D7D7 ;
+    text-align: center;
+    line-height: 43px;
+}
+.sorting_way>li>a{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.sorting_way>li>a:hover{
+    color: #f00;
+}
+.img_con_box{
+    width: 1205px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5px;
+    overflow: hidden;
+
+}
+.yingtu_img_list{
+    width: 233px;
+    margin: 13px 6px 0 0;
+    overflow: hidden;
+    border:  1px solid #E8E8E8;
+    border-bottom: 1px solid #B4B4B4;
+    float: left;
+}
+.yingtu_img_show{
+    width: 233px;
+    height: auto;
+    display: block;
+}
+.yingtu_img_info{
+    width: 233px;
+    height:116px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.yingtu_img_info>li{
+    width: 203px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.information_description{
+    height: 50px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.clinch_information{
+    height: 32px;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.source_info{
+    height: 35px;
+    background: #FAFAFA;
+    border-top: 1px solid #F2F2F2;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.price_info{
+    float: right;
+}
+#priceValue{
+    font-size: 16px;
+    color: #f00;
+    font-weight: 200;
+}
+.heart_info{
+    float: left;
+    width: 13px;
+    height: 11px;
+    margin-right: 4px;
+    margin-top: 16px;
+    background: url("../image/heart.png") no-repeat;
+    background-size: 100%;
+}
+.like_degree{
+    float: right;
+}
+#likeDegreeNo{
+    font-weight: 200;
+}
+#sourceName{
+    float: left;
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
