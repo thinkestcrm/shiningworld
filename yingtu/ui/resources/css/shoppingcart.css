@@ -1,0 +1,268 @@
+.shoppingcart_wrapper{
+    width:1920px;
+    background:#FAFAFA;
+    height: 1113px;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+}
+.shoppingcart_main{
+    width:1205px;
+    height: 800px;
+    margin: 0 auto;
+
+}
+.shoppingcart_nav_address{
+    width: 1205px;
+    height: 18px;
+    margin: 135px auto 54px;
+}
+.shoppingcart_table_header{
+    width: 1203px;
+    height: 37px;
+    border: 1px solid #CCCCCC;
+}
+.shoppingcart_table_header>li{
+    float: left;
+    width: 155px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+
+}
+.shoppingcart_project_list{
+    width: 1203px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.shoppingcart_nav_address>ul{
+    width: 1205px;
+    height:18px ;
+}
+.shoppingcart_nav_address>ul>li{
+    height:18px ;
+    float: left;
+    line-height: 18px;
+}
+.shoppingcart_nav_address>ul>li>a{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.shoppingcart_nav_address>ul>li>span{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    padding: 0 2px;
+}
+.shoppingcart_nav_path_steps{
+    width: 125px;
+    height:16px ;
+    border: 1px solid #7C8AA2;
+    text-align: center;
+    background: #F3F6FA;
+    font-size: 12px;
+    margin: 0 5px;
+}
+#shoppingCurrentSteps{
+    background: #54688D;
+    color: #fff;
+}
+.shoppingcart_project_list>div{
+    width: 1205px;
+    height: 41px;
+    background: #54688D;
+}
+#PackageCheck{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 9px 20px 0 16px;
+    /*-webkit-appearance: none;*/
+    /*appearance: none;*/
+    outline: none;
+    border: 1px solid #D7D7D7;
+    background: #fff;
+
+}
+
+.shoppingcart_project_list>div>p{
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 41px;
+}
+.shoppingcart_project_list>ul{
+    width: 1203px;
+    height: 99px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top:none ;
+}
+.shoppingcart_project_list>ul>li{
+    width: 155px;
+    height: 99px;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+.shoppingcart_project_list>ul>li:last-child,.shoppingcart_project_list>ul>li:first-child{
+    border-right:none
+}
+.server_image{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 15px 25px 0 0;
+    background: url("../image/serviceimage.png") no-repeat;
+    background-size: 100%;
+}
+.server_info{
+    float: left;
+    margin-top: 15px;
+    width: 302px;
+    height: 75px;
+    text-align: left;
+}
+.user_server_title{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.user_photographer_info{
+    color: #999;
+    margin-bottom: 12px;
+}
+.shoppingcart_project_checkbox{
+    width: 20px;
+    height: 20px;
+    margin: 40px 0 0 16px;
+    border: 1px solid #D7D7D7;
+    outline: none;
+}
+.project_the_price{
+    line-height: 99px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 14px;
+    color:  #FF870F;
+}
+#toILike{
+    display: block;
+    width: 100px;
+    height: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    margin: 35px auto 0;
+    clear: both;
+    text-align: center;
+}
+#projectTheDelect{
+    display: block;
+    width: 100px;
+    height: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    margin:0 auto;
+    clear: both;
+    text-align: center;
+}
+.project_amount_box{
+    width: 117px;
+    height: 20px;
+    margin: 39px auto 0;
+    line-height: 20px;
+}
+#projectAmountAdd,#projectAmountSubtract{
+    width: 16px;
+    height: 14px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    margin-top: 2px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background: #FFFFFF;
+}
+#projectSmountShow{
+    width: 51px;
+    height: 18px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+}
+.project_amount_box>span{
+    margin-left: 13px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+
+}
+
+.project_times_box{
+    width: 131px;
+    height: 20px;
+    margin: 39px auto 0;
+    line-height: 20px;
+}
+#projectTimeAdd,#projectTimeSubtract{
+    width: 16px;
+    height: 14px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    margin-top: 2px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background: #FFFFFF;
+}
+#projectTimeShow{
+    width: 51px;
+    height: 18px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+}
+.project_times_box>span{
+    margin-left: 13px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+
+}

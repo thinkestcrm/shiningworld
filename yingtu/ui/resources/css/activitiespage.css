@@ -29,8 +29,7 @@
 .activitypage_contribute_list{
     width: 1003px;
     height: 46px;
-    margin: 43px auto;
-    background: #f7ecb5;
+    margin: 43px auto 0;
 }
 .activitypage_contribute_list>li{
     width: 121px;
@@ -49,10 +48,13 @@
     font-weight: 400;
     font-family: "microsoft yahei";
 }
+.activitypage_contribute_list>li>a:hover{
+    color: #5FB2AC;
+}
 .activitypage_contribute_con{
     width: 1003px;
-    height: 400px;
-    padding-bottom: 50px;
+    height: auto;
+    padding-bottom: 10px;
 }
 .activitypage_content_left{
     float: left;
@@ -64,6 +66,7 @@
     float: left;
     width: 288px;
     height: 100%;
+    background: #D8DFEC;
 }
 .activitypage_projectcon_cover{
     width: 344px;
@@ -123,7 +126,6 @@
     width: 602px;
     height: auto;
     margin: 18px auto 9px;
-    background: #f7ecb5;
 }
 .recommend_header{
     width: 582px;
@@ -137,8 +139,7 @@
 }
 .recommend_content{
     width: 602px;
-    height: auto;
-    height: 279px;
+    height: 215px;
     margin: 10px auto 0;
     overflow: hidden;
 }
@@ -147,7 +148,7 @@
     font-weight: 400;
     font-size: 16px;
     color: #333;
-    width: 380px;
+    width: 602px;
     line-height:43px ;
 }
 .recommend_all{
@@ -166,3 +167,222 @@
     color: #666;
 
 }
+.reward_box{
+    width: 602px;
+    height: 128px;
+    margin: 18px auto 9px;
+}
+
+.reward_header{
+    width: 582px;
+    height: 27px;
+    border-left:10px solid #54688D ;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+    padding-left: 10px;
+}
+.reward_content{
+    width: 602px;
+    height: auto;
+    height: 60px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.reward_content>p{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    width: 602px;
+    line-height:43px ;
+}
+.reward_all{
+    width: 602px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.reward_all>a{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+
+}
+.join_us_header{
+    width: 288px;
+    height: 192px;
+    background: #fff;
+}
+.join_us{
+    width: 234px;
+    height: 49px;
+    margin: 0 auto;
+    position: relative;
+}
+#toParticipateInBut{
+    width: 234px;
+    height: 49px;
+    background: #54688D;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.join_us_header>p{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 53px;
+    margin-left: 29px;
+}
+#fromEndOfTheFate{
+    width: 49px;
+    height: 36px;
+    background: #ECE3AA;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+}
+.from_end_of_the{
+    margin-top: 30px;
+}
+.has_been_submitted_tip{
+    line-height: 53px;
+}
+.organizers_information{
+    width: 288px;
+    height: 90px;
+    margin-top:17px ;
+    line-height: 90px;
+}
+.organizers_information_log{
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    background: #fff;
+    margin-left: 3px;
+    margin-right: 5px;
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: #54688D;
+    font-size: 28px;
+    line-height: 90px;
+    text-align: center;
+}
+.organizers_information>p{
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+@-webkit-keyframes left{
+    0%{
+        -webkit-transform:rotate(35deg);
+    }
+    50%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform:rotate(-35deg);
+    }
+
+}
+.join_us_icon{
+    position: absolute;
+    width: 114px;
+    height: 109px;
+    background: url("../image/yingtuimglog.png") no-repeat;
+    background-size: 100%;
+    top: -28px;
+    left: 135px;
+    cursor: pointer;
+    -webkit-transition:0.4s linear;transition:0.4s ease-in;
+}
+
+
+
+.yingtu_img_show{
+    width: 233px;
+    height: auto;
+    display: block;
+}
+.yingtu_img_info{
+    width: 233px;
+    height:116px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.yingtu_img_info>li{
+    width: 203px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.information_description{
+    height: 50px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.clinch_information{
+    height: 32px;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.source_info{
+    height: 35px;
+    background: #FAFAFA;
+    border-top: 1px solid #F2F2F2;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.price_info{
+    float: right;
+}
+#priceValue{
+    font-size: 16px;
+    color: #f00;
+    font-weight: 200;
+}
+.heart_info{
+    float: left;
+    width: 13px;
+    height: 11px;
+    margin-right: 4px;
+    margin-top: 16px;
+    background: url("../image/heart.png") no-repeat;
+    background-size: 100%;
+}
+.like_degree{
+    float: right;
+}
+#likeDegreeNo{
+    font-weight: 200;
+}
+#sourceName{
+    float: left;
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+

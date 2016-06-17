@@ -5,9 +5,15 @@
     <title>活动页面</title>
     <link href="resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
     <link rel="stylesheet" href="resources/css/activitiespage.css"/>
+    <link rel="stylesheet" href="resources/css/waterfall.css"/>
     <script src="resources/js/libs/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="resources/js/libs/blocksit.min.js"></script>
+    <script type="text/javascript" src="resources/js/waterfall4row.js"></script>
     <script type="text/javascript" src="resources/js/mainpage.js"></script>
-
+    <script type="text/javascript" src="resources/js/activitiespage.js"></script>
 
 </head>
 <body>
@@ -63,24 +69,152 @@
                         <p>活动说明</p>
                         <p>每星期我们将选出一张作品用作影徒封面大图，并在首页对摄影师进行署名！</p>
                     </div>
-                    <div class="recommend_all"><a href="#">全部</a></div>
+                    <div class="recommend_all"><a href="#" id="recommendAllUnfold">全部</a></div>
 
                 </div>
                 <div class="reward_box">
-                    <p class="reward_header">介绍</p>
+                    <p class="reward_header">奖励</p>
                     <div class="reward_content">
                         <p>每天我们将选出一张作品用作影徒封面大图，并在首页对摄影师署名！</p>
                     </div>
                     <div class="reward_all"><a href="#">全部</a></div>
                 </div>
             </div>
-            <div class="activitypage_content_right"></div>
+            <div class="activitypage_content_right">
+                <div class="join_us_header">
+                    <div class="join_us"><input type="button" id="toParticipateInBut" value="我要参加"/><span class="join_us_icon"></span></div>
+                    <p class="from_end_of_the">距离结束还有 <span id="fromEndOfTheFate">100</span> 天</p>
+                    <p class="has_been_submitted_tip">已投稿<span>3</span>份</p>
+                </div>
+                <div class="organizers_information">
+                    <div class="organizers_information_log">影徒网</div>
+                    <p>主办方：<span id="organizersInformation">影徒网</span></p>
+                </div>
+
+            </div>
         </div>
         <ul class="activitypage_contribute_list">
-            <li><a href="#">全部投稿</a></li>
+            <li><a href="#" style="color: #5FB2AC;">全部投稿</a></li>
             <li><a href="#">一周热门</a></li>
         </ul>
-        <div class="activitypage_contribute_con"></div>
+        <div class="activitypage_contribute_con">
+            <div id="container" style="width:1003px;">
+                <div class="grid">
+                    <div class="imgholder">
+                        <div class="cpContent" id="cpContent">
+                            <a href="#" target="iframe">
+                                <div class="cpWps">
+                                    <img src="resources/image/meiship1.png" class="yingtu_img_show">
+                                    <ul class="yingtu_img_info">
+                                        <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                        <li class="clinch_information"></li>
+                                        <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <div class="cpContent" id="cpContent">
+                            <a href="#" target="iframe">
+                                <div class="cpWps">
+                                    <img src="resources/image/u16.png" class="yingtu_img_show">
+                                    <ul class="yingtu_img_info">
+                                        <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                        <li class="clinch_information"></li>
+                                        <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <div class="cpContent" id="cpContent">
+                            <a href="#" target="iframe">
+                                <div class="cpWps">
+                                    <img src="resources/image/u146.png" class="yingtu_img_show">
+                                    <ul class="yingtu_img_info">
+                                        <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                        <li class="clinch_information"></li>
+                                        <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <div class="cpContent" id="cpContent">
+                            <a href="#" target="iframe">
+                                <div class="cpWps">
+                                    <img src="resources/image/u150.png" class="yingtu_img_show">
+                                    <ul class="yingtu_img_info">
+                                        <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                        <li class="clinch_information"></li>
+                                        <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <div class="cpContent" id="cpContent">
+                            <a href="#" target="iframe">
+                                <div class="cpWps">
+                                    <img src="resources/image/u148.png" class="yingtu_img_show">
+                                    <ul class="yingtu_img_info">
+                                        <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                        <li class="clinch_information"></li>
+                                        <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <div class="cpContent" id="cpContent">
+                            <a href="#" target="iframe">
+                                <div class="cpWps">
+                                    <img src="resources/image/u113.png" class="yingtu_img_show">
+                                    <ul class="yingtu_img_info">
+                                        <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                        <li class="clinch_information"></li>
+                                        <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <div class="cpContent" id="cpContent">
+                            <a href="#" target="iframe">
+                                <div class="cpWps">
+                                    <img src="resources/image/u113.png" class="yingtu_img_show">
+                                    <ul class="yingtu_img_info">
+                                        <li class="information_description">发的实际上打发打发啥地方 美味巧克力与慕斯的邂逅</li>
+                                        <li class="clinch_information"></li>
+                                        <li class="source_info"><span style="float: left;margin-right: 5px">by</span><p id="sourceName">大熊猫sdfsdfsdfdsfds</p> <span class="like_degree"> <span class="heart_info"></span>喜欢 <b id="likeDegreeNo">1</b></span></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
 
     </div>
     <div class="company_profile_box">
