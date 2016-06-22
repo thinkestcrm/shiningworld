@@ -2,7 +2,9 @@
  * Created by 123 on 2016/6/17.
  */
 $(function(){
-
+    $(".shoppingcart_wrapper").css({
+        width:window.screen.width+"px"
+    });
     $("body").click(function(e){
         switch(e.target.id){
             case  "projectAmountAdd":

@@ -1,16 +1,14 @@
 .shoppingcart_wrapper{
     width:1920px;
     background:#FAFAFA;
-    height: 1113px;
     padding: 0;
     margin:0 ;
     overflow: hidden;
 }
 .shoppingcart_main{
     width:1205px;
-    height: 800px;
     margin: 0 auto;
-
+    overflow: hidden;
 }
 .shoppingcart_nav_address{
     width: 1205px;
@@ -32,7 +30,11 @@
     font-weight: 400;
     font-size: 14px;
     color: #333;
-
+}
+.shoppingcart_table_header>li>input{
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
 }
 .shoppingcart_project_list{
     width: 1203px;
@@ -265,4 +267,342 @@
     font-size: 14px;
     color: #666666;
 
+}
+.future_generations{
+    width: 1203px;
+    height: 78px;
+    border: 1px solid #ccc;
+}
+.future_generations>li{
+    float: left;
+    height: 78px;
+    line-height: 78px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+.future_generations>li>a{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    margin-right: 25px;
+}
+.future_generations>li>input{
+    margin: 29px 0 0 16px;
+    width: 20px;
+    height: 20px;
+}
+#selectedItems{
+    display: inline-block;
+    width: 45px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 20px;
+    color: #FF870F;
+    text-align: center;
+}
+#combined{
+    display: inline-block;
+    width: 130px;
+    font-family: "microsoft yahei";
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #FF870F;
+}
+.shoppingNext{
+    width: 1205px;
+    height: 81px;
+    margin-bottom: 50px;
+}
+.shoppingNext>input{
+    width: 130px;
+    height:50px ;
+    margin-top:31px;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+    outline: none;
+    float: right;
+}
+.shoppingNext>input:hover{
+    background:#8D9DBC;
+    border: 1px solid #54688D;
+}
+
+
+/*fillorderinfo*/
+.commodity_list{
+    width: 1203px;
+    height: 37px;
+    border: 1px solid #CCCCCC;
+}
+.commodity_list>li{
+    float: left;
+    width: 1203px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.commodity_list_timeandno{
+    width: 191px;
+    height: 99px;
+    line-height: 99px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.commodity_list_timeandno>span{
+    margin: 0 12px;
+}
+.fillorder_commodity_list{
+    width: 1203px;
+    height: auto;
+}
+.fillorder_commodity_list>div{
+    width: 1205px;
+    height: 41px;
+    background: #54688D;
+}
+.fillorder_commodity_list>div>p{
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 41px;
+}
+.fillorder_commodity_list>ul{
+    width: 1203px;
+    height: 99px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top:none ;
+}
+.fillorder_commodity_list>ul>li{
+    width: 155px;
+    height: 99px;
+    float: left;
+}
+.fillorder_commodity_list>ul>li:last-child,.fillorder_commodity_list>ul>li:first-child{
+    border-right:none
+}
+.fillorderinfo_bottom_tip{
+    width: 1203px;
+    height: 188px;
+    border: 1px solid #D7D7D7;
+    margin-top: 32px;
+    background: #fff;
+}
+.set_photographer_content_barlist{
+    width: 500px;
+    height:71px;
+    margin-top: 90px;
+    margin-left: 438px;
+    float: left;
+    overflow: hidden;
+}
+.set_photographer_content_barlist>li{
+    width: 190px;
+    height:71px;
+    float: left;
+    overflow: hidden;
+}
+.set_photographer_content_barlist>li>input{
+    width: 147px;
+    height:50px ;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+    outline: none;
+}
+.set_photographer_content_barlist>li>input:hover{
+    background:#8D9DBC;
+    border: 1px solid #54688D;
+}
+.fillorderinfo_bottom_tip>ul{
+    width: 445px;
+    height:113px ;
+    margin: 44px 0 0 760px;
+}
+.fillorderinfo_bottom_tip>ul>li{
+    width: 445px;
+    height:28px ;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #949494;
+    line-height: 28px;
+}
+.fillorderinfo_tip_red{
+    color: #f00;
+}
+#expirationDate{
+    margin-left: 30px;
+}
+
+/*submitordersucc*/
+.order_submitted_successfully_header{
+    width: 1203px;
+    height: 37px;
+    border: 1px solid #CCCCCC;
+}
+.order_submitted_successfully_header>li{
+    float: left;
+    width: 229px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.order_submitted_successfully_list{
+    width: 1203px;
+    height: auto;
+}
+.order_submitted_successfully_list>div{
+    width: 1205px;
+    height: 41px;
+    background: #54688D;
+}
+.order_submitted_successfully_list>div>p{
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #E4E4E4;
+    line-height: 41px;
+}
+.order_submitted_successfully_list>ul{
+    width: 1203px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top:none ;
+    overflow: hidden;
+}
+.order_submitted_successfully_list>ul>li{
+    width: 155px;
+    height: 298px;
+    border-right: 1px solid #D7D7D7;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+.order_submitted_successfully_list>ul>li:last-child{
+    border-right:none
+}
+.submitordersucc_list_timeandno{
+    float: right;
+    width: 217px;
+    height: 99px;
+    line-height: 99px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.submitordersucc_list_timeandno>span{
+    margin: 0 5px;
+}
+.order_submitted_image{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 15px 25px 0 54px;
+    background: url("../image/serviceimage.png") no-repeat;
+    background-size: 100%;
+}
+.order_submitted_s{
+    width: 701px;
+    height: auto;
+}
+.order_submitted_s>li{
+    height: 99px;
+    border-bottom: 1px solid #D7D7D7;
+}
+.order_submitted_s>li:last-child{
+    border-bottom:none
+}
+.customer_name{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    margin-top: 115px;
+    margin-bottom: 20px;
+}
+.customer_phone_number{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.order_date{
+   margin-right: 15px;
+}
+.order_number{
+    margin-left: 10px;
+    color: #fff;
+}
+.gross_amount{
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+.online_payment{
+    margin: 0 auto;
+    width: 126px;
+    height: 30px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    border-top: 1px solid #D7D7D7;
+    line-height: 30px;
+    text-align: center;
+}
+#submitordersuccToShoot{
+    width: 81px;
+    height: 19px;
+    line-height: 19px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top: 129px;
+}
+.cancel_order{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    margin-top: 8px;
 }

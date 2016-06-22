@@ -5,7 +5,8 @@ $(document).ready(function() {
     //导航条固定定位
     $(window.document).scroll(function(){
         if($(window.document).scrollTop()==0){
-            $("#navigationBar").css({background:"none",
+            $("#navigationBar").css({
+                background:"none",
                 boxShadow: "none"
             });
         }
@@ -16,6 +17,17 @@ $(document).ready(function() {
             });
         }
 
+    });
+    $("#navigationBar").hover(function(){
+        $("#navigationBar").css({
+            background:"#fff",
+            boxShadow: "#aaa -3px 2px 10px"
+        });
+    },function(){
+        $("#navigationBar").css({
+            background:"none",
+            boxShadow: "none"
+        });
     });
 
 

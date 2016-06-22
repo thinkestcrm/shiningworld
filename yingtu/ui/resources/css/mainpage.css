@@ -119,6 +119,9 @@ body{
     font-size: 16px;
     color: #54688D;
 }
+.top_search_box>ul>li>a:hover{
+    color:#64B5B0;
+}
 .down_arrow{
     width: 0;
     height: 0;
@@ -166,6 +169,9 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: #54688D;
+}
+.user_center_box>li>a:hover{
+    color:#64B5B0;
 }
 #ytRegButton{
     width: 50px;

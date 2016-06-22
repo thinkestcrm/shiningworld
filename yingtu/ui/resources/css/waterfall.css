@@ -17,6 +17,7 @@
     overflow: hidden;
     border:  1px solid #E8E8E8;
     border-bottom: 1px solid #B4B4B4;
+    position: relative;
 }
 
 .grid strong {

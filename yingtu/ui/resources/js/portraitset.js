@@ -3,6 +3,9 @@
  */
 
 $(function(){
+    $(".photographer_homepage_wrapper,.photographer_homepage").css({
+        width:window.screen.width+"px"
+    });
     $("body").click(function(e){
         switch(e.target.id){
             case "portraitMirror":
@@ -27,6 +30,43 @@ $(function(){
                 $("#"+e.target.id+"").addClass("por_unlimited_style");
                 $("#"+e.target.id+"").css({
                     color:"#fff"
+                });
+                $(".photo_niche_list a").hover(function(){
+                    $(this).css({
+                        color: "#fff"
+                    });
+                },function(){
+                    if($(this).hasClass("por_unlimited_style")){
+                        $(this).css({
+                            color: "#fff"
+                        });
+                    }
+                    else{
+                        $(this).css({
+                            color: "#333"
+                        });
+                    }
+
+                });
+                break;
+            case "portraitsetProductionName":
+                var proNtext=$("#portraitsetProductionName").text();
+                $("#portraitsetProductionName").html(''+
+                    '<input type="text" id="portraitsetNameInput" value="'+proNtext+'"/>'+
+                    '');
+                $("#portraitsetNameInput").focus();
+                $("#portraitsetNameInput").blur(function(){
+                    $("#portraitsetProductionName").html($("#portraitsetNameInput").val());
+                });
+                break;
+            case "portraitsetProductionIntroduction":
+                var proBtext=$("#portraitsetProductionIntroduction").text();
+                $("#portraitsetProductionIntroduction").html(''+
+                    '<input type="text" id="portraitsetIntroductionInput" value="'+proBtext+'"/>'+
+                    '');
+                $("#portraitsetIntroductionInput").focus();
+                $("#portraitsetIntroductionInput").blur(function(){
+                    $("#portraitsetProductionIntroduction").html($("#portraitsetIntroductionInput").val());
                 });
                 break;
 

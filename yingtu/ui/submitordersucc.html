@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>成功提交订单</title>
+    <link href="resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/shoppingcart.css"/>
+    <script type="text/javascript" src="resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/mainpage.js"></script>
+    <script type="text/javascript" src="resources/js/shoppingcart.js"></script>
+</head>
+<body>
+<div class="shoppingcart_wrapper" >
+    <div class="head" id="navigationBar">
+        <div class="head_box">
+            <div class="yt_logo">
+                <div class="logo_img"></div>
+                <p class="logo_title">影徒网</p>
+            </div>
+            <div class="top_search_box">
+                <ul>
+                    <li><a href="#">活动</a></li>
+                    <li><a href="#">分类</a><span class="down_arrow"></span></li>
+                </ul>
+                <div class="yt_search_box">
+                    <input type="text" id="ytSearchText"/>
+                    <input type="button" id="ytSearchBar"/>
+                    <span class="magnifying_glass"></span>
+                    <div class="search_box_back"></div>
+                </div>
+            </div>
+            <ul class="user_center_box">
+                <li><a href="#">用户中心</a></li>
+                <li><a href="#">摄影师主页</a></li>
+                <li><input type="button" value="注册" id="ytRegButton"/></li>
+                <li><input type="button" value="登录" id="ytLoginButton"/></li>
+            </ul>
+        </div>
+    </div>
+    <div class="shoppingcart_main">
+        <div class="shoppingcart_nav_address">
+            <ul>
+                <li><a href="#">用户中心</a><span>></span></li>
+                <li><a href="#">购物车</a><span>></span></li>
+                <li><a href="#" class="shoppingcart_nav_path_steps">1.选择购物车商品</a><span>></span></li>
+                <li><a href="#" class="shoppingcart_nav_path_steps" >2.填写核对订单信息</a><span>></span></li>
+                <li><a href="#" class="shoppingcart_nav_path_steps">付款到支付宝</a><span>></span></li>
+                <li><a href="#" class="shoppingcart_nav_path_steps" id="shoppingCurrentSteps">成功提交订单</a></li>
+            </ul>
+        </div>
+        <ul class="order_submitted_successfully_header">
+            <li style="width: 701px">订单详情</li>
+            <li style="width: 228px">客户姓名</li>
+            <li style="width: 148px">金额</li>
+            <li style="width: 126px">交易状态</li>
+        </ul>
+        <div class="order_submitted_successfully_list">
+            <div><p style="margin-left: 21px">
+                <span class="order_date">2015-05-07   20:00:00</span>
+                订单号: <span class="order_number">12458221655</span></p></div>
+            <ul>
+                <li style="width: 700px">
+                    <ul class="order_submitted_s">
+                        <li>
+                            <div class="order_submitted_image"></div>
+                            <div class="server_info" >
+                                <p class="user_server_title">只有这片花还在</p>
+                                <p class="user_photographer_info">摄影师：<span>大熊秒</span></p>
+                            </div>
+                            <div class="submitordersucc_list_timeandno"><span>1</span>人 <span>X</span><span>6</span>小时</div>
+                        </li>
+                        <li>
+                            <div class="order_submitted_image"></div>
+                            <div class="server_info" >
+                                <p class="user_server_title">只有这片花还在</p>
+                                <p class="user_photographer_info">摄影师：<span>大熊秒</span></p>
+                            </div>
+                            <div class="submitordersucc_list_timeandno"><span>1</span>人 <span>X</span><span>6</span>小时</div>
+                        </li>
+                        <li>
+                            <div class="order_submitted_image"></div>
+                            <div class="server_info" >
+                                <p class="user_server_title">只有这片花还在</p>
+                                <p class="user_photographer_info">摄影师：<span>大熊秒</span></p>
+                            </div>
+                            <div class="submitordersucc_list_timeandno"><span>1</span>人 <span>X</span><span>6</span>小时</div>
+                        </li>
+                    </ul>
+
+
+                </li>
+                <li style="width: 227px">
+                    <p class="customer_name">李小姐</p>
+                    <p class="customer_phone_number">182****5993</p>
+                </li>
+                <li style="width: 147px">
+                    <p class="gross_amount" style="margin-top: 111px">总额</p>
+                    <p class="gross_amount">￥599.00</p>
+                    <p class="online_payment">在线支付</p>
+                </li>
+                <li style="width: 126px">
+                    <a href="#" id="submitordersuccToShoot">待拍摄</a>
+                    <p class="cancel_order">取消订单</p>
+                </li>
+            </ul>
+
+        </div>
+        <div class="shoppingNext">
+            <input type="button"  value="返回首页" id=""/>
+        </div>
+
+
+    </div>
+    <div class="company_profile_box">
+        <div class="company_profile_con">
+            <div class="company_profile_list">
+                <div class="profile_list_box">
+                    <p>关于我们</p>
+                    <ul>
+                        <li><a href="#">官方微博</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="profile_list_box">
+                    <p>服务协议</p>
+                    <ul>
+                        <li><a href="#">版权说明</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="ty_bottom_wordlog">
+                    <p>影徒网</p>
+                    <span>www.itoopic.com</span>
+                </div>
+                <div class="profile_list_box" id="profileListBoxright">
+                    <p>客服中心</p>
+                    <ul>
+                        <li><a href="#">企业QQ</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+                <div class="profile_list_box" id="profileListBoxright1" style="margin-right: 0">
+                    <p>联系我们</p>
+                    <ul>
+                        <li><a href="#">官方电话</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">淘宝店铺</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>Copyright © 1999-2016 Kingsoft Corporation.All rights reserved.成都科技有限公司 版权所有增值电信业务经营许可证 川B2-20130104　蜀ICP备14009198号-2</p>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+</body>
+</html>

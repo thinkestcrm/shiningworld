@@ -177,7 +177,7 @@ body{
     position: absolute;
     float: right;
     z-index: 1;
-    /*display: none;*/
+    display: none;
 }
 .activity_projectcon_detailed{
     position: relative;

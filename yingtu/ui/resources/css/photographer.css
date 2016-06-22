@@ -78,7 +78,7 @@ body{
 }
 .photographer_management_box{
     width: 203px;
-    height:650px ;
+    height:699px ;
     margin:18px auto 0;
 }
 .photographer_management_release{
@@ -113,6 +113,10 @@ body{
     text-align: center;
     box-shadow: #717171 0px 1px 1px;
 }
+#photographerReleaseBut:hover{
+    background:#8D9DBC;
+    border: 1px solid #54688D;
+}
 .photographer_management_services>li,.personal_homepage_management_list>li{
     width: 191px;
     height:32px ;
@@ -146,6 +150,10 @@ body{
     text-align: center;
     box-shadow: #717171 0px 1px 1px;
     outline: none;
+}
+#ApplyForRatingBut:hover,#photographerCertificationBut:hover{
+    background:#8D9DBC;
+    border: 1px solid #54688D;
 }
 .photographer_homepage_path{
     width: 943px;
@@ -253,11 +261,11 @@ body{
     box-shadow: #717171 0px 1px 1px;
     outline: none;
 }
-#saveToDraft{
+.set_photographer_content_barlist>li>input:hover{
     background:#8D9DBC;
     border: 1px solid #54688D;
-    margin-right: 5px;
 }
+
 
 /*release*/
 #releaseCategory{
@@ -296,4 +304,7 @@ body{
 #priceQuestion{
     text-decoration: underline;
     color: #333;
+}
+#priceQuestion:hover{
+    color: #f00;
 }

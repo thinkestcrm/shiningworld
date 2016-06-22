@@ -1,56 +1,48 @@
-/**
+﻿/**
  * Created by 123 on 2016/6/12.
  */
 
 $(function(){
+    $(".portrait_wrapper,.portrait_main,.portrait_taken_navigation").css({
+        width:window.screen.width+"px"
+    });
     $("#portraitPhotoNicheUnlimited,#portraitPhotographerLevelUnlimited,#portraitPriceRangeUnlimited").css({
         color:"#fff"
     });
     $("#portraitNavigationr").css({
         color: "#fff",
-        background:" #54688D"
+        background:"#54688D"
     });
+    $(".portrait_label>li>a").click(function(){
+        $(".portrait_label a").removeClass("portraitthecurrent");
+        $(".portrait_label a").css({color:"#333",background:"#fff"});
 
-    $('.portrait_label>li').click(function(){
-        var ord=$(this).index('.portrait_label>li');
-        $('.portrait_label>li').each(function(index){
-            if(ord!=index){
-                $(this).find("a").css({
-                    background:'#fff',
-                    color: "#333"
-                });
-                $(this).find("a").remove("adcss");
-
-            }else{
-                $(this).find("a").css({
-                    color: "#fff",
-                    background:" #54688D"
-                });
-                $(this).find("a").addClass("adcss");
-            }
+        $(this).addClass("portraitthecurrent");
+        $(this).css({
+            color:"#fff",
+            background:"#54688D"
         });
-    });
-    $(".portrait_label>li").hover(function(){
-        $(this).find("a").css({
-            color: "#fff",
-            background: "#54688D"
-        });
-    },function(){
-        if($(this).find("a").hasClass("adcss")){
-            $(this).find("a").css({
+        $(".portrait_label a").hover(function(){
+            $(this).css({
                 color: "#fff",
-                background: "#54688D"
+                background:"#54688D"
             });
-        }
-        else{
-            $(this).find("a").css({
-                color: "#333",
-                background: "#fff"
-            });
-        }
+        },function(){
+            if($(this).hasClass("portraitthecurrent")){
+                $(this).css({
+                    color: "#fff",
+                    background:"#54688D"
+                });
+            }
+            else{
+                $(this).css({
+                    color: "#333",background:"#fff"
+                });
+            }
+
+        });
 
     });
-
 
     $("body").click(function(e){
         switch(e.target.id){
@@ -79,6 +71,24 @@ $(function(){
                 $("#"+e.target.id+"").css({
                     color:"#fff"
                 });
+                $(".portraitdetailedClass a").hover(function(){
+                    $(this).css({
+                        color: "#fff"
+                    });
+                },function(){
+                    if($(this).hasClass("por_unlimited_style")){
+                        $(this).css({
+                            color: "#fff"
+                        });
+                    }
+                    else{
+                        $(this).css({
+                            color: "#333"
+                        });
+                    }
+
+                });
+
                 break;
             case "portraitPhotographerLevelUnlimited":
             case "portraitminimumLevelPhotograph":
@@ -93,6 +103,22 @@ $(function(){
                 $("#"+e.target.id+"").css({
                     color:"#fff"
                 });
+                $(".portrait_photographer_level a").hover(function(){
+                    $(this).css({
+                        color: "#fff"
+                    });
+                },function(){
+                    if($(this).hasClass("por_unlimited_style")){
+                        $(this).css({
+                            color: "#fff"
+                        });
+                    }
+                    else{
+                        $(this).css({
+                            color: "#333"
+                        });
+                    }
+                });
                 break;
             case "portraitPriceRangeUnlimited":
             case "portraitPriceRange50to300":
@@ -106,6 +132,22 @@ $(function(){
                 $("#"+e.target.id+"").css({
                     color:"#fff"
                 });
+                $(".portrait_price_range a").hover(function(){
+                    $(this).css({
+                        color: "#fff"
+                    });
+                },function(){
+                    if($(this).hasClass("por_unlimited_style")){
+                        $(this).css({
+                            color: "#fff"
+                        });
+                    }
+                    else{
+                        $(this).css({
+                            color: "#333"
+                        });
+                    }
+                });
                 break;
             case "clothingLease":
                 $(".portrait_main").css({
@@ -115,39 +157,245 @@ $(function(){
                     '<div class="clothingLease_con">'+
                         '<ul class="clothinglease_header">'+
                             '<li>' +
-                                '<span>��װ���ޣ�</span><p>����Ӱͽ�ٷ��Ա��꣬�ɶ��������ʡ�</p>'+
+                                '<span>服装租赁：</span><p>请上影徒官方淘宝店，成都地区包邮。</p>'+
                             '</li>'+
                             '<li>' +
-                                '<span>���ͣ�</span><p>�ɶ�����2�����͵���</p>'+
+                                '<span>配送：</span><p>成都地区2天内送到。</p>'+
                             '</li>'+
                             '<li>' +
-                                '<span>��ַ��</span><p>www.taobao.com</p>'+
+                                '<span>网址：</span><p>www.taobao.com</p>'+
                             '</li>'+
                         '</ul>'+
                         '<ul class="address_point_info">'+
-                            '<li>�Ĵ���ѧ</li>'+
-                            '<li><span>����㣺</span><p>�ɶ���������Ĵ���ѧ�ٶ�С��14��13¥��</p></li>'+
+                            '<li>四川大学</li>'+
+                            '<li><span>自提点：</span><p>成都市武侯区四川大学踪东小区14栋13楼。</p></li>'+
                         '</ul>'+
                         '<ul class="address_point_info">'+
-                            '<li>�ɶ�����</li>'+
+                            '<li>成都理工</li>'+
                             '<li>'+
-                                '<span>����㣺</span><p>�ɶ���������Ĵ���ѧ�ٶ�С��14��13¥��</p>'+
+                                '<span>自提点：</span><p>成都市武侯区四川大学踪东小区14栋13楼。</p>'+
                             '</li>'+
                         '</ul>'+
                         '<ul class="address_point_info">'+
-                            '<li>���ӿƼ���ѧ</li>'+
+                            '<li>电子科技大学</li>'+
                             '<li>'+
-                                '<span>����㣺</span><p>�ɶ���������Ĵ���ѧ�ٶ�С��14��13¥��</p>'+
+                                '<span>自提点：</span><p>成都市武侯区四川大学踪东小区14栋13楼。</p>'+
                             '</li>'+
                         '</ul>'+
                         '<ul class="working_time">'+
-                            '<li><span>����ʱ�䣺</span><p>8��00-17��00</p></li>'+
-                            '<li><span>����ʱ�䣺</span><p>������Ϣ</p></li>'+
+                            '<li><span>工作时间：</span><p>8：00-17：00</p></li>'+
+                            '<li><span>工作时间：</span><p>周日休息</p></li>'+
                         '</ul>'+
                         '<div class="clothingLease_show"></div>'+
                     '</div>'+
                 "");
                 break;
+            case "placeselect":
+                $(".portrait_main").html('' +
+                    '<div class="allCategorieslist">'+
+                        '<ul class="allCategoriesAddr">'+
+                            '<li><a href="#" class="allsateg_a">配套服务></a></li>'+
+                            '<li><a href="#" class="allsateg_a">场景选择</a></li>'+
+                        '</ul>'+
+                    '</div>'+
+                    '<div class="classification_subsidiary" style="height:206px">'+
+                        '<ul>'+
+                            '<li style="height: 119px">'+
+                                '<ul class="portraitdetailedClass get_user_area" >'+
+                                    '<li style="width:78px">所在地区 :</li>'+
+                                    '<li><a href="#" class="por_unlimited_style" id="GetUserAreaUnlimited">不限</a></li>'+
+                                    '<li>'+
+                                        '<ul class="photo_niche_list">'+
+                                            '<li>'+
+                                                '<ul class="photo_niche_specific">'+
+                                                    '<li><a href="#">成都：</a></li>'+
+                                                    '<li><a href="#">武侯</a></li>'+
+                                                    '<li><a href="#">高新</a></li>'+
+                                                    '<li><a href="#">青羊</a></li>'+
+                                                    '<li><a href="#">锦江</a></li>'+
+                                                    '<li><a href="#">金牛</a></li>'+
+                                                    '<li><a href="#">成华</a></li>'+
+                                                    '<li><a href="#">新都</a></li>'+
+                                                    '<li><a href="#">新津</a></li>'+
+                                                    '<li><a href="#">龙泉驿</a></li>'+
+                                                    '<li><a href="#">温江</a></li>'+
+                                                    '<li><a href="#">郫县</a></li>'+
+                                                    '<li><a href="#">双流</a></li>'+
+                                                    '<li><a href="#">金堂</a></li>'+
+                                                    '<li><a href="#">大邑</a></li>'+
+                                                '</ul>'+
+                                            '</li>'+
+                                            '<li>'+
+                                                '<ul class="photo_niche_specific" style="margin-top: 15px">'+
+                                                    '<li><a href="#">成都周边：</a></li>'+
+                                                    '<li><a href="#">彭州</a></li>'+
+                                                    '<li><a href="#">崇州</a></li>'+
+                                                    '<li><a href="#">其他</a></li>'+
+                                                '</ul>'+
+                                            '</li>'+
+                                        '</ul>'+
+                                    '</li>'+
+                                '</ul>'+
+                            '</li>'+
+                            '<li>'+
+                                '<ul class="detailedClasslist type_of_site_soil">'+
+                                    '<li style="width:78px">场地类型 :</li>'+
+                                    '<li><a href="#" class="por_unlimited_style" id="typeOfSiteSoilUnlimited">不限</a></li>'+
+                                    '<li><a href="#" >室内影棚</a></li>'+
+                                    '<li><a href="#" >旅游景点</a></li>'+
+                                    '<li><a href="#" >摄影基地</a></li>'+
+                                '</ul>'+
+                            '</li>'+
+                            '<li style="border: none">'+
+                                '<ul class="detailedClasslist place_price_range" >'+
+                                    '<li style="width:78px">价格区间 :</li>'+
+                                    '<li><a href="#" class="por_unlimited_style" id="placePriceRangeUnlimited">不限</a></li>'+
+                                    '<li><a href="#" >免费</a></li>'+
+                                    '<li><a href="#" >300-800</a></li>'+
+                                    '<li><a href="#" >800-1700</a></li>'+
+                                    '<li><a href="#" >1700以上</a></li>'+
+                                '</ul>'+
+                            '</li>'+
+                        '</ul>'+
+                    '</div>'+
+                    '<div class="placeselect_con">'+
+                        '<div class="place_list">'+
+                            '<img src="../image/activityProjectimg.jpg" alt=""/>'+
+                            '<div class="placeselect_info">'+
+                            '<p class="placeselect_info_placename">九寨沟景区的</p><p class="placeselect_info_placeprice"><span>免费</span></p>'+
+                            '</div>'+
+                            '<p class="placeselect_info_tip">九寨沟是一个简介的家呢就开饭了打飞机啦上飞机了开始减肥；撒地方凉快；是地方开始加大房间开了多少解放啦师发撒旦法撒旦法发生大幅少</p>'+
+                        '</div>'+
+                        '<div class="place_list">'+
+                            '<img src="../image/activityProjectimg.jpg" alt=""/>'+
+                            '<div class="placeselect_info">'+
+                            '<p class="placeselect_info_placename">九寨沟景区的</p><p class="placeselect_info_placeprice">￥<span>200~400</span>元/小时</p>'+
+                            '</div>'+
+                            '<p class="placeselect_info_tip">九寨沟是一个简介的家呢就开饭了打飞机啦上飞机了开始减肥；撒地方凉快；是地方开始加大房间开了多少解放啦师发撒旦法撒旦法发生大幅少</p>'+
+                        '</div>'+
+                        '<div class="place_list">'+
+                            '<img src="../image/activityProjectimg.jpg" alt=""/>'+
+                            '<div class="placeselect_info">'+
+                            '<p class="placeselect_info_placename">九寨沟景区的</p><p class="placeselect_info_placeprice">￥<span>200</span>元/小时</p>'+
+                            '</div>'+
+                            '<p class="placeselect_info_tip">九寨沟是一个简介的家呢就开饭了打飞机啦上飞机了开始减肥；撒地方凉快；是地方开始加大房间开了多少解放啦师发撒旦法撒旦法发生大幅少</p>'+
+                        '</div>'+
+                        '<div class="place_list">'+
+                            '<img src="../image/activityProjectimg.jpg" alt=""/>'+
+                            '<div class="placeselect_info">'+
+                            '<p class="placeselect_info_placename">九寨沟景区的</p><p class="placeselect_info_placeprice"><span>免费</span></p>'+
+                            '</div>'+
+                            '<p class="placeselect_info_tip">九寨沟是一个简介的家呢就开饭了打飞机啦上飞机了开始减肥；撒地方凉快；是地方开始加大房间开了多少解放啦师发撒旦法撒旦法发生大幅少</p>'+
+                        '</div>'+
+                        '<div class="place_list">'+
+                            '<img src="../image/activityProjectimg.jpg" alt=""/>'+
+                            '<div class="placeselect_info">'+
+                            '<p class="placeselect_info_placename">九寨沟景区的</p><p class="placeselect_info_placeprice">￥<span>200~400</span>元/小时</p>'+
+                            '</div>'+
+                            '<p class="placeselect_info_tip">九寨沟是一个简介的家呢就开饭了打飞机啦上飞机了开始减肥；撒地方凉快；是地方开始加大房间开了多少解放啦师发撒旦法撒旦法发生大幅少</p>'+
+                        '</div>'+
+                        '<div class="place_list">'+
+                            '<img src="../image/activityProjectimg.jpg" alt=""/>'+
+                            '<div class="placeselect_info">'+
+                            '<p class="placeselect_info_placename">九寨沟景区的</p><p class="placeselect_info_placeprice">￥<span>200</span>元/小时</p>'+
+                            '</div>'+
+                            '<p class="placeselect_info_tip">九寨沟是一个简介的家呢就开饭了打飞机啦上飞机了开始减肥；撒地方凉快；是地方开始加大房间开了多少解放啦师发撒旦法撒旦法发生大幅少</p>'+
+                        '</div>'+
+                    '</div>'+
+                    '<div class="placeselect_paging_box">'+
+                        '<ul class="placeselect_paging">'+
+                            '<li><a href="#">首页</a></li>'+
+                            '<li><a href="#">上一页</a></li>'+
+                            '<li><a href="#">1</a></li>'+
+                            '<li><a href="#">2</a></li>'+
+                            '<li><a href="#">3</a></li>'+
+                            '<li><a href="#">下一页</a></li>'+
+                            '<li><a href="#">尾页</a></li>'+
+                        '</ul>'+
+                    '</div>'+
+                    "");
+
+                $("#placePriceRangeUnlimited,#GetUserAreaUnlimited,#typeOfSiteSoilUnlimited").css({
+                    color:"#fff"
+                });
+                $(".get_user_area a").click(function(){
+                    $(".get_user_area a").removeClass("por_unlimited_style");
+                    $(".get_user_area a").css({color:"#333"});
+
+                    $(this).addClass("por_unlimited_style");
+                    $(this).css({
+                        color:"#fff"
+                    });
+                    $(".get_user_area a").hover(function(){
+                        $(this).css({
+                            color: "#fff"
+                        });
+                    },function(){
+                        if($(this).hasClass("por_unlimited_style")){
+                            $(this).css({
+                                color: "#fff"
+                            });
+                        }
+                        else{
+                            $(this).css({
+                                color: "#333"
+                            });
+                        }
+                    });
+                });
+                $(".type_of_site_soil a").click(function(){
+                    $(".type_of_site_soil a").removeClass("por_unlimited_style");
+                    $(".type_of_site_soil a").css({color:"#333"});
+
+                    $(this).addClass("por_unlimited_style");
+                    $(this).css({
+                        color:"#fff"
+                    });
+                    $(".type_of_site_soil a").hover(function(){
+                        $(this).css({
+                            color: "#fff"
+                        });
+                    },function(){
+                        if($(this).hasClass("por_unlimited_style")){
+                            $(this).css({
+                                color: "#fff"
+                            });
+                        }
+                        else{
+                            $(this).css({
+                                color: "#333"
+                            });
+                        }
+                    });
+                });
+                $(".place_price_range a").click(function(){
+                    $(".place_price_range a").removeClass("por_unlimited_style");
+                    $(".place_price_range a").css({color:"#333"});
+
+                    $(this).addClass("por_unlimited_style");
+                    $(this).css({
+                        color:"#fff"
+                    });
+                    $(".place_price_range a").hover(function(){
+                        $(this).css({
+                            color: "#fff"
+                        });
+                    },function(){
+                        if($(this).hasClass("por_unlimited_style")){
+                            $(this).css({
+                                color: "#fff"
+                            });
+                        }
+                        else{
+                            $(this).css({
+                                color: "#333"
+                            });
+                        }
+                    });
+                });
+
+                break;
+
             default:
 
                 break;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="resources/css/publishportraitinfo.css"/>
     <script type="text/javascript" src="resources/js/libs/jquery.min.js"></script>
     <script type="text/javascript" src="resources/js/mainpage.js"></script>
+    <script type="text/javascript" src="resources/js/publishportraitinfo.js"></script>
 </head>
 <body>
 <div class="photographer_homepage_wrapper">
@@ -53,6 +54,7 @@
                 </div>
                 <ul class="photographer_management_services">
                     <li style="height: 50px;line-height: 50px">服务管理</li>
+                    <li><a href="#">订单管理</a></li>
                     <li><a href="#">已发布的服务</a></li>
                     <li><a href="#">已下架的服务</a></li>
                     <li><a href="#">草稿箱</a></li>
@@ -128,7 +130,7 @@
                 </li>
                 <li style="height: 64px;line-height: 64px">
                     <div>价格</div>
-                    <div>平台根据您的 摄影师评级 自动匹配合适价格。价格疑问？请点击<a href="#" id="priceQuestion">此处</a></div>
+                    <div>平台根据您的 摄影师评级 自动匹配合适价格。价格疑问？<a href="#" id="priceQuestion">请点击此处</a></div>
                 </li>
                 <li style="height: 73px;line-height: 73px">
                     <div>有效期</div>
@@ -147,8 +149,8 @@
                     <div>其他</div>
                     <div>
                         <p class="set_photographer_other_p">是否愿意提供全部原片给客户？</p>
-                        <input type="radio" id="provideAllRawYes"/><label>是</label>
-                        <input type="radio" id="provideAllRawNo"/><label>否</label>
+                        <input type="radio" id="provideAllRawYes" name="provideallraw"/><label>是</label>
+                        <input type="radio" id="provideAllRawNo" name="provideallraw"/><label>否</label>
                     </div>
                 </li>
             </ul>

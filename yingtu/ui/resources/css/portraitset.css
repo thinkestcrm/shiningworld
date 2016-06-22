@@ -26,12 +26,18 @@
     line-height: 20px;
     text-align: center;
 }
+.photo_niche_list a:hover{
+    background:#54688D;
+    border-radius: 7px;
+    color: #fff;
+}
 .por_unlimited_style{
     background:#54688D;
     border-radius: 7px;
 }
-#productionName,#productionBriefIntroduction{
+#productionName,#productionBriefIntroduction,#publishactivityName,#publishactivityIntroduction,#portraitsetProductionName,#portraitsetProductionIntroduction{
     color: #999;
+    cursor: pointer;
 }
 .choose_local_image{
     margin-top: 34px;
@@ -132,9 +138,23 @@
     color: #333;
     text-align: center;
 }
+.classification_of_works a:hover{
+    background:#54688D;
+    border-radius: 7px;
+    color: #fff;
+}
 .unlimited_style{
     background:#54688D;
     border-radius: 7px;
+}
+#productionNameInput,#productionBriefInput,#publishactivityNameInput,#publishactivityIntroductionInput,#portraitsetIntroductionInput,#portraitsetNameInput{
+    width: 300px;
+    height: 30px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    outline: none;
 }
 
 /*uploadsaidproduct*/

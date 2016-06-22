@@ -1,0 +1,26 @@
+﻿<div class="head" id="navigationBar">
+    <div class="head_box">
+        <div class="yt_logo">
+            <div class="logo_img"></div>
+            <p class="logo_title">影徒网</p>
+        </div>
+        <div class="top_search_box">
+            <ul>
+                <li><a href="#">活动</a></li>
+                <li><a href="#">分类</a><span class="down_arrow"></span></li>
+            </ul>
+            <div class="yt_search_box">
+                <input type="text" id="ytSearchText"/>
+                <input type="button" id="ytSearchBar"/>
+                <span class="magnifying_glass"></span>
+                <div class="search_box_back"></div>
+            </div>
+        </div>
+        <ul class="user_center_box">
+            <li><a href="#">用户中心</a></li>
+            <li><a href="#">摄影师主页</a></li>
+            <li><input type="button" value="注册" id="ytRegButton"/></li>
+            <li><input type="button" value="登录" id="ytLoginButton"/></li>
+        </ul>
+    </div>
+</div>

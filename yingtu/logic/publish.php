@@ -19,7 +19,7 @@
         while($stmt->fetch()){
             $tags = $tags . "." . $t;
         }
-          
+        
         $stmt->close();
         $mysqli->close();
         

@@ -17,5 +17,8 @@ $(document).ready(function() {
         }
 
     });
+    $(".photographer_homepage_wrapper,.photographer_homepage").css({
+        width:window.screen.width+"px"
+    });
 
 });

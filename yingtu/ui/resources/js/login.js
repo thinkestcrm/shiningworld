@@ -4,6 +4,9 @@
 
 $(document).ready(function() {
     //≥ı ºªØ
+    $(".login_warpper,.login_content").css({
+        width:window.screen.width+"px"
+    });
     document.getElementById('ordinaryLogin').checked = true;
     $('input[name="logintype"]').click(function(){
         if($(this).attr("checked")!=undefined)

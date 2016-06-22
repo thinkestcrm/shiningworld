@@ -17,6 +17,10 @@ body{
     text-align: center;
     box-shadow: #717171 0px 1px 1px;
 }
+#publishedPhotosDemand:hover{
+     background:#8D9DBC;
+     border: 1px solid #54688D;
+ }
 .user_center_con{
     width: 941px;
     height:178px ;

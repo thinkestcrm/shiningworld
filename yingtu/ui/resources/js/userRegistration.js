@@ -6,7 +6,8 @@ $(document).ready(function() {
     $('input:text').focus(function(){
         $(this).val("");
     });
-
-
+    $(".login_warpper,.login_content").css({
+        width:window.screen.width+"px"
+    });
 
 });

@@ -223,6 +223,11 @@ body{
     color: #333;
     text-align: center;
 }
+.classification_subsidiary a:hover{
+    background:#54688D;
+    border-radius: 7px;
+    color: #fff;
+}
 .unlimited_style{
     background:#54688D;
     border-radius: 7px;
@@ -276,6 +281,16 @@ body{
     height: auto;
     display: block;
 }
+.yingtu_img_light{
+    width: 233px;
+    height: auto;
+    display: block;
+    color: #fff;
+    position: absolute;
+    z-index: 1000;
+    opacity: 0.05;
+    top:0;
+}
 .yingtu_img_info{
     width: 233px;
     height:116px;
@@ -297,6 +312,9 @@ body{
     font-weight: 400;
     font-size: 14px;
     color: #000;
+}
+.information_description:hover{
+    color: #54688D;
 }
 .clinch_information{
     height: 32px;
@@ -326,13 +344,14 @@ body{
 }
 .heart_info{
     float: left;
-    width: 13px;
-    height: 11px;
+    width: 15px;
+    height: 14px;
     margin-right: 4px;
-    margin-top: 16px;
-    background: url("../image/heart.png") no-repeat;
-    background-size: 100%;
+    color: #D4D4D4;
+    margin-top: 11px;
+    cursor: pointer;
 }
+
 .like_degree{
     float: right;
 }

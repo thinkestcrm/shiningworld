@@ -1,0 +1,43 @@
+﻿<div class="company_profile_box">
+    <div class="company_profile_con">
+        <div class="company_profile_list">
+            <div class="profile_list_box">
+                <p>关于我们</p>
+                <ul>
+                    <li><a href="#">官方微博</a></li>
+                    <li><a href="#">微信公众号</a></li>
+                    <li><a href="#">淘宝店铺</a></li>
+                </ul>
+            </div>
+            <div class="profile_list_box">
+                <p>服务协议</p>
+                <ul>
+                    <li><a href="#">版权说明</a></li>
+                    <li><a href="#">微信公众号</a></li>
+                    <li><a href="#">淘宝店铺</a></li>
+                </ul>
+            </div>
+            <div class="ty_bottom_wordlog">
+                <p>影徒网</p>
+                <span>www.itoopic.com</span>
+            </div>
+            <div class="profile_list_box" id="profileListBoxright">
+                <p>客服中心</p>
+                <ul>
+                    <li><a href="#">企业QQ</a></li>
+                    <li><a href="#">微信公众号</a></li>
+                    <li><a href="#">淘宝店铺</a></li>
+                </ul>
+            </div>
+            <div class="profile_list_box" id="profileListBoxright1" style="margin-right: 0">
+                <p>联系我们</p>
+                <ul>
+                    <li><a href="#">官方电话</a></li>
+                    <li><a href="#">微信公众号</a></li>
+                    <li><a href="#">淘宝店铺</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>Copyright ? 1999-2016 Kingsoft Corporation.All rights reserved.成都科技有限公司 版权所有增值电信业务经营许可证 川B2-20130104　蜀ICP备14009198号-2</p>
+    </div>
+</div>

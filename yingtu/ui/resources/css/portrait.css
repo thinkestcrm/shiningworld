@@ -33,7 +33,6 @@ body{
     width: 572px;
     height: 38px;
     margin-top: 322px;
-    background: #f5f5f5;
     overflow: hidden;
 }
 .portrait_border{
@@ -60,6 +59,10 @@ body{
     line-height: 38px;
     text-align: center;
 }
+.portrait_label>li>a:hover{
+    color: #fff;
+    background: #54688D;
+}
 
 .portraitdetailedClass{
     width: 1158px;
@@ -82,6 +85,7 @@ body{
     color: #333;
     text-align: center;
 }
+
 .photo_niche_list{
     width: 800px;
     height:110px;
@@ -122,7 +126,7 @@ body{
     border:  1px solid #E8E8E8;
     border-bottom: 1px solid #B4B4B4;
 }
-#portraitPhotoNicheUnlimited,#portraitPhotographerLevelUnlimited,#portraitPriceRangeUnlimited{
+#portraitPhotoNicheUnlimited,#portraitPhotographerLevelUnlimited,#portraitPriceRangeUnlimited,#GetUserAreaUnlimited{
     display: inline-block;
     line-height: 20px;
     padding: 0 10px;
@@ -131,4 +135,111 @@ body{
 .por_unlimited_style{
     background:#54688D;
     border-radius: 7px;
+}
+.portraitdetailedClass a:hover{
+    background:#54688D;
+    border-radius: 7px;
+    color: #fff;
+}
+
+
+/*placeselect*/
+.placeselect_con{
+    width: 1205px;
+    height: 840px;
+    margin: 16px auto 0;
+}
+.place_list{
+    width: 399px;
+    height: 408px;
+    background: #fff;
+    border: 1px solid #F5F5F5;
+    box-shadow: #C4C4C4 1px 1px 1px;
+    margin-bottom: 16px;
+    float: left;
+    overflow: hidden;
+}
+.place_list>img{
+    width: 372px;
+    height: 247px;
+    margin: 20px 14px 22px;
+
+}
+.placeselect_info{
+    width: 372px;
+    height: 32px;
+    margin: 0 13px;
+    line-height: 32px;
+}
+.placeselect_info_tip{
+    width: 372px;
+    height: 72px;
+    margin: 8px 13px 0;
+    line-height: 21px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    text-indent:2em;
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+}
+.placeselect_info_placename{
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    float: left;
+    cursor: pointer;
+}
+.placeselect_info_placename:hover{
+    color: #8A9FC6;
+}
+.placeselect_info_placeprice{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FF8F20;
+    float: right;
+}
+.placeselect_info_placeprice>span{
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF8F20;
+}
+.placeselect_paging_box{
+    width: 1205px;
+    height: 284px;
+    margin: 0 auto;
+}
+.placeselect_paging{
+    width: 376px;
+    height: 33px;
+    margin: 37px auto 0;
+}
+.placeselect_paging>li{
+    width: auto;
+    height: 31px;
+    line-height: 31px;
+    float: left;
+    margin-right: 7px;
+}
+.placeselect_paging>li:last-child{
+    margin:0;
+}
+.placeselect_paging>li>a{
+    padding: 0 11px;
+    height: 31px;
+    text-align: center;
+    border: 1px solid #D7D7D7;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.placeselect_paging>li>a:hover{
+    background: #54688D;
+    color: #fff;
 }
