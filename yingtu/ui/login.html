@@ -3,11 +3,11 @@
     <head lang="en">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>普通登陆</title>
-        <link href="../ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
-        <link href="../ui/resources/css/login.css" type="text/css" rel="stylesheet"/>
-        <script type="text/javascript" src="../ui/resources/js/libs/jquery.min.js"></script>
-        <script type="text/javascript" src="../ui/resources/js/mainpage.js"></script>
-        <script type="text/javascript" src="../ui/resources/js/login.js" charset="gbk"></script>
+        <link href="ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+        <link href="ui/resources/css/login.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="ui/resources/js/libs/jquery.min.js"></script>
+        <script type="text/javascript" src="ui/resources/js/mainpage.js"></script>
+        <script type="text/javascript" src="ui/resources/js/login.js" charset="gbk"></script>
     </head>
     <body>
         <div class="login_warpper">
@@ -19,7 +19,7 @@
                             <div class="login_logimg"></div>
                             <p>影徒网</p>
                         </div>
-                        <ul class="login_info_box">
+                        <form class="login_info_box" method="POST" action="action.php?tgrid=3">
                             <li style="height: 43px;line-height: 43px">
                                 <input type="checkbox" id="mobileDynamicPass" name="logintype"/><label>手机动态密码登录</label>
                                 <input type="checkbox" id="ordinaryLogin" name="logintype"  /><label>普通登录</label>
@@ -34,10 +34,10 @@
                                 <input type="checkbox" id="autoLogin"/><label>自动登录</label>
                             </li>
                             <li style="height: 50px;">
-                                <input type="button" id="loginBar" value="登录"/>
+                                <input type="submit" id="loginBar" value="登录"/>
                             </li>
 
-                        </ul>
+                        </form>
                     </div>
                     <div class="login_info_tableback"><div>
                 </div>

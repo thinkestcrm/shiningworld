@@ -2,7 +2,20 @@
  * Created by 123 on 2016/6/10.
  */
 $(document).ready(function() {
-    //µ¼º½Ìõ¹Ì¶¨¶¨Î»
+    //äº‹ä»¶å¤„ç†å…¥å£
+    $("body").click(function(e){
+        switch(e.target.id){
+            case "ytLoginButton":
+                EventListener.loginButtonClick(e);
+            break;
+            default:
+                
+            break;
+        }
+    });
+    
+    
+    //å¯¼èˆªæ¡å›ºå®šå®šä½
     $(window.document).scroll(function(){
         if($(window.document).scrollTop()==0){
             $("#navigationBar").css({
@@ -31,7 +44,7 @@ $(document).ready(function() {
     });
 
 
-    //¶¯Ì¬ÑùÊ½
+    //åŠ¨æ€æ ·å¼
     $(".all_categories_bar").hover(function(){
             $(".all_categories_unfold").css({display:"block"});
         },function(){
@@ -65,3 +78,9 @@ $(document).ready(function() {
 
 
 });
+
+var EventListener = {
+    loginButtonClick:function(e){
+        window.location.href = "action.php?tgrid=1"
+    }
+};

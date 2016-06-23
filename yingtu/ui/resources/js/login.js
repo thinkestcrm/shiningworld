@@ -3,7 +3,19 @@
  */
 
 $(document).ready(function() {
-    //≥ı ºªØ
+    //‰∫ã‰ª∂Â§ÑÁêÜÂÖ•Âè£
+    $("body").click(function(e){
+        switch(e.target.id){
+            case "":
+
+            break;
+            default:
+                
+            break;
+        }
+    });    
+    
+    //ÂàùÂßãÂåñ
     $(".login_warpper,.login_content").css({
         width:window.screen.width+"px"
     });
@@ -22,8 +34,8 @@ $(document).ready(function() {
     $("#mobileDynamicPass").click(function(){
         if(document.getElementById('mobileDynamicPass').checked  == true){
             $("#mobileDynamicPasswordOrnormal").html(' ' +
-                '<input type="text" id="dynamicPass" value="∂ØÃ¨√‹¬Î"/>'+
-                '<input type="button" id="getPassword" value="ªÒ»°∂ØÃ¨√‹¬Î"/>'
+                '<input type="text" id="dynamicPass" value="Âä®ÊÄÅÂØÜÁ†Å"/>'+
+                '<input type="button" id="getPassword" value="Ëé∑ÂèñÂä®ÊÄÅÂØÜÁ†Å"/>'
             );
             $('input:text').focus(function(){
                 $(this).val("");
@@ -36,7 +48,7 @@ $(document).ready(function() {
     $("#ordinaryLogin").click(function(){
         if(document.getElementById('ordinaryLogin').checked  == true){
             $("#mobileDynamicPasswordOrnormal").html(' ' +
-                '<input type="text" id="normalLoginPassword" value="√‹¬Î"/>'
+                '<input type="text" id="normalLoginPassword" value="ÂØÜÁ†Å"/>'
             );
             $('input:text').focus(function(){
                 $(this).val("");
@@ -51,3 +63,7 @@ $(document).ready(function() {
 
 
 });
+
+var EventListener = {
+
+};
