@@ -25,7 +25,7 @@ body{
     overflow: hidden;
 }
 .photographer_homepage_label{
-    width: 140px;
+    width: 300px;
     height: 38px;
     margin-top: 94px;
     overflow: hidden;
@@ -39,18 +39,17 @@ body{
     width: 140px;
     height: 38px;
     float: left;
-    margin-right: 3px;
+    margin-right: 10px;
     line-height: 38px;
 }
 .photographer_homepage_label>li>a{
     display: inline-block;
     width: 140px;
     height: 38px;
-    background: #54688D;
     font-family: "Microsoft YaHei";
     font-weight: 400;
     font-size: 16px;
-    color: #fff;
+    color: #54688D;
     line-height: 38px;
     text-align: center;
 }
@@ -99,7 +98,10 @@ body{
     padding-left: 12px;
     padding-top: 16px;
 }
-#photographerReleaseBut{
+.personal_homepage_management_list>li:last-child{
+    font-size: 14px;
+}
+#photographerReleaseBut,#newMakeupAbility{
     width: 171px;
     height:50px ;
     margin:47px 0 0 13px;
@@ -113,7 +115,7 @@ body{
     text-align: center;
     box-shadow: #717171 0px 1px 1px;
 }
-#photographerReleaseBut:hover{
+#photographerReleaseBut:hover,#newMakeupAbility:hover{
     background:#8D9DBC;
     border: 1px solid #54688D;
 }
@@ -190,6 +192,320 @@ body{
     background: #54688D;
     color: #fff;
 }
+.photographer_management_box a:hover{
+    color: #60B3AD;
+}
+.photographer_homepage_con{
+    width: 940px;
+    height:417px ;
+    border: 1px solid #D7D7D7;
+    background: #fff;
+    overflow: hidden;
+}
+.photographer_homepage_head_portrait_box{
+    width: 240px;
+    height: 417px;
+    margin-left: 29px;
+    float: left;
+}
+.photographer_homepage_head_portrait{
+    width: 160px;
+    height: 160px;
+    border: 1px solid #888;
+    border-radius: 200px;
+    margin: 24px 0 17px 24px;
+    background: url("../image/photographer_homepage.png") no-repeat;
+    background-size: 100%;
+}
+.photographer_homepage_con_right{
+    width: 621px;
+    height: 417px;
+    float: left;
+}
+.photographer_homepage_synthetical_mark{
+    width: 200px;
+    height: 185px;
+    background: #FAFAFA;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: #C2C2C2 1px 8px 6px;
+    -moz-box-shadow: #C2C2C2 1px 8px 6px;
+    box-shadow: #C2C2C2 1px 8px 6px;
+    clear: both;
+    overflow: hidden;
+}
+.photographer_homepage_synthetical_mark>ul{
+    width: 158px;
+    height: 118px;
+    margin: 44px auto 0;
+    clear: both;
+}
+.photographer_homepage_synthetical_mark>ul>li{
+    width: 158px;
+    height: 29px;
+    line-height: 29px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.photographer_homepage_synthetical_mark>ul>li>i{
+    color: #888;
+}
+.photographer_homepage_synthetical_mark>ul>li>span:first-child{
+    margin-right: 17px;
+}
+.photographer_homepage_synthetical_mark>ul>li>span:last-child{
+    margin-right: 8px;
+}
+#comprehensiveRatingScores{
+    color: #FF9933;
+    margin: 0 8px 0 12px;
+}
+.photographer_homepage_head_info{
+    width: 621px;
+    height: 46px;
+    border-bottom: 1px solid #5D6D8A;
+    margin-top: 40px;
+}
+.photographer_homepage_head_info>p{
+    width: 127px;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 25px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    color: #54688D;
+    float: left;
+}
+.photographer_homepage_head_info>ul{
+    width: 300px;
+    height: 46px;
+    float: left;
+}
+.photographer_homepage_head_info>ul>li{
+    height: 46px;
+    line-height: 46px;
+    margin-right: 26px;
+    float:left ;
+}
+.photographer_homepage_head_info>ul>li>a{
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    padding: 0 18px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #54688D;
+    background: #DADFE9;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+.photographer_homepage_synopsis_info{
+    width: 605px;
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.photographer_homepage_synopsis_info>p{
+    width: 605px;
+    height: 37px;
+    line-height: 37px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.photographer_homepage_synopsis_info>p>a{
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.photographer_homepage_platform_ensure{
+    width: 605px;
+    height: 185px;
+    margin-left: 15px;
+    margin-top: 11px;
+    background: #FAFAFA;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: #C2C2C2 1px 8px 6px;
+    -moz-box-shadow: #C2C2C2 1px 8px 6px;
+    box-shadow: #C2C2C2 1px 8px 6px;
+    overflow: hidden;
+}
+.synopsis_info_age{
+    margin-right: 27px;
+}
+.synopsis_info_years{
+    margin-right: 7px;
+}
+.synopsis_info_phone_number{
+    margin: 0 21px 0 18px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 18px;
+    color: #FF9933;
+}
+.photographer_homepage_platform_ensure>p:first-child{
+    width: 535px;
+    height: 17px;
+    line-height: 17px;
+    margin-left: 36px;
+    margin-top: 17px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+}
+.photographer_homepage_platform_ensure>p:last-child{
+    width: 535px;
+    height: 40px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+    margin-left: 36px;
+    text-indent:2em;
+}
+.photographer_homepage_platform_ensure>ul{
+    width: 464px;
+    height: 76px;
+    margin-left: 105px;
+}
+.photographer_homepage_platform_ensure>ul>li{
+    float: left;
+    height: 76px;
+    margin-right: 35px;
+}
+.photographer_homepage_platform_ensure>ul>li>img{
+    display: block;
+    width: 52px;
+    height: 52px;
+    margin: 0 10px;
+
+}
+.photographer_homepage_platform_ensure>ul>li>span{
+    height: 32px;
+    padding: 0 7px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+.I_like_box{
+    margin-top: 25px;
+}
+.I_like_nav{
+    width: 952px;
+    height:42px ;
+    border-bottom: 2px solid #37466B;
+}
+.I_like_show_list{
+    width: 952px;
+    height:auto ;
+    overflow: hidden;
+}
+.I_like_nav>a{
+    width: 235px;
+    height:42px ;
+    background: #5D6E8B;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 42px;
+}
+
+.yingtu_img_show{
+    width: 233px;
+    height: auto;
+    display: block;
+}
+.yingtu_img_info{
+    width: 233px;
+    height:116px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.yingtu_img_info>li{
+    width: 203px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.information_description{
+    height: 50px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.clinch_information{
+    height: 32px;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.source_info{
+    height: 35px;
+    background: #FAFAFA;
+    border-top: 1px solid #F2F2F2;
+    line-height: 35px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+.price_info{
+    float: right;
+}
+#priceValue{
+    font-size: 16px;
+    color: #f00;
+    font-weight: 200;
+}
+.heart_info{
+    float: left;
+    width: 13px;
+    height: 11px;
+    margin-right: 4px;
+    margin-top: 16px;
+    background: url("../image/heart.png") no-repeat;
+    background-size: 100%;
+}
+.like_degree{
+    float: right;
+}
+#likeDegreeNo{
+    font-weight: 200;
+}
+#sourceName{
+    float: left;
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 
 
 
@@ -308,3 +624,13 @@ body{
 #priceQuestion:hover{
     color: #f00;
 }
+/*workspace*/
+.workspace_wrapper,.dresserhomepage_homepage_wrapper{
+    width:1920px;
+    height: auto;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+    background: #fff;
+}
+/*dresserhomepage*/

@@ -66,7 +66,12 @@ body{
     height: 608px;
     background: #f7ecb5;
     margin: 0 auto;
-
+    overflow: hidden;
+    max-width:774px;
+}
+.foodproduct_picture_presentation>img{
+    margin-left: 1px;
+    float: left;
 }
 .foodproduct_picture_presentation_synopsis{
     width: 752px;
@@ -106,13 +111,14 @@ body{
     overflow: hidden;
 }
 .foodproduct_buy_related{
-    width: 367px;
-    height: 622px;
+    width: 321px;
+    height: 596px;
     background: #fff;
     border: 1px solid #D7D7D7;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+    padding: 26px 23px 0;
 }
 .foodproduct_buy_platform{
     width: 367px;
@@ -123,7 +129,418 @@ body{
     -moz-border-radius: 20px;
     border-radius: 20px;
     margin-top: 10px;
+    overflow: hidden;
 }
+.foodproduct_buy_platform_top{
+    width: 290px;
+    height: 39px;
+    line-height: 39px;
+    margin: 17px auto 0;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+    margin-left: 31px;
+}
+.foodproduct_buy_platform_top>span{
+    float: left;
+    line-height: 39px;
+}
+.foodproduct_buy_platform_top>img{
+    float: left;
+    width: 58px;
+    height: 39px;
+    line-height: 39px;
+    margin: 0 5px 0 14px;
+}
+#ZhiFuBaoPay{
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 12px;
+    color: #666;
+}
+.foodproduct_buy_platform_con{
+    width: 323px;
+    height: 172px;
+    background: #FAFAFA;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foodproduct_buy_platform_con>ul{
+    width: 302px;
+    height: 76px;
+    margin: 25px 0 0 22px;
+}
+.foodproduct_buy_platform_con>ul>li{
+    float: left;
+    height: 76px;
+    margin-right:3px;
+}
+.foodproduct_buy_platform_con>ul>li>img{
+    display: block;
+    width: 52px;
+    height: 52px;
+    margin: 0 4px;
+
+}
+.foodproduct_buy_platform_con>ul>li>span{
+    height: 25px;
+    padding: 0 2px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+}
+.foodproduct_buy_platform_con>p{
+    width: 302px;
+    height: 65px;
+    margin: 0 0 0 22px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+    text-indent:2em;
+}
+.foodproduct_buy_relatedinfo{
+    width: 323px;
+    height: 159px;
+}
+.foodproduct_buy_relatedinfo_head{
+    width: 214px;
+    height: 97px;
+    margin-right: 12px;
+    float: left;
+}
+.foodproduct_buy_relatedinfo_head>p{
+    width: 214px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    color: #54688D;
+}
+.foodproduct_buy_relatedinfo_head>ul{
+    width: 214px;
+    height: 57px;
+}
+.foodproduct_buy_relatedinfo_head>ul>li{
+    height: 57px;
+    line-height: 57px;
+    margin-right: 7px;
+    float:left ;
+}
+.foodproduct_buy_relatedinfo_head>ul>li>a{
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    padding: 0 18px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #54688D;
+    background: #DADFE9;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+.foodproduct_buy_relatedinfo_head>ul>li>a:hover{
+    color: #FF9933;
+}
+.foodproduct_buy_relatedinfo_head>div{
+    height: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.foodproduct_buy_relatedinfo_head>div>i{
+    color: #888;
+}
+#foodproductRatingScores{
+    color: #FF9933;
+    margin: 0 8px 0 12px;
+}
+.foodproduct_buy_relatedinfo_head_portrait{
+    width: 97px;
+    height: 97px;
+    float: left;
+    background: url("../image/u294.png")no-repeat;
+    background-size: 100%;
+}
+.foodproduct_buy_relatedinfo_contactway{
+    width: 323px;
+    height: 47px;
+    line-height: 47px;
+    clear: both;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.foodproduct_buy_relatedinfo_contactway>a{
+     font-weight: 400;
+     font-family: "microsoft yahei";
+     font-size: 14px;
+     color: #333;
+ }
+.foodproduct_buy_relatedinfo_contactway>a:last-child{
+    float: right;
+    color: #ccc;
+}
+.foodproduct_buy_relatedinfo_phonenumr{
+    margin: 0 21px 0 18px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 18px;
+    color: #FF9933;
+}
+
+
+.foodproduct_buy_number_select{
+    width: 323px;
+    height: 180px;
+    background: #FAFAFA;
+}
+.foodproduct_buy_number_price{
+    width: 287px;
+    height: 80px;
+    border-bottom: 1px dashed #ccc;
+    margin: 0 auto;
+}
+.foodproduct_buy_number_price>p{
+    width: 215px;
+    line-height: 80px;
+    height: 80px;
+    font-family:"microsoft yahei";
+    font-weight: 700;
+    font-size: 28px;
+    color: #FF8F20;
+    float: left;
+}
+.foodproduct_thismonth_taken{
+    width: 72px;
+    height: 57px;
+    float: left;
+    margin-top: 10px;
+}
+.foodproduct_thismonth_taken>p{
+    width: 72px;
+    height: 28px;
+    line-height: 28px;
+    clear: both;
+    font-family:"microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.foodproduct_thismonth_taken>p:last-child{
+    color: #999;
+}
+.foodproduct_buy_numberofcases{
+    width: 287px;
+    height: 20px;
+    line-height: 20px;
+    margin: 32px auto 0;
+}
+.foodproduct_buy_numberofcases>span{
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.foodproduct_buy_numberofcases>div{
+    width: 92px;
+    height: 20px;
+    margin: 0 12px;
+    line-height: 20px;
+    float: left;
+}
+#numberOfCasesAdd,#numberOfCasesSubtract{
+    width: 16px;
+    height: 14px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    margin-top: 2px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background: #FFFFFF;
+}
+#numberOfCasesShow{
+    width: 51px;
+    height: 18px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+}
+#foodproductAmountAdd,#foodproductAmountSubtract{
+    width: 16px;
+    height: 14px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    margin-top: 2px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background: #FFFFFF;
+}
+#foodproductSmountShow{
+    width: 51px;
+    height: 18px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+}
+#foodproductTimeAdd,#foodproductTimeSubtract{
+    width: 16px;
+    height: 14px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    margin-top: 2px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background: #FFFFFF;
+}
+#foodproductTimeShow{
+    width: 51px;
+    height: 18px;
+    border: 1px solid #999;
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+}
+
+.foodproduct_provide_film_show{
+    width: 323px;
+    height: 70px;
+    background: #E3E3E3;
+    border-bottom: 1px solid #D7D7D7;
+    overflow: hidden;
+
+}
+.foodproduct_provide_film_show>div{
+    height: 70px;
+    line-height: 70px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-left: 20px;
+}
+.foodproduct_provide_film_show>div>span{
+    margin:0 7px 0 18px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 20px;
+    color: #666;
+}
+.foodproduct_provide_film_show>p{
+    width: 303px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E1E1E;
+}
+.foodproduct_provide_film_show>p:first-child{
+    color: #666;
+}
+.foodproduct_buy_related>p{
+    width: 288px;
+    height: 64px;
+    line-height: 64px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #CCCCCC;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.foodproduct_buy_related>p>span{
+    margin: 0 13px;
+}
+.foodproduct_buy_related>ul{
+    width: 323px;
+    height: 50px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.foodproduct_buy_related>ul>li{
+    width: 155px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+}
+.foodproduct_buy_related>ul>li:first-child{
+    margin-right: 13px;
+}
+.foodproduct_buy_related>ul>li>input{
+    width: 155px;
+    height:50px ;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+.foodproduct_buy_related>ul>li:last-child>input {
+    background: #FF9933;
+}
+.foodproduct_buy_related>ul>li>input:hover{
+    background:#FF6633;
+}
+
+
+
+
+
+
 
 
 
@@ -153,6 +570,7 @@ body{
     width: 1165px;
     height: 181px;
     margin-left: 18px;
+    overflow: hidden;
 }
 .foodproduct_supporting_services_list>li{
     width: 178px;
@@ -160,11 +578,14 @@ body{
     background: #fff;
     float: left;
     margin-right: 21px;
+    position: relative;
+    overflow: hidden;
 }
 .foodproduct_supporting_services_list>li>img{
     width: 160px;
     height: 107px;
     margin: 11px 8px 0;
+    cursor: pointer;
 }
 .foodproduct_supporting_services_list>li>div{
     width: 160px;
@@ -193,11 +614,10 @@ body{
     line-height: 20px;
     text-align: center;
 }
-#foodproductAddEquipments{
+#foodproductAddScenario,#foodproductAddClothing,#foodproductAddMakeup{
     border: 1px solid #999;
     width: 18px;
     height: 18px;
-
 }
 
 
@@ -233,15 +653,14 @@ body{
 .his_works_nav_list>li>a{
     display: inline-block;
     width: 233px;
-    height: 40px;
+    height: 42px;
     background: #fff;
     font-family: "Microsoft YaHei";
     font-weight: 400;
     font-size: 16px;
     color: #333;
-    line-height: 40px;
+    line-height: 42px;
     text-align: center;
-    border: 1px solid #F5F5F5;
 }
 .his_works_nav_list>li>a:hover{
     background: #54688D;
@@ -357,4 +776,7 @@ body{
     overflow: hidden;
 }
 
-/*food*/
+/*^food*/
+
+
+/*portraitproduct*/

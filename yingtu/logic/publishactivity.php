@@ -7,7 +7,7 @@
     $mysqli->connect("localhost","root","","yingtu");
     $mysqli->query("SET NAMES utf8");  
         
-    if(!$smarty->isCached("index.html")){
+    if(!$smarty->isCached("publishactivity.html")){
         /*
         $smarty->assign("userid",$_GET["id"]);
 
@@ -27,6 +27,6 @@
         */
     }
     //need to delete the cache instance when user infomation changed!
-    $smarty->display("../ui/login.html");
+    $smarty->display("../ui/publishactivity.html");
     
 ?>

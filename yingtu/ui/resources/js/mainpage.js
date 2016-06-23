@@ -28,6 +28,17 @@ $(document).ready(function() {
                 background:"#fff",
                 boxShadow: "#aaa -3px 2px 10px"
             });
+            $("#navigationBar").hover(function(){
+                $("#navigationBar").css({
+                    background:"#fff",
+                    boxShadow: "#aaa -3px 2px 10px"
+                });
+            },function(){
+                $("#navigationBar").css({
+                    background:"#fff",
+                    boxShadow: "#aaa -3px 2px 10px"
+                });
+            });
         }
 
     });

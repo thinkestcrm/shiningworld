@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>化妆师主页</title>
+    <link href="../ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../ui/resources/css/photographer.css"/>
+    <link rel="stylesheet" href="../ui/resources/css/waterfall.css"/>
+    <link rel="stylesheet" href="../ui/resources/css/font-awesome.css"/>
+    <link rel="stylesheet" href="../ui/resources/css/font-awesome.min.css"/>
+    <script src="../ui/resources/js/libs/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="../ui/resources/js/libs/blocksit.min.js"></script>
+    <script type="text/javascript" src="../ui/resources/js/waterfall4row.js"></script>
+    <script type="text/javascript" src="../ui/resources/js/mainpage.js"></script>
+</head>
+<body>
+<div class="dresserhomepage_homepage_wrapper" style="height: auto">
+    {include file="../ui/resources/blk/header.blk"}
+    <div class="photographer_homepage">
+        <div class="photographer_homepage_con_box">
+            <ul class="photographer_homepage_label">
+                <li><a href="#" id="personalHomepage" style="background: #54688D;color: #fff;">个人主页</a></li>
+            </ul>
+            <div class="photographer_homepage_border"></div>
+        </div>
+    </div>
+    <div class="photographer_homepage_main" style="height: auto;margin-bottom: 50px">
+        <div class="photographer_homepage_main_left">
+            <div class="photographer_management_box">
+                <div class="photographer_management_release">
+                    <input type="button" value="新增化妆能力" id="newMakeupAbility"/>
+                </div>
+                <ul class="photographer_management_services">
+                    <li style="height: 50px;line-height: 50px">服务管理</li>
+                    <li><a href="#">订单管理</a></li>
+                </ul>
+                <ul class="personal_homepage_management_list">
+                    <li></li>
+                </ul>
+                <div class="photographer_certification">
+                    <input type="button" value="实名认证" id="photographerCertificationBut"/>
+                </div>
+            </div>
+        </div>
+        <div class="photographer_homepage_main_right" style="height: auto">
+            <div class="photographer_homepage_con">
+                <div class="photographer_homepage_head_portrait_box">
+                    <div class="photographer_homepage_head_portrait"></div>
+                    <div class="photographer_homepage_synthetical_mark">
+                        <ul>
+                            <li><i class="fa fa-1x fa-star"></i>
+                                <i class="fa fa-1x fa-star"></i>
+                                <i class="fa fa-1x fa-star"></i>
+                                <i class="fa fa-1x fa-star"></i>
+                                <i class="fa fa-1x fa-star"></i><span id="comprehensiveRatingScores">5.0</span>分</li>
+                            <li><span>拍   摄：</span><span>10  </span>次</li>
+                            <li><span>喜   欢：</span><span>95841</span></li>
+                            <li><span>积   分：</span><span>30</span>分</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="photographer_homepage_con_right">
+                    <div class="photographer_homepage_head_info">
+                        <p>一斗大熊</p>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="photographer_homepage_synopsis_info">
+                        <p>男丨 <span class="synopsis_info_age">24</span>摄影丨 <span class="synopsis_info_years">2</span>年</p>
+                        <p>联系方式：<span class="synopsis_info_phone_number">181****9878</span><a href="#">[查看]</a></p>
+                    </div>
+                    <div class="photographer_homepage_platform_ensure">
+                        <p>平台保证：</p>
+                        <ul>
+                            <li>
+                                <img src="../ui/resources/image/workstofilm.png" alt=""/>
+                                <span>作品实拍</span>
+                            </li>
+                            <li>
+                                <img src="../ui/resources/image/notsatisfiedremake.png" alt="" style="margin: 0 16px"/>
+                                <span>不满意重拍</span>
+                            </li>
+                            <li>
+                                <img src="../ui/resources/image/realnameauthentication.png" alt=""/>
+                                <span>实名认证</span>
+                            </li>
+                            <li>
+                                <img src="../ui/resources/image/afterplacingorders.png" alt="" style="margin: 0 16px"/>
+                                <span>联系后下单</span>
+                            </li>
+                        </ul>
+                        <p>您可以直接付款给摄影师，也可以在平台上付款。我们不收取任何中介费用，推荐您在平台交易以获得质保承诺。</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    {include file="../ui/resources/blk/foot.blk"}
+</div>
+</body>
+</html>

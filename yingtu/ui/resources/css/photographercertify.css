@@ -1,14 +1,73 @@
+body{
+    padding: 0;
+    margin:0 ;
+}
+.photographercertify_wrapper{
+    width:1920px;
+    height: 1333px;
+    background:#FFFFFF;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+}
+.photographercertify_homepage{
+    width: 1920px;
+    height: 134px;
+    overflow: hidden;
+    margin: 70px auto 0;
+}
+.photographercertify_homepage_con_box{
+    width: 1205px;
+    height: 134px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.photographercertify_homepage_label{
+    width: 140px;
+    height: 38px;
+    margin-top: 94px;
+    overflow: hidden;
+}
+.photographercertify_homepage_border{
+    width: 1205px;
+    height: 2px;
+    background: #54688D;
+}
+.photographercertify_homepage_label>li{
+    width: 140px;
+    height: 38px;
+    float: left;
+    margin-right: 3px;
+    line-height: 38px;
+}
+.photographercertify_homepage_label>li>a{
+    display: inline-block;
+    width: 140px;
+    height: 38px;
+    background: #54688D;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+}
+.photographercertify_homepage_main{
+    width: 1205px;
+    height:830px ;
+    overflow: hidden;
+    margin: 0 auto;
+}
 .photographer_certification_con{
-    width: 941px;
+    width: 1203px;
     height: 647px;
-    background: #FAFAFA;
     border: 1px solid #D7D7D7;
     margin-top: 12px;
 }
 .current_certification_step{
     width: 941px;
     height: 30px;
-    margin-top: 22px;
+    margin-top: 62px;
 }
 .current_certification_step>li{
     float: left;
@@ -36,7 +95,7 @@
     font-weight: 400;
     font-size: 14px;
     color: #333;
-    margin: 0 5px;
+    margin: 0 38px 0 5px;
 }
 .current_certification_step>li>a{
     font-family: 'Microsoft YaHei';
@@ -50,16 +109,16 @@
 .photographer_certification_con>p{
     font-family: 'Microsoft YaHei';
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     color: #333;
     width: 712px;
     height: 55px;
     line-height: 55px;
     margin-top: 6px;
-    margin-left: 149px;
+    margin-left: 187px;
 }
 .basic_contact_information{
-    margin-left: 149px;
+    margin-left: 187px;
     width: 714px;
     height: 492px;
 }
@@ -93,11 +152,11 @@
     font-weight: 400;
     font-size: 14px;
 }
-.basic_contact_information>li>div:last-child>input,.basic_contact_information>li>div:last-child>select{
-    width: 163px;
-    height: 35px;
+.basic_contact_information>li>div:last-child>input,.basic_contact_information>li>div:last-child>select,#regionOther{
+    width: 213px;
+    height: 33px;
     float: left;
-    border: 1px solid #CBCBCB;
+    border: 1px inset #DCDCDC;
     color: #333;
     font-family: 'Microsoft YaHei';
     font-weight: 400;
@@ -105,9 +164,29 @@
     padding-left: 10px;
     margin-right: 5px;
 }
+.basic_contact_information>li>div:last-child>select{
+    width: 140px;
+    margin-right: 24px;
+}
+#regionOther{
+    margin-top: 15px;
+    clear:both;
+    width: 485px;
+}
+.basic_contact_information>li>div:last-child>span{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 12px;
+
+}
 .head_portrait{
-    width: 125px;
-    height: 122px;
+    width: 146px;
+    height: 139px;
     float: left;
     background: url("../image/headportrait.png") no-repeat;
     background-size: 100%;
@@ -119,19 +198,17 @@
 }
 .upload_head_portrait{
     position: relative;
-    background: #F2F2F2;
-    width: 128px;
-    height: 36px;
-    line-height: 36px;
-    border: 1px solid #8E93B8;
+    width: 120px;
+    height: 49px;
+    line-height: 49px;
+    border: 1px solid #60B2AC;
     text-align: center;
     cursor: pointer;
-    margin: 42px 0 0 13px;
-    color: #647EA9;
+    margin: 42px 0 0 22px;
+    color: #60B2AC;
     font-family: 'Microsoft YaHei';
     font-weight: 400;
     font-size: 14px;
-    border-radius: 5px;
 }
 #uploadRealFace{
     width: 132px;
@@ -154,13 +231,46 @@
     font-size: 14px;
     line-height: 22px;
 }
+.photographercertify_barlist{
+    width: 500px;
+    height:71px;
+    margin-left: 530px;
+    float: left;
+    overflow: hidden;
+}
+.photographercertify_barlist>li{
+    width: 214px;
+    height:71px;
+    float: left;
+    overflow: hidden;
+}
+.photographercertify_barlist>li>input{
+    width: 188px;
+    height:50px ;
+    margin:15px 0 0 13px;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+    outline: none;
+}
+.photographercertify_barlist>li>input:hover{
+    background:#8D9DBC;
+    border: 1px solid #54688D;
+}
+
+
 
 
 /*uploadicard*/
 .id_card_info_con{
-    width: 941px;
-    height: 357px;
-    background: #FAFAFA;
+    width: 1203px;
+    height: 355px;
     border: 1px solid #D7D7D7;
     margin-top: 12px;
 }
@@ -172,15 +282,15 @@
     width: 536px;
     height: 76px;
     line-height: 76px;
-    margin-left: 109px;
+    margin-left: 139px;
 }
 .id_card_image{
-    width: 536px;
+    width: 700px;
     height: 169px;
-    margin-left: 109px;
+    margin-left: 139px;
 }
 .id_card_image>li{
-    width: 170px;
+    width: 218px;
     height: 169px;
     float: left;
     margin-right: 12px;
@@ -189,7 +299,7 @@
     margin-right: 0;
 }
 .id_card_image>li>div{
-    width: 168px;
+    width: 216px;
     height: 128px;
     border: 1px solid #D7D7D7;
 }
@@ -206,7 +316,7 @@
 .id_card_note{
     width: 536px;
     height: 52px;
-    margin-left: 109px;
+    margin-left: 139px;
     line-height: 52px;
     font-family: 'Microsoft YaHei';
     font-weight: 400;
@@ -218,25 +328,24 @@
 }
 /*bindzhifubao*/
 .binding_alipay_con{
-    width: 939px;
+    width: 1203px;
     height: 214px;
-    background: #FAFAFA;
     border: 1px solid #D7D7D7;
     margin-top: 12px;
 }
 .binding_alipay_con>ul{
-    width: 295px;
-    height: 80px;
-    margin: 48px 0 0 41px;
+    width: 400px;
+    height: 90px;
+    margin: 48px 0 0 54px;
 }
 .binding_alipay_con>ul>li{
-    width: 295px;
-    height: 40px;
-    line-height: 40px;
+    width: 400px;
+    height: 45px;
+    line-height: 45px;
 }
 .binding_alipay_con>ul>li>p{
     width: 121px;
-    height: 40px;
+    height: 45px;
     float: left;
     font-family: 'Microsoft YaHei';
     font-weight: 400;
@@ -244,12 +353,12 @@
     color: #333;
 }
 .binding_alipay_con>ul>li>input{
-    width: 165px;
+    width: 211px;
     height: 33px;
     margin-top: 4px;
     padding-left: 5px;
     float: left;
-    border: 1px solid #DCDCDC;
+    border: 1px inset #DCDCDC;
     font-family: 'Microsoft YaHei';
     font-weight: 400;
     font-size: 14px;
