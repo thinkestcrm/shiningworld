@@ -1,0 +1,256 @@
+.partners_wrapper{
+    width:1920px;
+    height: auto
+    background: #fff;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+}
+
+.partners{
+    width: 1920px;
+    height: 134px;
+    overflow: hidden;
+    margin: 70px auto 0;
+}
+.partners_con_box{
+    width: 1205px;
+    height: 134px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.partners_label{
+    width: 300px;
+    height: 38px;
+    margin-top: 94px;
+    overflow: hidden;
+}
+.partners_border{
+    width: 1205px;
+    height: 2px;
+    background: #54688D;
+}
+.partners_label>li{
+    width: 140px;
+    height: 38px;
+    float: left;
+    margin-right: 10px;
+    line-height: 38px;
+}
+.partners_label>li>a{
+    display: inline-block;
+    width: 140px;
+    height: 38px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #54688D;
+    line-height: 38px;
+    text-align: center;
+}
+.partners_label>li>a:hover{
+    background: #54688D;
+    color: #fff;
+}
+.partners_main{
+    width: 1205px;
+    height: auto
+    overflow: hidden;
+    margin: 0 auto 50px;
+    clear: both;
+}
+.partners_main_left{
+    float: left;
+    width: 233px;
+    height:687px ;
+    margin-right: 35px;
+    margin-top: 22px;
+    border: 1px solid #D7D7D7;
+    box-shadow: #9CA4A8 0px 1px 1px;
+    background: #FAFAFA;
+}
+.partners_main_right{
+    float: left;
+    width: 919px;
+    margin-top: 22px;
+    height: auto
+}
+.partners_management_box{
+    width: 171px;
+    height:687px ;
+    margin-left: 28px;
+}
+.partners_main_right_table1{
+    width: 919px;
+    background: #fff;
+    overflow: hidden;
+    height:552px ;
+    margin-bottom: 44px;
+}
+.partners_management_barlist{
+    width: 171px;
+    height:314px ;
+    overflow: hidden;
+}
+.partners_management_barlist>li{
+    width: 171px;
+    height:52px ;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.partners_management_barlist>li>input{
+    width: 171px;
+    height:50px ;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+    outline: none;
+    clear: both;
+}
+.partners_management_barlist>li>input:hover{
+    background:#5FB2AC;
+    border: 1px solid #5FB2AC;
+}
+.platform_makeup_girl{
+    width: 919px;
+    height:41px ;
+    line-height: 41px;
+    background: #54688D;
+}
+.platform_makeup_girl>p{
+     margin-left: 57px;
+    width: 150px;
+    height:41px ;
+    line-height: 41px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    float: left;
+ }
+.platform_makeup_girl_header{
+    width: 917px;
+    height:37px ;
+    background: #F9F9F9;
+    border: 1px solid #ccc;
+    margin-bottom: 3px;
+}
+.platform_makeup_girl_header>li{
+    width: 100px;
+    height:37px ;
+    line-height: 37px;
+    float: left;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.platform_makeup_girl_tablebody{
+    height:398px ;
+    width: 917px;
+    border: 1px solid #ccc;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.platform_makeup_girl_tablebody>li{
+    height:98px ;
+    width: 917px;
+    border-bottom: 2px solid #ccc;
+}
+.platform_makeup_girl_tablebody>li:last-child{
+    border-bottom:none;
+}
+.platform_makeup_girl_table_row{
+    height:98px ;
+    width: 917px;
+}
+.platform_makeup_girl_table_row>li{
+    float: left;
+    width: 100px;
+    height: 98px;
+    border-right: 2px solid #ccc;
+}
+.platform_makeup_girl_table_row>li:last-child{
+    border:none;
+}
+.platform_makeup_girl_table_row>li>img{
+    width: 43px;
+    height:73px ;
+    margin: 13px 10px 0 0 ;
+    float: left;
+}
+.platform_makeup_girl_dressername>p{
+    float: left;
+    clear: right;
+    width: 98px;
+    height: 25px;
+    line-height: 25px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    margin-top: 31px;
+
+}
+.platform_makeup_girl_dressername>span{
+    float: left;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #ccc;
+    width: 98px;
+    height: 20px;
+    line-height: 20px;
+}
+.become_partnership,.termination_relations_cooperation{
+    width: 108px;
+    height: 30px;
+    background: #54688D;
+    text-align: center;
+    line-height: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 34px;
+    cursor: pointer;
+}
+.termination_relations_cooperation{
+    background: #5FB2AC;
+}
+.platform_makeup_girl_address>p{
+    width: 98px;
+    margin-top: 31px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.platform_makeup_girl_annotation_box{
+    width: 917px;
+    height: 57px;
+    background: #F9F9F9;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.platform_makeup_girl_annotation_box>p{
+    width: 627px;
+    height: 40px;
+    margin: 10px 0 0 8px;
+    line-height: 20px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}

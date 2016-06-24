@@ -40,6 +40,7 @@ body{
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+    overflow: hidden;
 }
 .foodproduct_info_name{
     width: 752px;
@@ -64,7 +65,6 @@ body{
 .foodproduct_picture_presentation{
     width: 774px;
     height: 608px;
-    background: #f7ecb5;
     margin: 0 auto;
     overflow: hidden;
     max-width:774px;
@@ -537,14 +537,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
 .foodproduct_supporting_services{
     width: 1203px;
     height: 262px;
@@ -780,3 +772,466 @@ body{
 
 
 /*portraitproduct*/
+
+/*placeproduct*/
+.photographer_proposed_site{
+    width: 745px;
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 1px solid #D7D7D7;
+    background: #54688D;
+    padding-left: 63px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.photographer_proposed_site_con{
+    width: 693px;
+    height: 454px;
+    margin: 19px 53px 0 63px;
+    overflow: hidden;
+}
+.photographer_proposed_site_top{
+    width: 693px;
+    height: 132px;
+    overflow: hidden;
+}
+.photographer_proposed_site_info{
+    width: 405px;
+    height: 132px;
+    float: left;
+    margin-right: 85px;
+}
+.photographer_proposed_picture{
+    width: 85px;
+    height: 129px;
+    float: left;
+    margin: 3px 40px 0 0;
+    background: url("../image/u381.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+.photographer_proposed_site_name{
+    width: 275px;
+    height: 132px;
+    float: left;
+}
+.photographer_proposed_site_name>p{
+    width: 275px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6px;
+}
+.photographer_proposed_site_name>ul{
+    width: 275px;
+    height: 96px;
+}
+.photographer_proposed_site_name>ul>li{
+    width: 275px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 7px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.photographer_proposed_site_name>ul>li>div{
+    height: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.photographer_proposed_site_name>ul>li>div>i{
+    color: #888;
+}
+.photographer_proposed_site_name>ul>li>p{
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.photographer_proposed_site_name>ul>li>p>a{
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+.photographer_proposed_site_score{
+    color: #FF9933;
+    margin: 0 7px;
+}
+.photographer_proposed_site_phone{
+    font-size: 18px;
+    color: #FF9933;
+    margin: 0 18px;
+
+}
+.photographer_proposed_site_photo_album{
+    width: 201px;
+    height: 130px;
+    float: left;
+    border: 1px solid #CCCCCC;
+}
+.photographer_proposed_site_photo_album>p{
+    width: 201px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    background: #898989;
+}
+.photographer_proposed_site_photo_album>div{
+    width: 201px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.photographer_proposed_specific_description{
+    width: 556px;
+    height: 232px;
+    border: 1px solid #CCCCCC;
+    margin-top: 36px ;
+    overflow: hidden;
+    clear: both;
+    float: left;
+}
+.photographer_proposed_specific_header{
+    width: 526px;
+    height: 42px;
+    line-height: 42px;
+    background: #5FB2AC;
+    padding-left: 30px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+}
+.photographer_proposed_description_con{
+    width: 557px;
+    height: 191px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.photographer_proposed_description_con>p{
+    width: 479px;
+    height: 150px;
+    margin: 35px auto 0;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+
+.photographer_proposed_description_barlist{
+    float: left;
+    width: 107px;
+    height: 183px;
+    margin:50px 0 0 28px;
+}
+.photographer_proposed_description_barlist>p:first-child{
+    width: 107px;
+    height: 28px;
+    line-height: 28px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #5FB2AC;
+}
+.description_barlist_scenario_cost{
+    width: 107px;
+    height: 36px;
+    line-height: 36px;
+    font-family: "Microsoft YaHei";
+    font-weight: 700;
+    font-size: 28px;
+    color: #FF8F20;
+}
+.photographer_proposed_description_barlist>input{
+    width: 105px;
+    height: 33px;
+    line-height: 33px;
+    font-family: "Microsoft YaHei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    background: #54688D;
+    text-align: center;
+    margin-top: 14px;
+}
+.photographer_proposed_description_barlist>input:last-child{
+    background: #FF9933;
+}
+
+
+
+.placeproduct_other_scenarios{
+    width: 745px;
+    height: 41px;
+    line-height: 41px;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    background: #54688D;
+    padding-left: 63px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.placeproduct_other_scenarios_con{
+    width: 707px;
+    height: 285px;
+    margin: 16px 52px 0 51px;
+    overflow: hidden;
+}
+
+.placeproduct_con{
+    width: 707px;
+    height: 235px;
+    margin-bottom: 11px;
+    overflow: hidden;
+    clear: both;
+}
+.placeproduct_list{
+    width: 225px;
+    height: 230px;
+    background: #fff;
+    border: 1px solid #F5F5F5;
+    box-shadow: #C4C4C4 1px 1px 1px;
+    float: left;
+    overflow: hidden;
+    margin-right: 12px;
+}
+.placeproduct_con>li:last-child{
+    margin-right: 0;
+}
+.placeproduct_list>img{
+    width: 209px;
+    height: 139px;
+    margin: 10px 8px 13px;
+
+}
+.placeproduct_info{
+    width: 209px;
+    height: 28px;
+    margin: 0 8px;
+    line-height: 28px;
+}
+.placeproduct_info_placename{
+    width: 121px;
+    height: 28px;
+    line-height: 28px;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.placeproduct_info_placename:hover{
+    color: #8A9FC6;
+}
+.placeproduct_info_placeprice{
+    width: 88px;
+    height: 28px;
+    line-height: 28px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FF8F20;
+    float: right;
+    text-align: center;
+}
+.placeproduct_info_placeprice>span{
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF8F20;
+    text-align: center;
+}
+.placeproduct_paging{
+    width: 376px;
+    height: 33px;
+    margin: 0 auto;
+}
+.placeproduct_paging>li{
+    width: auto;
+    height: 31px;
+    line-height: 31px;
+    float: left;
+    margin-right: 7px;
+}
+.placeproduct_paging>li:last-child{
+    margin:0;
+}
+.placeproduct_paging>li>a{
+    padding: 0 11px;
+    height: 31px;
+    text-align: center;
+    border: 1px solid #D7D7D7;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.placeproduct_paging>li>a:hover{
+    background: #54688D;
+    color: #fff;
+}
+
+
+.placeproduct_info_box{
+    width: 209px;
+    height: 28px;
+    margin-top: 4px;
+    margin-left: 8px;
+    overflow: hidden;
+}
+.placeproduct_info_box_left{
+    width: 117px;
+    height: 28px;
+    float: left;
+}
+.placeproduct_info_box_right{
+    width: 88px;
+    height: 28px;
+    float: left;
+}
+.placeproduct_info_box_left>p{
+    height: 28px;
+    line-height: 28px;
+    width: 75px;
+}
+.placeproduct_phonenumr{
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 12px;
+    color: #FF8F20;
+    float: left;
+}
+.placeproduct_info_box_left>a{
+    width: 40px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+.placeproduct_examine{
+    width: 88px;
+    height: 28px;
+    background: #FF9933;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 200px;
+    text-align: center;
+    outline: none;
+}
+/*choosedresser*/
+.choosedresser_dresser_name{
+    width: 112px;
+    height: 21px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.choosedresser_info_box_left{
+    width: 117px;
+    height: 20px;
+    float: left;
+}
+.choosedresser_info_box_left>p{
+    height: 20px;
+    line-height: 20px;
+    width: 75px;
+}
+.choosedresser_phonenumr{
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 12px;
+    color: #FF8F20;
+    float: left;
+}
+.choosedresser_info_box_left>a{
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+.choosedresser_info_box{
+    width: 209px;
+    height: 39px;
+    margin-left: 8px;
+    overflow: hidden;
+}
+.photographer_proposed_description_con>ul{
+    width: 468px;
+    height: 144px;
+    margin: 22px 0 0 32px;
+    overflow: hidden;
+}
+.photographer_proposed_description_con>ul>li{
+    width: 98px;
+    height: 144px;
+    margin-right: 25px;
+    float: left;
+}
+.photographer_proposed_description_con>ul>li:last-child{
+    margin-right: 0;
+}
+.photographer_proposed_description_con>ul>li>div:first-child{
+    width: 96px;
+    height: 114px;
+    border: 1px solid #797979;
+}
+.photographer_proposed_description_con>ul>li>div:last-child{
+    width: 96px;
+    height: 15px;
+    margin-top: 13px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    font-size: 13px;
+    color: #333;
+}
+.photographer_proposed_description_con>ul>li>div:last-child>input{
+    margin-right: 15px;
+}
