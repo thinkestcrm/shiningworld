@@ -1,6 +1,6 @@
 .partners_wrapper{
     width:1920px;
-    height: auto
+    height: auto;
     background: #fff;
     padding: 0;
     margin:0 ;
@@ -54,7 +54,7 @@
 }
 .partners_main{
     width: 1205px;
-    height: auto
+    height: auto;
     overflow: hidden;
     margin: 0 auto 50px;
     clear: both;
@@ -63,7 +63,6 @@
     float: left;
     width: 233px;
     height:687px ;
-    margin-right: 35px;
     margin-top: 22px;
     border: 1px solid #D7D7D7;
     box-shadow: #9CA4A8 0px 1px 1px;
@@ -73,14 +72,15 @@
     float: left;
     width: 919px;
     margin-top: 22px;
-    height: auto
+    height: auto;
+    margin-left: 35px;
 }
 .partners_management_box{
     width: 171px;
     height:687px ;
     margin-left: 28px;
 }
-.partners_main_right_table1{
+.partners_main_right_table{
     width: 919px;
     background: #fff;
     overflow: hidden;
@@ -124,8 +124,8 @@
     background: #54688D;
 }
 .platform_makeup_girl>p{
-     margin-left: 57px;
-    width: 150px;
+    margin-left: 57px;
+    width: 87px;
     height:41px ;
     line-height: 41px;
     font-family: "microsoft yahei";
@@ -133,7 +133,38 @@
     font-size: 16px;
     color: #FFFFFF;
     float: left;
+    margin-right: 411px;
  }
+.platform_makeup_girl_search_in{
+    width: 179px;
+    height:25px ;
+    display: block;
+    float: left;
+    background: #fff;
+    margin-top: 9px;
+    margin-right: 12px;
+    padding-left: 5px;
+}
+.platform_makeup_girl_search_bar{
+    display: block;
+    width: 40px;
+    height:25px ;
+    float: left;
+    background: url("../image/searchdf.png") no-repeat;
+    background-size: 100%;
+    margin-top: 9px;
+    overflow: hidden;
+}
+.platform_makeup_girl_search_bar>img{
+    width: 14px;
+    height:16px ;
+    display: block;
+    margin:4px 0 0 13px;
+}
+.platform_makeup_girl_search_bar>i{
+    margin: 2px 0 0 5px;
+    color: #fff;
+}
 .platform_makeup_girl_header{
     width: 917px;
     height:37px ;
@@ -243,6 +274,7 @@
     background: #F9F9F9;
     border: 1px solid #ccc;
     margin-top: 10px;
+    overflow: hidden;
 }
 .platform_makeup_girl_annotation_box>p{
     width: 627px;
@@ -253,4 +285,227 @@
     font-weight: 400;
     font-size: 14px;
     color: #333;
+}
+/*scenariosIn*/
+.scenariosIn_address{
+    width: 828px;
+    height: 20px;
+}
+.scenariosIn_address>li{
+    float: left;
+    margin-right: 5px;
+}
+.scenariosIn_address>li>a{
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 18px;
+    line-height: 18px;
+}
+.current_address{
+    padding: 0 8px;
+    background: #60B2AC;
+    border: 1px solid #6177A0;
+
+}
+.submit_audit{
+    width: 147px;
+    height:50px ;
+    margin:30px 0 0 379px;
+    background: #6177A0;
+    cursor: pointer;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #717171 0px 1px 1px;
+    outline: none;
+}
+.submit_audit:hover{
+    background:#8D9DBC;
+    border: 1px solid #54688D;
+}
+
+
+.scenariosin_content_table{
+    width: 941px;
+    height:718px ;
+    margin-top: 20px;
+    border: 1px solid #D7D7D7;
+    background: #fff;
+}
+.scenariosin_content_table>li{
+    width: 941px;
+    height:61px ;
+    border-bottom: 1px solid #D7D7D7;
+}
+.scenariosin_content_table>li:last-child{
+    border: none;
+}
+.scenariosin_content_table>li>div{
+    float: left;
+}
+.scenariosin_content_table>li>div:first-child{
+    width: 114px;
+    height:100%;
+    background: #FAFAFA;
+    border-right:1px solid #D7D7D7 ;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+}
+.scenariosin_content_table>li>div:last-child{
+    width: 718px;
+    height:100%;
+    margin-left: 45px;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.scenariosIn_address_select_list{
+    width: 650px;
+    height: 33px;
+    margin-top: 39px;
+}
+.scenariosIn_address_select_list select{
+    width: 140px;
+    height: 33px;
+    float: left;
+    border: 1px inset #DCDCDC;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-right: 45px;
+}
+.scenariosIn_address_select_list >span{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.scenariosIn_address_other_list{
+    width: 650px;
+    height: 32px;
+    margin-top: 30px;
+}
+.scenariosIn_address_other_list >span{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 16px;
+}
+.scenariosIn_address_other_list >input{
+    width: 502px;
+    height: 30px;
+    float: left;
+    border: 1px inset #DCDCDC;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.Scene_the_style{
+    width: 493px;
+    height: 44px;
+    margin-top: 43px;
+}
+.Scene_the_style>li{
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 44px;
+    line-height: 44px;
+    margin-right: 35px;
+}
+.Scene_the_style>li>a{
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.Scene_the_style a:hover{
+    background:#54688D;
+    border-radius: 7px;
+    color: #fff;
+}
+.unlimited_style{
+    background:#54688D;
+    border-radius: 7px;
+}
+.upload_pictures_list{
+    margin-top: 27px;
+    width: 651px;
+    height: 100px;
+    display: inline-block;
+}
+.upload_pictures_list>li{
+    width: 98px;
+    height: 98px;
+    border: 1px solid #D7D7D7;
+    float: left;
+    margin-right: 10px;
+}
+.upload_pictures_list>li:last-child{
+    margin-right: 0;
+}
+/*dresserin*/
+#sceneDescription{
+    width: 710px;
+    height: 127px;
+    margin-top: 24px;
+}
+.makeup_ability_list{
+    margin-top: 9px;
+    width: 780px;
+}
+.makeup_ability_list>li{
+    float: left;
+    width: 255px;
+    height: 125px;
+    line-height: 125px;
+}
+.makeup_ability_list>li>input{
+    float: left;
+    margin-right: 5px;
+    margin-top: 56px;
+}
+.makeup_ability_list>li>span{
+    float: left;
+    margin-right: 40px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.makeup_ability_list>li>div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url("../image/makeup_ability.png") no-repeat;
+    background-size: 100%;
+
 }

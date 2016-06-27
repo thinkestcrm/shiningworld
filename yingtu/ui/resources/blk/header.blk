@@ -19,8 +19,8 @@
         <ul class="user_center_box">
             <li><a href="#">用户中心</a></li>
             <li><a href="#">摄影师主页</a></li>
-            <li><input type="button" value="注册" id="ytRegButton"/></li>
-            <li><input type="button" value="登录" id="ytLoginButton"/></li>
+            <li class="email_message_box"><input type="button" value="注册" id="ytRegButton"/></li>
+            <li class="released_after_landing"><input type="button" value="登录" id="ytLoginButton"/></li>
         </ul>
     </div>
 </div>

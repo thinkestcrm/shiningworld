@@ -13,8 +13,7 @@ $(document).ready(function() {
             break;
         }
     });
-    
-    
+
     //导航条固定定位
     $(window.document).scroll(function(){
         if($(window.document).scrollTop()==0){
@@ -53,8 +52,6 @@ $(document).ready(function() {
             boxShadow: "none"
         });
     });
-
-
     //动态样式
     $(".all_categories_bar").hover(function(){
             $(".all_categories_unfold").css({display:"block"});
@@ -84,7 +81,12 @@ $(document).ready(function() {
     });
     $(".warpper,.head,.company_profile_box,.detailed_introduction_back").css({
         width:window.screen.width+"px"
-    })
+    });
+    //After landing state  nav
+    $(".email_message_box").html("" +
+         "<div class='email_message'><div class='email_message_number'>2</div></div>"+
+    "");
+    $(".released_after_landing").html('<input type="button" value="发布" id="mainpagePublishBar"/>');
 
 
 

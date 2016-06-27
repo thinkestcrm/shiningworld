@@ -1,0 +1,78 @@
+.browsepictures_wrapper{
+    width:1920px;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+    background: #384661;
+}
+.browsepictures_main{
+    width:1631px;
+    height: 890px;
+    background: #384661;
+    margin: 70px auto 0;
+}
+.browsepictures_main_left{
+    float: left;
+    width:162px;
+    height: 890px;
+}
+.browsepictures_main_con{
+    float: left;
+    width:1260px;
+    height: 890px;
+    background: url("../image/u201.jpg") no-repeat;
+    background-size: 100%;
+}
+.browsepictures_main_right{
+    float: left;
+    width:169px;
+    height: 890px;
+}
+.on_one_piece{
+    width:49px;
+    height: 91px;
+    background: url("../image/tolast.png") no-repeat;
+    background-size: 100%;
+    margin: 383px 0 0 0;
+}
+.cloose_browse{
+    width:50px;
+    height: 50px;
+    background: url("../image/cloosebro.png") no-repeat;
+    background-size: 100%;
+    float: right;
+}
+.next_page_bar{
+    width:49px;
+    height: 91px;
+    background: url("../image/tonext.png") no-repeat;
+    background-size: 100%;
+    margin: 353px 0 0 83px;
+    float: left;
+}
+.browsepictures_list{
+    width:23px;
+    height: 249px;
+    margin: 278px 0 0 9px;
+    float: left;
+    overflow: hidden;
+}
+.browsepictures_list>li{
+    width:23px;
+    height: 13px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.browsepictures_list>li:last-child{
+    margin-bottom: 0;
+}
+.browsepictures_list>li>div{
+    width:11px;
+    height: 11px;
+    margin-left: 5px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    background: #999999;
+    border: 1px solid #384661;
+ }

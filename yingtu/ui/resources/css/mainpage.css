@@ -19,7 +19,6 @@ a:link,a:hover {
     display: inline-block;
     cursor: pointer;
 }
-
 body{
     margin: 0;
     padding: 0;
@@ -28,8 +27,7 @@ body{
 }
 .warpper{
     width:1920px;
-    height: 2265px;
-    background:url("../image/mainpageback.png") no-repeat ;
+    background: #FAFAFA;
     overflow: hidden;
 }
 .head{
@@ -48,15 +46,21 @@ body{
     overflow: hidden;
 }
 .main_con{
-    width: 1205px;
-    height: 1018px;
-    margin: 70px auto 0;
+    width: 1920px;
+    height: 694px;
+    margin:0 auto 56px;
     overflow: hidden;
+    background:url("../image/indexmainshow.jpg") no-repeat ;
+    background-size: 100%;
+}
+.main_con>div{
+    width: 1205px;
+    height: 694px;
+    margin:  0 auto;
 }
 .detailed_introduction_box{
     width: 1205px;
-    height: 778px;
-    margin: 0 auto 110px;
+    margin: 0 auto 175px;
     overflow: hidden;
 }
 .company_profile_box{
@@ -173,7 +177,7 @@ body{
 .user_center_box>li>a:hover{
     color:#64B5B0;
 }
-#ytRegButton{
+#ytRegButton,#mainpagePublishBar{
     width: 50px;
     height: 37px;
     background: #54688D;
@@ -225,12 +229,12 @@ body{
     display: inline-block;
     font-family: "Microsoft YaHei";
     width: 180px;
-    height: 60px;
+    height: 40px;
     font-weight: 400;
     font-size: 20px;
     color: #fff;
     text-align: center;
-    margin: 55px 0 0 214px;
+    margin: 313px 0 0 512px;
     background:#54688D;
     border-radius:20px ;
     cursor: pointer;
@@ -238,8 +242,8 @@ body{
 .main_class_showbox{
     width: 1205px;
     height: 472px;
-    margin-bottom: 33px;
-    display: inline-block;
+    margin: 0 auto 20px;
+
 }
 .main_all_categories{
     width: 209px;
@@ -251,7 +255,7 @@ body{
 .main_contain_img_show{
     width: 736px;
     height: 472px;
-    background: url("../image/indexmainshow.jpg");
+    background: url("../image/indexmainbro.jpg");
     background-size: 100%;
     float: left;
 }
@@ -266,8 +270,8 @@ body{
     height: 34px;
     background: #54688D;
     cursor: pointer;
-    display: inline-block;
     position: relative;
+    clear: both;
 }
 .all_categories_bar>span{
     display: block;
@@ -291,14 +295,16 @@ body{
 .categories_portraits_box{
     width: 209px;
     height: 210px;
-    margin-top: 10px;
+    margin-top: 9px;
     background: url("../image/Portraittaken.jpg") no-repeat;
+    background-size: 100%;
 }
 .yt_take_food_box{
     width: 209px;
     height: 210px;
-    margin-top: 10px;
+    margin-top: 9px;
     background: url("../image/Foodmade.jpg") no-repeat;
+    background-size: 100%;
 }
 #catePortraits,#takeFood{
     width: 209px;
@@ -341,40 +347,17 @@ body{
 .rectangle_box{
     width: 240px;
     height: 77px;
-    background: url("../image/rectangle_box.png");
+    background: url("../image/becomephotographer.jpg") no-repeat;
+    background-size: 100%;
     margin-top: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .alipay_secured_transactions{
     width: 240px;
     height: 179px;
-    background: #fff;
+    background: url("../image/alipaysecuredtransactions.jpg") no-repeat;
+    background-size: 100%;
     overflow: hidden;
-}
-.alipay_secured_transactions>p{
-    display: block;
-    margin-top: 28px;
-    width: 240px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #333;
-    font-family: "Microsoft YaHei";
-    text-align: center;
-}
-.alipay_secured_transactions>ul{
-    width: 240px;
-    height: 105px;
-}
-.alipay_secured_transactions>ul>li{
-    margin-left: 10px;
-    width: 230px;
-    height: 19px;
-    font-weight: 400;
-    font-size: 14px;
-    color: #333;
-    font-family: "Microsoft YaHei";
-    line-height: 19px;
-
 }
 .latest_demand_box>ul{
     width: 202px;
@@ -412,22 +395,15 @@ body{
     top:35px;
     left:0;
 }
-.detailed1{
+.photo_process{
     width: 1205px;
-    height: 194px;
-    margin-bottom: 37px;
+    height: 547px;
     background: #fff;
+    background: url("../image/indexstep.jpg") no-repeat;
 }
-.detailed2{
-    width: 1205px;
-    height: 550px;
-    background: #fff;
-}
+
 .detailed_introduction_back{
     width: 1920px;
-    height: 886px;
-    background: url("../image/mainpagebomback.jpg") no-repeat 0 183px;
-    background-size: 100%;
     overflow: hidden;
 }
 .company_profile_con{
@@ -704,7 +680,64 @@ body{
     background: #fff;
     opacity: 0.5;
     position: absolute;
-    top:0px;
-    left:0px;
+    top:0;
+    left:0;
     z-index: -1;
+}
+.detailed_introduction_box>p{
+    width: 1205px;
+    height: 100px;
+    line-height: 100px;
+    background: #fff;
+    font-family: 'Arial Negreta', 'Arial';
+    font-weight: 700;
+    font-size: 36px;
+    color: #7897B7;
+    text-align: center;
+}
+.Look_picture_choice_photographer{
+    width: 1205px;
+    height: 603px;
+    background: #f7ecb5;
+}
+.email_message{
+    width: 22px;
+    height: 22px;
+    margin: 24px 13px 0;
+    background: url("../image/email_messageico.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.email_message_number{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    background: #f00;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    font-family: 'Arial Negreta', 'Arial';
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    top: -4px;
+    left: 14px;
+}
+.main_contain_show_list{
+    width: 91px;
+    height: 19px;
+    margin: 443px auto;
+}
+.main_contain_show_list>li{
+    float: left;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    margin: 0 5px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    background: #E4E4E4;
 }
