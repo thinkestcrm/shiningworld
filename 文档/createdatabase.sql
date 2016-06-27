@@ -166,7 +166,7 @@ CREATE TABLE  IF NOT EXISTS `yingtu`.`PhotographerProductCategorytbl` (
     ) 
     ENGINE = InnoDB COMMENT = '摄影产品分类表';    
 
-CREATE TABLE IF NOT EXISTS `yingtu`.PhotoGrapherProductPriceFormulatbl ( 
+CREATE TABLE IF NOT EXISTS `yingtu`.PhotographerProductCountFormulatbl ( 
     `id` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '记录id' , 
     `personcount` INT NOT NULL COMMENT '拍摄人数' , 
     `timelength` INT NOT NULL COMMENT '拍摄时长' , 
