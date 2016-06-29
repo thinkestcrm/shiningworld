@@ -11,7 +11,7 @@ $(function(){
     $(".supporting_services_addclothing").hover(function(){
         var addclothing=$(this).clone();
         $(this).parent("li").prepend(addclothing);
-        $(this).attr("src","../ui/resources/image/AddClothing2.jpg");
+        $(this).attr("src","ui/resources/image/AddClothing2.jpg");
         $(this).css({
             position:"absolute",
             top:"0",left:"-160px"
@@ -29,7 +29,7 @@ $(function(){
     $(".supporting_services_addscenario").hover(function(){
         var addclothing=$(this).clone();
         $(this).parent("li").prepend(addclothing);
-        $(this).attr("src","../ui/resources/image/AddScenario2.jpg");
+        $(this).attr("src","ui/resources/image/AddScenario2.jpg");
         $(this).css({
             position:"absolute",
             top:"0",left:"-160px"
@@ -47,7 +47,7 @@ $(function(){
     $(".supporting_services_addmakeup").hover(function(){
         var addclothing=$(this).clone();
         $(this).parent("li").prepend(addclothing);
-        $(this).attr("src","../ui/resources/image/AddMakeup2.jpg");
+        $(this).attr("src","ui/resources/image/AddMakeup2.jpg");
         $(this).css({
             position:"absolute",
             top:"0",left:"-160px"

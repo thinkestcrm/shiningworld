@@ -3,108 +3,80 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>评级作品上传</title>
-    <link href="../ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="../ui/resources/css/photographer.css"/>
-    <link rel="stylesheet" href="../ui/resources/css/portraitset.css"/>
-    <script type="text/javascript" src="../ui/resources/js/libs/jquery.min.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/mainpage.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/uploadsaidproduct.js"></script>
+    <link href="ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="ui/resources/css/photographer.css"/>
+    <link rel="stylesheet" href="ui/resources/css/portraitset.css"/>
+    <script type="text/javascript" src="ui/resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="ui/resources/js/mainpage.js"></script>
+    <script type="text/javascript" src="ui/resources/js/uploadsaidproduct.js"></script>
 </head>
 <body>
 <div class="photographer_homepage_wrapper">
-    {include file="../ui/resources/blk/header.blk"}
+    {include file="ui/resources/blk/header.blk"}
     <div class="photographer_homepage">
         <div class="photographer_homepage_con_box">
             <ul class="photographer_homepage_label">
-                <li><a href="#" id="personalHomepage">个人主页</a></li>
+                <li><a href="#" id="personalHomepage" style="background: #54688D;color: #fff;">个人主页</a></li>
+                <li><a href="#" >合作伙伴</a></li>
             </ul>
             <div class="photographer_homepage_border"></div>
         </div>
     </div>
     <div class="photographer_homepage_main">
-        <div class="photographer_homepage_main_left">
-            <div class="photographer_management_box">
-                <div class="photographer_management_release">
-                    <input type="button" value="发布" id="photographerReleaseBut"/>
-                </div>
-                <ul class="photographer_management_services">
-                    <li style="height: 50px;line-height: 50px">服务管理</li>
-                    <li><a href="#">订单管理</a></li>
-                    <li><a href="#">已发布的服务</a></li>
-                    <li><a href="#">已下架的服务</a></li>
-                    <li><a href="#">草稿箱</a></li>
-                </ul>
-                <ul class="personal_homepage_management_list">
-                    <li style="height: 40px;line-height: 40px">个人主页管理</li>
-                    <li><a href="">作品空间</a></li>
-                    <li>积分商城</li>
-                </ul>
-                <div class="photographer_certification">
-                    <input type="button" value="实名认证" id="photographerCertificationBut"/>
-                    <input type="button" value="申请影徒评级" id="ApplyForRatingBut"/>
-                </div>
-            </div>
-        </div>
+        {include file="ui/resources/blk/personalhomenav.blk"}
         <div class="photographer_homepage_main_right">
             <ul class="photographer_homepage_path">
                 <li><a href="#">个人主页</a><span>></span></li>
                 <li><a href="#">申请影徒评级</a><span>></span></li>
                 <li><a href="#">初次评级</a></li>
             </ul>
-            <ul class="set_photographer_content_table" style="height: 725px;">
-                <li style="height: 56px;line-height: 56px">
-                    <div>作品名称</div>
-                    <div id="productionName">港式冰激凌</div>
-                </li>
-                <li style="height: 304px;">
-                    <div style="line-height: 304px;">上传作品</div>
+            <ul class="set_photographer_content_table" style="height: 1020px;">
+                <li style="height: 280px;">
+                    <div style="line-height: 280px">说明</div>
                     <div>
-                        <div class="choose_local_image">
-                            <p>选择本地图片：</p>
-                            <a href='#' class="upload_file">文件上传<input type="file" value="" id="uploadPortfolios" /></a>
-                        </div>
-                        <ul class="upload_pictures_instructions">
-                            <li>1.最长边不能小于600px，最大支持10MB的JPEG格式照片不建议加画框和水印签名</li>
-                            <li>2.上传作品不少于6张，不多于9张。</li>
-                            <li>3.网站设有<a href="#" id="toReport">举报</a>系统，请保证所有作品均为您本人 <span class="warningTip">实拍实修</span>，<span class="warningTip">切勿盗图</span>！盗图一</li>
-                            <li>经发现，立即封号。</li>
+                        <ul class="uploadsaidprocduct_instructions">
+                            <li>1.注册后 <span class="instructions_red">仅第一次</span>或系统举办定级赛时，可以直接选择目标摄影师等级进行定级。</li>
+                            <li>2.非初次定级或系统定级赛，只能达到<span class="instructions_red">等级要求积分</span>，<span class="instructions_red">直接</span><span class="instructions_red_bold">晋级</span>，每次最多前进一个等级。</li>
+                            <li style="height: 140px;line-height: 30px">3.积分获得方式：
+                                <ul class="integral_gain_way">
+                                    <li>a.通过<span class="instructions_red_bold">客户评价</span>获得，5星，得3分；4星，得1分；3星，<span class="instructions_red">减1分</span>；2星，<span class="instructions_red">减3分</span>，1星<span class="instructions_red">减5分</span></li>
+                                    <li>b.<span class="instructions_red">重拍满意</span>可以恢复<span class="instructions_red">当次所扣分数</span>；拒绝重拍，<span class="instructions_red">有充分理由</span>者，可以恢复<span class="instructions_red">当次所扣分数</span></li>
+                                    <li>c.摄影师本身原因，由于服务态度差，拍摄水平不满意，并且拒绝重拍者，<span class="instructions_red">减10分</span></li>
+                                    <li>d.<span class="instructions_red">参加活动</span>，获得优秀作品者，根据活动奖励<span class="instructions_red">增加积分</span></li>
+                                </ul>
+                            </li>
+                            <li>4.积分为<span class="instructions_red">-20分</span>，<span class="instructions_red">直接降级</span>；小小影，积分为-20，可能您真的没有摄影天赋，永久取消摄影师资格1年。</li>
                         </ul>
-                        <ul class="upload_pictures_list">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-
                     </div>
                 </li>
-                <li style="height: 363px;">
-                    <div style="line-height: 363px">目标等级</div>
+                <li style="height: 339px;">
+                    <div style="line-height: 339px">目标等级</div>
                     <div>
                         <div class="target_level_box">
-                            <p>请选择以下一项：</p>
+                            <p>仅第一次定级和系统定级赛有此项选择（<span class="instructions_red">低于该水平要求作品张数直接判为申请失败</span>）：</p>
                             <ul class="target_level_radiolist">
                                 <li>
                                     <div><input type="radio" name="targetlevelradio"/><span>小影</span></div>
                                     <div>
-                                        <p>作品优秀，达到商业摄影师入门门槛，能够满足一般客户的需求。</p>
-                                        <p>最高时薪199元，最高日薪1194元</p>
+                                        <p>原图上传5张，对应作品5张。</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div><input type="radio" name="targetlevelradio"/><span>中影</span></div>
                                     <div>
-                                        <p>作品优秀，技术专业，能够满足大多数客户的需求。</p>
-                                        <p>最高时薪299元，最高日薪1764元。</p>
+                                        <p>原图上传15张，对应作品15张。</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div><input type="radio" name="targetlevelradio"/><span>大影</span></div>
                                     <div>
-                                        <p>作品优秀，技术专业，能够满足大多数客户的需求。</p>
-                                        <p>最高时薪399，最高日薪2394元。</p>
+                                        <p>原图上传30张，对应作品30张。</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div><input type="radio" name="targetlevelradio"/><span>影徒 </span></div>
+                                    <div>
+                                        <p>获得大影等级的摄影师，我们邀请您进行“影徒测试”，如果您希望成为影徒请接收我们的邀请。</p>
                                     </div>
                                 </li>
                             </ul>
@@ -116,15 +88,44 @@
                         </div>
                     </div>
                 </li>
+                <li style="height: 229px;">
+                    <div><p style="margin-top: 90px;">上传作品原片（RAW格式的转为jpg上传）</p></div>
+                    <div>
+                        <p class="uploading_raw_tip">为保证<span class="instructions_red">本人实拍</span>，所有上传作品<span class="instructions_red">均需</span>上传原图，如上传<span class="instructions_red">作品无对应原图</span>，直接判断为<span class="instructions_red">定级失败</span></p>
+                        <ul class="upload_pictures_list">
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li style="height: 169px;">
+                    <div style="line-height: 169px;">上传作品</div>
+                    <div>
+                        <ul class="upload_pictures_list">
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                        </ul>
+
+                    </div>
+                </li>
 
             </ul>
-            <ul class="set_photographer_content_barlist" style="margin: 10px 0 0 312px">
+            <ul class="set_photographer_content_barlist" style="margin: 27px 0 55px 336px">
                 <li><input type="button" value="提交审核" /></li>
             </ul>
         </div>
 
     </div>
-    {include file="../ui/resources/blk/foot.blk"}
+    {include file="ui/resources/blk/foot.blk"}
 </div>
 
 

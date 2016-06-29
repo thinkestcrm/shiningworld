@@ -472,6 +472,81 @@
 .upload_pictures_list>li:last-child{
     margin-right: 0;
 }
+.scenariosIn_price_list{
+    width: 294px;
+    height: 75px;
+    margin: 19px 0 0 0;
+    float: left;
+}
+.scenariosIn_price_list>li{
+    width: 294px;
+    height: 25px;
+    margin-bottom: 11px;
+}
+.scenariosIn_price_list>li:last-child{
+    margin-bottom: 0;
+}
+.scenariosIn_price_list>li>input{
+    width: 68px;
+    height: 23px;
+    border: 1px solid #BEBEBE;
+    float: left;
+    margin-right: 10px;
+}
+.scenariosIn_price_list>li>p{
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-size: 13px;
+    color: #333333;
+}
+.scenariosIn_preferential{
+    width: 113px;
+    height: 102px;
+    line-height: 102px;
+    text-align: center;
+    background: #FAFAFA;
+    float: left;
+    border-left:1px solid #CCCCCC ;
+    border-right:1px solid #CCCCCC ;
+}
+.scenariosIn_preferential_list{
+    width: 195px;
+    height: 75px;
+    margin: 19px 0 0 62px;
+    float: left;
+}
+.scenariosIn_preferential_list>li{
+    width: 195px;
+    height: 25px;
+    margin-bottom: 11px;
+}
+.scenariosIn_preferential_list>li:last-child{
+    margin-bottom: 0;
+}
+.scenariosIn_preferential_list>li>input{
+    width: 20px;
+    height: 23px;
+    border: 1px solid #BEBEBE;
+    float: left;
+    margin-right: 10px;
+}
+.scenariosIn_preferential_list>li>p{
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-size: 13px;
+    color: #333333;
+}
+.scenariosIn_preferential_set{
+    margin-left: 35px;
+}
+
 /*dresserin*/
 #sceneDescription{
     width: 710px;

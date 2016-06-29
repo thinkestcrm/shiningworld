@@ -3,48 +3,27 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>摄影师评级</title>
-    <link href="../ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="../ui/resources/css/photographer.css"/>
-    <link rel="stylesheet" href="../ui/resources/css/portraitset.css"/>
-    <script type="text/javascript" src="../ui/resources/js/libs/jquery.min.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/mainpage.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/givephotographergrade.js"></script>
+    <link href="ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="ui/resources/css/photographer.css"/>
+    <link rel="stylesheet" href="ui/resources/css/portraitset.css"/>
+    <script type="text/javascript" src="ui/resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="ui/resources/js/mainpage.js"></script>
+    <script type="text/javascript" src="ui/resources/js/givephotographergrade.js"></script>
 </head>
 <body>
 <div class="photographer_homepage_wrapper">
-    {include file="../ui/resources/blk/header.blk"}
+    {include file="ui/resources/blk/header.blk"}
     <div class="photographer_homepage">
         <div class="photographer_homepage_con_box">
             <ul class="photographer_homepage_label">
-                <li><a href="#" id="personalHomepage">个人主页</a></li>
+                <li><a href="#" id="personalHomepage" style="background: #54688D;color: #fff;">个人主页</a></li>
+                <li><a href="#" >合作伙伴</a></li>
             </ul>
             <div class="photographer_homepage_border"></div>
         </div>
     </div>
     <div class="photographer_homepage_main">
-        <div class="photographer_homepage_main_left">
-            <div class="photographer_management_box">
-                <div class="photographer_management_release">
-                    <input type="button" value="发布" id="photographerReleaseBut"/>
-                </div>
-                <ul class="photographer_management_services">
-                    <li style="height: 50px;line-height: 50px">服务管理</li>
-                    <li><a href="#">订单管理</a></li>
-                    <li><a href="#">已发布的服务</a></li>
-                    <li><a href="#">已下架的服务</a></li>
-                    <li><a href="#">草稿箱</a></li>
-                </ul>
-                <ul class="personal_homepage_management_list">
-                    <li style="height: 40px;line-height: 40px">个人主页管理</li>
-                    <li><a href="">作品空间</a></li>
-                    <li>积分商城</li>
-                </ul>
-                <div class="photographer_certification">
-                    <input type="button" value="实名认证" id="photographerCertificationBut"/>
-                    <input type="button" value="申请影徒评级" id="ApplyForRatingBut"/>
-                </div>
-            </div>
-        </div>
+        {include file="ui/resources/blk/personalhomenav.blk"}
         <div class="photographer_homepage_main_right">
             <ul class="photographer_homepage_path">
                 <li><a href="#">个人主页</a><span>></span></li>
@@ -56,54 +35,58 @@
                     <p>等级越高的摄影师，服务价格也会越高。</p>
                 </li>
                 <li>
-                    <span style='background: url("../ui/resources/image/photographersmall.jpg") no-repeat;background-size: 100%;'></span>
+                    <span style=''></span>
                     <p class="photographer_level_name">小小影</p>
                     <div>
                         <p>认证摄影师成功即可成为小小影。</p>
-                        <p>最高时薪30元，最高日薪150元。</p>
+                        <p class="givegrade_highest_number">最高日薪150元。</p>
+                        <p class="integral_promotion_info">积分满30点，直接晋级</p>
                     </div>
                 </li>
                 <li>
-                    <span style='background: url("../ui/resources/image/photographersmall.jpg") no-repeat;background-size: 100%;'></span>
+                    <span style='background: url("ui/resources/image/photographersmall.jpg") no-repeat;background-size: 100%;'></span>
                     <p class="photographer_level_name">小影</p>
                     <div>
                         <p>作品优秀，达到商业摄影师入门门槛，能够满足一般客户的需求。</p>
-                        <p>最高时薪199元，最高日薪1194元。</p>
+                        <p class="givegrade_highest_number">最高日薪1194元。</p>
+                        <p class="integral_promotion_info">积分满100点，直接晋级</p>
                     </div>
                 </li>
                 <li>
-                    <span style='background: url("../ui/resources/image/photographermiddle.jpg") no-repeat;background-size: 100%;'></span>
+                    <span style='background: url("ui/resources/image/photographermiddle.jpg") no-repeat;background-size: 100%;'></span>
                     <p class="photographer_level_name">中影</p>
                     <div>
                         <p>作品优秀，技术专业，能够满足大多数客户的需求。</p>
-                        <p>最高时薪299元，最高日薪1764元。</p>
+                        <p class="givegrade_highest_number">最高日薪1764元。</p>
+                        <p class="integral_promotion_info">积分满600点，直接晋级</p>
                     </div>
                 </li>
                 <li>
-                    <span style='background: url("../ui/resources/image/photographerbig.jpg") no-repeat;background-size: 100%;'></span>
+                    <span style='background: url("ui/resources/image/photographerbig.jpg") no-repeat;background-size: 100%;'></span>
                     <p class="photographer_level_name">大影 </p>
                     <div>
-                        <p>作品优秀，技术专业，作品创意十足，能够满足客户的定制化需求。</p>
-                        <p>最高时薪399，最高日薪2394元。</p>
+                        <p>作品优秀，技术专业，作品创意十足，能够满足高端客户的定制化需求。</p>
+                        <p class="givegrade_highest_number">最高日薪2394元。</p>
+                        <p class="integral_promotion_info">积分满300点，获得“影徒测试“资格</p>
                     </div>
                 </li>
                 <li>
-                    <span style='background: url("../ui/resources/image/photographerbiggest.jpg") no-repeat;background-size: 100%;'></span>
+                    <span style='background: url("ui/resources/image/photographerbiggest.jpg") no-repeat;background-size: 100%;'></span>
                     <p class="photographer_level_name">影徒</p>
                     <div>
                         <p>作品优秀，技术专业，作品创意十足，业内有一定名气和影响力。</p>
-                        <p>日薪1500元-12000元不等。</p>
+                        <p class="givegrade_highest_number">最高日薪12000元。</p>
                     </div>
                 </li>
             </ul>
-            <ul class="set_photographer_content_barlist" style="margin: 10px 0 0 312px">
+            <ul class="set_photographer_content_barlist" style="margin: 27px 0 55px 336px">
                 <li><input type="button" value="初级评级" /></li>
                 <li><input type="button" value="晋级申请" /></li>
             </ul>
         </div>
 
     </div>
-    {include file="../ui/resources/blk/foot.blk"}
+    {include file="ui/resources/blk/foot.blk"}
 </div>
 
 

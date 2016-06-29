@@ -285,10 +285,10 @@ body{
     width: 233px;
     height: auto;
     display: block;
-    color: #fff;
+    background: #fff;
     position: absolute;
     z-index: 1000;
-    opacity: 0.05;
+    opacity: 0.5;
     top:0;
 }
 .yingtu_img_info{

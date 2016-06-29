@@ -3,48 +3,27 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>美食套餐详情</title>
-    <link href="../ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="../ui/resources/css/photographer.css"/>
-    <link rel="stylesheet" href="../ui/resources/css/foodsetdetail.css"/>
-    <script type="text/javascript" src="../ui/resources/js/libs/jquery.min.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/mainpage.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/foodsetdetail.js"></script>
+    <link href="ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="ui/resources/css/photographer.css"/>
+    <link rel="stylesheet" href="ui/resources/css/foodsetdetail.css"/>
+    <script type="text/javascript" src="ui/resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="ui/resources/js/mainpage.js"></script>
+    <script type="text/javascript" src="ui/resources/js/foodsetdetail.js"></script>
 </head>
 <body>
 <div class="photographer_homepage_wrapper">
-    {include file="../ui/resources/blk/header.blk"}
+    {include file="ui/resources/blk/header.blk"}
     <div class="photographer_homepage">
         <div class="photographer_homepage_con_box">
             <ul class="photographer_homepage_label">
-                <li><a href="#" id="personalHomepage">个人主页</a></li>
+                <li><a href="#" id="personalHomepage" style="background: #54688D;color: #fff;">个人主页</a></li>
+                <li><a href="#" >合作伙伴</a></li>
             </ul>
             <div class="photographer_homepage_border"></div>
         </div>
     </div>
     <div class="photographer_homepage_main">
-        <div class="photographer_homepage_main_left">
-            <div class="photographer_management_box">
-                <div class="photographer_management_release">
-                    <input type="button" value="发布" id="photographerReleaseBut"/>
-                </div>
-                <ul class="photographer_management_services">
-                    <li style="height: 50px;line-height: 50px">服务管理</li>
-                    <li><a href="#">订单管理</a></li>
-                    <li><a href="#">已发布的服务</a></li>
-                    <li><a href="#">已下架的服务</a></li>
-                    <li><a href="#">草稿箱</a></li>
-                </ul>
-                <ul class="personal_homepage_management_list">
-                    <li style="height: 40px;line-height: 40px">个人主页管理</li>
-                    <li><a href="">作品空间</a></li>
-                    <li>积分商城</li>
-                </ul>
-                <div class="photographer_certification">
-                    <input type="button" value="实名认证" id="photographerCertificationBut"/>
-                    <input type="button" value="申请影徒评级" id="ApplyForRatingBut"/>
-                </div>
-            </div>
-        </div>
+        {include file="ui/resources/blk/personalhomenav.blk"}
         <div class="photographer_homepage_main_right">
             <ul class="photographer_homepage_path">
                 <li><a href="#">个人主页</a><span>></span></li>
@@ -53,7 +32,7 @@
                 <li><a href="#" class="photographer_homepage_path_steps">1.作品描述</a><span>></span></li>
                 <li><a href="#" class="photographer_homepage_path_steps" id="theCurrentSteps">2.套餐内容</a></li>
             </ul>
-            <ul class="set_photographer_content_table">
+            <ul class="set_photographer_content_table" style="height: 702px">
                 <li style="height: 77px;line-height: 77px">
                     <div>拍摄方式</div>
                     <div>均为上门拍摄</div>
@@ -97,6 +76,18 @@
                         <input type="radio" id="provideAllRawNo" name="provideallrawor"/><label>否</label>
                     </div>
                 </li>
+                <li style="height: 63px;;line-height: 63px;">
+                    <div>平台收费</div>
+                    <div>
+                        每单收费20%交易费用。
+                    </div>
+                </li>
+                <li style="height: 62px;;line-height: 62px;border: none">
+                    <div>奖励</div>
+                    <div>
+                        每月：完成15单，退还本月交易费用。<span class="brush_single_red">（注：刷单有风险）</span>
+                    </div>
+                </li>
             </ul>
             <ul class="set_photographer_content_barlist">
                 <li><input type="button" value="保存至草稿" id="saveToDraft"/></li>
@@ -106,7 +97,7 @@
         </div>
 
     </div>
-    {include file="../ui/resources/blk/foot.blk"}
+    {include file="ui/resources/blk/foot.blk"}
 </div>
 </body>
 </html>

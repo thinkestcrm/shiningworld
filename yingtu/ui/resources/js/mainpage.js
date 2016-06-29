@@ -82,6 +82,48 @@ $(document).ready(function() {
     $(".warpper,.head,.company_profile_box,.detailed_introduction_back").css({
         width:window.screen.width+"px"
     });
+
+    $(".rectangle_box").hover(function(){
+        $(".rectangle_box_light").animate({
+            left:"0"
+        },"slow");
+    },function(){
+        $(".rectangle_box_light").animate({
+            left:"240px"
+        },"slow");
+    });
+    $(".categories_portraits_box").hover(function(){
+        stop();
+        $(".categories_portraits_box_light").animate({
+            top:"0"
+        },"slow");
+        $(".categories_portraits_box_tip").animate({
+            top:"0"
+        },"slow");
+    },function(){
+        $(".categories_portraits_box_light").animate({
+            top:"-145px"
+        },"slow");
+        $(".categories_portraits_box_tip").animate({
+            top:"-145px"
+        },"slow");
+    });
+    $(".yt_take_food_box").hover(function(){
+        stop();
+        $(".yt_take_food_box_light").animate({
+            top:"0"
+        },"slow");
+        $(".yt_take_food_box_tip").animate({
+            top:"0"
+        },"slow");
+    },function(){
+        $(".yt_take_food_box_light").animate({
+            top:"-145px"
+        },"slow");
+        $(".yt_take_food_box_tip").animate({
+            top:"-145px"
+        },"slow");
+    });
     //After landing state  nav
     $(".email_message_box").html("" +
          "<div class='email_message'><div class='email_message_number'>2</div></div>"+

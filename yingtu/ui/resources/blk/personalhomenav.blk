@@ -1,0 +1,23 @@
+﻿<div class="photographer_homepage_main_left">
+    <div class="photographer_management_box">
+        <div class="photographer_management_release">
+            <input type="button" value="发布" id="photographerReleaseBut"/>
+        </div>
+        <ul class="photographer_management_services">
+            <li style="height: 50px;line-height: 50px">服务管理</li>
+            <li><a href="#">订单管理</a></li>
+            <li><a href="#">已发布的服务</a></li>
+            <li><a href="#">已下架的服务</a></li>
+            <li><a href="#">草稿箱</a></li>
+        </ul>
+        <ul class="personal_homepage_management_list">
+            <li style="height: 40px;line-height: 40px">个人主页管理</li>
+            <li><a href="">作品空间</a></li>
+            <li>积分商城</li>
+        </ul>
+        <div class="photographer_certification">
+            <input type="button" value="实名认证" id="photographerCertificationBut"/>
+            <input type="button" value="申请影徒评级" id="ApplyForRatingBut"/>
+        </div>
+    </div>
+</div>

@@ -292,20 +292,70 @@ body{
     height: 34px;
     margin-top: 6px;
 }
+.yt_take_food_box{
+     width: 209px;
+     height: 210px;
+     margin-top: 9px;
+     background: url("../image/Foodmade.jpg") no-repeat;
+     background-size: 100%;
+     position: relative;
+    overflow: hidden;
+    cursor: pointer;
+ }
 .categories_portraits_box{
     width: 209px;
     height: 210px;
     margin-top: 9px;
     background: url("../image/Portraittaken.jpg") no-repeat;
     background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
-.yt_take_food_box{
+.categories_portraits_box_light,.yt_take_food_box_light{
     width: 209px;
     height: 210px;
-    margin-top: 9px;
-    background: url("../image/Foodmade.jpg") no-repeat;
-    background-size: 100%;
+    position: absolute;
+    top:-145px;
+    left: 0;
+    background: #fff;
+    opacity: 0.5;
 }
+.categories_portraits_box_tip,.yt_take_food_box_tip{
+    width: 209px;
+    height: 210px;
+    position: absolute;
+    top:-145px;
+    left: 0;
+}
+.categories_portraits_box_tip>img,.yt_take_food_box_tip>img{
+    width: 119px;
+    height: 107px;
+    margin: 24px 0 26px 47px;
+    clear: left;
+}
+.categories_portraits_box_tip>div,.yt_take_food_box_tip>div{
+    width: 68px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    margin-left: 43px;
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 21px;
+    color: #000;
+    font-family: 'Arial Negreta', 'Arial';
+}
+.categories_portraits_box_tip>p,.yt_take_food_box_tip>p{
+    width: 75px;
+    height: 27px;
+    line-height: 15px;
+    float: left;
+    font-size: 12px;
+    color: #434343;
+    font-family: 'Arial Negreta', 'Arial';
+}
+
 #catePortraits,#takeFood{
     width: 209px;
     height: 210px;
@@ -351,6 +401,18 @@ body{
     background-size: 100%;
     margin-top: 8px;
     margin-bottom: 6px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rectangle_box_light{
+    width: 240px;
+    height: 77px;
+    background: #fff;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left:240px ;
 }
 .alipay_secured_transactions{
     width: 240px;

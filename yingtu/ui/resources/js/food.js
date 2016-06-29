@@ -9,10 +9,16 @@ $(function(){
     $("#photoNicheUnlimited,#photographyMethodUnlimited,#wayTOChargeUnlimited,#priceRangeUnlimited").css({
         color:"#fff"
     });
-    var yingtu_img_light_height=$(".yingtu_img_light").siblings("img").css("height");
-    $(".yingtu_img_light").css({
-        height:yingtu_img_light_height
+    $(".yingtu_img_show").hover(function(){
+        var yingtu_img_light_height= $(this).css("height");
+        $(this).after('<div class="yingtu_img_light"></div>');
+        $(".yingtu_img_light").css({
+            height:yingtu_img_light_height
+        });
+    },function(){
+        $(".yingtu_img_light").remove();
     });
+
     $("body").click(function(e){
         switch(e.target.id){
             case "photoNicheUnlimited":

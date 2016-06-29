@@ -3,48 +3,27 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>发布美食描述</title>
-    <link href="../ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="../ui/resources/css/photographer.css"/>
-    <link rel="stylesheet" href="../ui/resources/css/portraitset.css"/>
-    <script type="text/javascript" src="../ui/resources/js/libs/jquery.min.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/mainpage.js"></script>
-    <script type="text/javascript" src="../ui/resources/js/publishfoodinfo.js"></script>
+    <link href="ui/resources/css/mainpage.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="ui/resources/css/photographer.css"/>
+    <link rel="stylesheet" href="ui/resources/css/portraitset.css"/>
+    <script type="text/javascript" src="ui/resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="ui/resources/js/mainpage.js"></script>
+    <script type="text/javascript" src="ui/resources/js/publishfoodinfo.js"></script>
 </head>
 <body>
 <div class="photographer_homepage_wrapper">
-    {include file="../ui/resources/blk/header.blk"}
+    {include file="ui/resources/blk/header.blk"}
     <div class="photographer_homepage">
         <div class="photographer_homepage_con_box">
             <ul class="photographer_homepage_label">
-                <li><a href="#" id="personalHomepage">个人主页</a></li>
+                <li><a href="#" id="personalHomepage" style="background: #54688D;color: #fff;">个人主页</a></li>
+                <li><a href="#" >合作伙伴</a></li>
             </ul>
             <div class="photographer_homepage_border"></div>
         </div>
     </div>
     <div class="photographer_homepage_main">
-        <div class="photographer_homepage_main_left">
-            <div class="photographer_management_box">
-                <div class="photographer_management_release">
-                    <input type="button" value="发布" id="photographerReleaseBut"/>
-                </div>
-                <ul class="photographer_management_services">
-                    <li style="height: 50px;line-height: 50px">服务管理</li>
-                    <li><a href="#">订单管理</a></li>
-                    <li><a href="#">已发布的服务</a></li>
-                    <li><a href="#">已下架的服务</a></li>
-                    <li><a href="#">草稿箱</a></li>
-                </ul>
-                <ul class="personal_homepage_management_list">
-                    <li style="height: 40px;line-height: 40px">个人主页管理</li>
-                    <li><a href="">作品空间</a></li>
-                    <li>积分商城</li>
-                </ul>
-                <div class="photographer_certification">
-                    <input type="button" value="实名认证" id="photographerCertificationBut"/>
-                    <input type="button" value="申请影徒评级" id="ApplyForRatingBut"/>
-                </div>
-            </div>
-        </div>
+        {include file="ui/resources/blk/personalhomenav.blk"}
         <div class="photographer_homepage_main_right">
             <ul class="photographer_homepage_path">
                 <li><a href="#">个人主页</a><span>></span></li>
@@ -77,10 +56,6 @@
                 <li style="height: 304px;">
                     <div style="line-height: 304px;">上传作品</div>
                     <div>
-                        <div class="choose_local_image">
-                            <p>选择本地图片：</p>
-                            <a href='#' class="upload_file">文件上传<input type="file" value="" id="uploadPortfolios" /></a>
-                        </div>
                         <ul class="upload_pictures_instructions">
                             <li>1.最长边不能小于600px，最大支持10MB的JPEG格式照片不建议加画框和水印签名</li>
                             <li>2.上传作品不少于6张，不多于9张。</li>
@@ -88,12 +63,12 @@
                             <li>经发现，立即封号。</li>
                         </ul>
                         <ul class="upload_pictures_list">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
+                            <li><a href='#' class="upload_file"><input type="file" value="" class="uploadPortfolios" /></a></li>
                         </ul>
 
                     </div>
@@ -119,7 +94,7 @@
         </div>
 
     </div>
-    {include file="../ui/resources/blk/foot.blk"}
+    {include file="ui/resources/blk/foot.blk"}
 </div>
 
 
