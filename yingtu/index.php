@@ -24,7 +24,13 @@
         $mysqli->close();
         
         $smarty->assign("tags",$tags);
-        */
+        
+        if(file_exists("a.php")){
+            ;
+        }else{
+            ;
+        }
+	*/
     }
     //need to delete the cache instance when user infomation changed!
     $smarty->display("ui/index.html");
